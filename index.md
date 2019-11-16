@@ -10,8 +10,6 @@
 
 相当多的内容未经测试。如果在使用中遇到问题，你可以在[Github页面](https://github.com/HeliumOctahelide/heliumoctahelide.github.io)提交Issue，或在NGA论坛联系作者[@\_江天万里霜\_]。
 
-由于本网页架设在Github博客上，访问速度可能会较慢；欢迎其他网站收留。
-
 ## 活动剧情
 
 ### 骑兵与猎人
@@ -27,6 +25,15 @@ GT-4 污点证人：[[前](./canvas.html?01-4beg)]，[[后](./canvas.html?01-4en
 GT-5 各抒己见：[[前](./canvas.html?01-5beg)]，[[后](./canvas.html?01-5end)]
 
 GT-6 黄金三角：[[前](./canvas.html?01-6beg)]，[[后](./canvas.html?01-6end)]
+
+[GT-EX-1 大地惊雷](./canvas.html?01-e1)
+
+[GT-EX-3 与狼共舞](./canvas.html?01-e3)
+
+[GT-HX-1 碧血金沙](./canvas.html?01-e4)
+
+[GT-HX-3 西部往事](./canvas.html?01-e6)
+
 
 ### 火蓝之心
 
