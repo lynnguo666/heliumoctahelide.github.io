@@ -777,7 +777,7 @@ if (true) { // 只是为了折叠方便
     for (i in usedAudiosFileName) {
         var thisAudio = new Audio();
         usedAudios[usedAudiosFileName[i]] = thisAudio;
-        usedAudios[usedAudiosFileName[i]].src = './audio/' + usedAudiosFileName[i] + '.wav';
+        usedAudios[usedAudiosFileName[i]].src = './audio/' + usedAudiosFileName[i] + '.mp3';
         usedAudios[usedAudiosFileName[i]].oncanplaythrough = function () {
             loadedAudio += 1;
             document.getElementById("loadingaudio").innerHTML = "加载音频：" + loadedAudio + "/" + usedAudiosFileName.length;
