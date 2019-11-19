@@ -12,25 +12,25 @@
 
 ## 喧闹法则
 
-CB-1 6:44P.M. [[前](./canvas.html?05-1beg)]，[[后](./canvas.html?05-1end)]
+CB-1 6:44P.M. ：[[前](./canvas.html?05-1beg)]，[[后](./canvas.html?05-1end)]
 
-CB-2 7:15P.M. [[前](./canvas.html?05-2beg)]，[[后](./canvas.html?05-2end)]
+CB-2 7:15P.M. ：[[前](./canvas.html?05-2beg)]，[[后](./canvas.html?05-2end)]
 
-CB-3 7:22P.M. [[前](./canvas.html?05-3beg)]，[[后](./canvas.html?05-3end)]
+CB-3 7:22P.M. ：[[前](./canvas.html?05-3beg)]，[[后](./canvas.html?05-3end)]
 
-CB-4 7:59P.M. [[前](./canvas.html?05-4beg)]，[[后](./canvas.html?05-4end)]
+CB-4 7:59P.M. ：[[前](./canvas.html?05-4beg)]，[[后](./canvas.html?05-4end)]
 
-CB-5 8:31P.M. [[前](./canvas.html?05-5beg)]，[[后](./canvas.html?05-5end)]
+CB-5 8:31P.M. ：[[前](./canvas.html?05-5beg)]，[[后](./canvas.html?05-5end)]
 
-CB-6 10:26P.M. [[前](./canvas.html?05-6beg)]，[[后](./canvas.html?05-6end)]
+CB-6 10:26P.M. ：[[前](./canvas.html?05-6beg)]，[[后](./canvas.html?05-6end)]
 
-CB-7 11:08P.M. [[前](./canvas.html?05-7beg)]，[[后](./canvas.html?05-7end)]
+CB-7 11:08P.M. ：[[前](./canvas.html?05-7beg)]，[[后](./canvas.html?05-7end)]
 
-CB-8 11:41P.M. [[前](./canvas.html?05-8beg)]，[[后](./canvas.html?05-8end)]
+CB-8 11:41P.M. ：[[前](./canvas.html?05-8beg)]，[[后](./canvas.html?05-8end)]
 
-CB-9 0:01A.M. [[前](./canvas.html?05-9beg)]，[[后](./canvas.html?05-9end)]
+CB-9 0:01A.M. ：[[前](./canvas.html?05-9beg)]，[[后](./canvas.html?05-9end)]
 
-CB-10 1:11A.M. [[前](./canvas.html?05-10beg)]，[[后](./canvas.html?05-10end)]
+CB-10 1:11A.M. ：[[前](./canvas.html?05-10beg)]，[[后](./canvas.html?05-10end)]
 
 [CB-ST1 晚风轻拂](./canvas.html?05-s1)
 

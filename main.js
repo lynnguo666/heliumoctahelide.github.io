@@ -500,14 +500,14 @@ function Playground() { // 立绘和文本
     };
     this.imageTween = function (paras) {
         var img = this.drawingImage;
-        var xFrom = paras.xfrom;
-        var yFrom = paras.yfrom;
-        var xTo = paras.xto;
-        var yTo = paras.yto;
-        var xScaleFrom = paras.xscalefrom;
-        var yScaleFrom = paras.yscalefrom;
-        var xScaleTo = paras.xscaleto;
-        var yScaleTo = paras.yscaleto;
+        var xFrom = paras.xfrom ? paras.xfrom : paras.x;
+        var yFrom = paras.yfrom ? paras.yfrom : paras.y;
+        var xTo = paras.xto ? paras.xfrom : paras.x;
+        var yTo = paras.yto ? paras.yfrom : paras.y;
+        var xScaleFrom = paras.xscalefrom ? paras.xscalefrom : paras.xscale;
+        var yScaleFrom = paras.yscalefrom ? paras.yscalefrom : paras.yscale;
+        var xScaleTo = paras.xscaleto ? paras.xscalefrom : paras.xscale;
+        var yScaleTo = paras.yscaleto ? paras.yscalefrom : paras.yscale;
         var duration = paras.duration;
         var block = paras.block;
         duration *= 1000;
