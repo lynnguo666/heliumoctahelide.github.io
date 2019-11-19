@@ -26,6 +26,10 @@ story_variables = {
   "avatar_npchunt" : "npc_012_hunter",
   "avatar_krol" : "npc_012_krol",
   "avatar_skadi" : "char_263_skadi",
+  "avatar_angel" : "char_103_angel",
+  "avatar_moeshd" : "char_201_moeshd",
+  "avatar_mousek" : "npc_111_mousek",
+  "avatar_emperor" : "npc_105_emperor",
 
    "f_tut_black" : 0.6,
   "f_lower_dialog_pos_x": -568,
@@ -65,6 +69,7 @@ story_variables = {
   "p_imp_arrow_h": "Sound_Beta_2/Player/p_imp/p_imp_arrow_h",
 
 
+
   "beach" : "Sound_Beta_2/AVG/d_amb_beach",
   "doorclosequite" : "Sound_Beta_2/AVG/d_gen_doorclosequite",
   "doorknockquite" : "Sound_Beta_2/AVG/d_gen_doorknockquite",
@@ -78,13 +83,29 @@ story_variables = {
   "blizzard" : "Sound_Beta_2/AVG/d_amb_blizzard",
   "pistol" : "Sound_Beta_2/AVG/d_gen_pistol",
 
+	"drift" : "Sound_Beta_2/AVG/d_gen_drift",
+  "sheildimpact" : "Sound_Beta_2/AVG/d_gen_sheildimpact",
+  "bottlebroken" : "Sound_Beta_2/AVG/d_gen_bottlebroken",
+  "sportscarstart" : "Sound_Beta_2/AVG/d_gen_sportscarstart",
+  "motorbikestart" : "Sound_Beta_2/AVG/d_gen_motorbikestart",
+  "rungeneral" : "Sound_Beta_2/AVG/d_gen_rungeneral",
+  "knifegore" : "Sound_Beta_2/AVG/d_gen_knifegore",
+  "fightgeneral" : "Sound_Beta_2/AVG/d_gen_fightgeneral",
+  "transmission" : "Sound_Beta_2/AVG/d_gen_transmission",
+
+
   "e_imp_sword_h" : "Sound_Beta_2/Enemy/e_imp/e_imp_sword_h",
 
   "e_skill_skulsrshot" : "Sound_Beta_2/Enemy/e_skill/e_skill_skulsrshot",
   "e_skill_skulsrexplo" : "Sound_Beta_2/Enemy/e_skill/e_skill_skulsrexplo",
   "e_skill_skulsrsword" : "Sound_Beta_2/Enemy/e_skill/e_skill_skulsrsword",
+  "e_skill_driftsand" : "Sound_Beta_2/Enemy/e_skill/e_skill_driftsand",
+
 
   "p_skill_chimera":"Sound_Beta_2/Player/p_skill/p_skill_chimera",
+  "p_skill_blacktimewand_shot":"Sound_Beta_2/Player/p_skill/p_skill_blacktimewand_shot",
+  "p_skill_blacktimewand":"Sound_Beta_2/Player/p_skill/p_skill_blacktimewand",
+
   "p_skill_spiritexplo":"Sound_Beta_2/Player/p_skill/p_skill_spiritexplo",
 
   "b_char_defboost":"Sound_Beta_2/Battle/b_char/b_char_defboost",
@@ -110,9 +131,6 @@ story_variables = {
   "p_imp_sword_n" : "Sound_Beta_2/Player/p_imp/p_imp_sword_n",
   "p_imp_tekken_h" : "Sound_Beta_2/Player/p_imp/p_imp_tekken_h",
   "p_imp_naginata_elc" : "Sound_Beta_2/Player/p_imp/p_imp_naginata_elc",
-  
-
-
   "p_atk_smg_h" : "Sound_Beta_2/Player/p_atk/p_atk_smg_h",
 
 
@@ -144,6 +162,26 @@ story_variables = {
   "longmenbat_loop" : "Sound_Beta_2/Music/beta3_181101/m_bat_longmenbat_loop",
   "farce_intro" : "Sound_Beta_2/Music/a001/m_dia_farce_intro",
   "farce_loop" : "Sound_Beta_2/Music/a001/m_dia_farce_loop",
+  "bar_intro" : "Sound_Beta_2/Music/act5d0/m_avg_longmenbar_intro",
+  "bar_loop" : "Sound_Beta_2/Music/act5d0/m_avg_longmenbar_loop",
+  "darkalley_intro" : "Sound_Beta_2/Music/act5d0/m_avg_longmendarkalley_intro",
+  "darkalley_loop" : "Sound_Beta_2/Music/act5d0/m_avg_longmendarkalley_loop",
+  "marketplace_intro" : "Sound_Beta_2/Music/act5d0/m_avg_longmenmarketplace_intro",
+  "marketplace_loop" : "Sound_Beta_2/Music/act5d0/m_avg_longmenmarketplace_loop",
+  "storyendjp_intro" : "Sound_Beta_2/Music/act5d0/m_avg_storyendjp_intro",
+  "storyendjp_loop" : "Sound_Beta_2/Music/act5d0/m_avg_storyendjp_loop",
+  "chasing_intro" : "Sound_Beta_2/Music/act5d0/m_bat_chasing_intro",
+  "chasing_loop" : "Sound_Beta_2/Music/act5d0/m_bat_chasing_loop",
+  "gorgeousdebut_intro" : "Sound_Beta_2/Music/act5d0/m_bat_gorgeousdebut_intro",
+  "gorgeousdebut_loop" : "Sound_Beta_2/Music/act5d0/m_bat_gorgeousdebut_loop",
+  "kingmouse_intro" : "Sound_Beta_2/Music/act5d0/m_bat_kingmouse_intro",
+  "kingmouse_loop" : "Sound_Beta_2/Music/act5d0/m_bat_kingmouse_loop",
+  "penguinlogistics_intro" : "Sound_Beta_2/Music/act5d0/m_sys_penguinlogistics_intro",
+  "penguinlogistics_loop" : "Sound_Beta_2/Music/act5d0/m_sys_penguinlogistics_loop",
+  "speedoflight_intro" : "Sound_Beta_2/Music/act5d0/m_avg_speedoflight_intro",
+  "speedoflight_loop" : "Sound_Beta_2/Music/act5d0/m_avg_speedoflight_loop",
+
+
 
   "chernormal_intro" : "Sound_Beta_2/Music/beta2_180603/m_bat_qiecheng_intro",
   "chernormal_loop" : "Sound_Beta_2/Music/beta2_180603/m_bat_qiecheng_loop",
@@ -202,8 +240,7 @@ story_variables = {
   "newhope01_loop" : "Sound_Beta_2/Music/beta3_181101/m_dia_newhope01_loop",
 
   "path_intro" : "Sound_Beta_2/Music/a001/m_dia_path_intro",
-  "path_loop" : "Sound_Beta_2/Music/a001/m_dia_path_loop"
-
+  "path_loop" : "Sound_Beta_2/Music/a001/m_dia_path_loop",
 }
 
 def get_paras(text):

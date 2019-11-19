@@ -1,8 +1,8 @@
 from PIL import Image
 import os
 
-dir1 = 'C:\\Users\\Helium\\OneDrive\\dreamweaver\\character\\'
-dir2 = 'C:\\Users\\Helium\\OneDrive\\dreamweaver\\characters\\'
+dir1 = 'C:\\Users\\Helium\\OneDrive\\dreamweaver\\heliumoctahelide.github.io\\resources\\'
+dir2 = 'C:\\Users\\Helium\\OneDrive\\dreamweaver\\heliumoctahelide.github.io\\resources\\newfile\\'
 
 def transparent_back(img ,alphachannel):
     img = img.convert('RGBA')
@@ -19,6 +19,9 @@ def transparent_back(img ,alphachannel):
     return img
 
 for filename in os.listdir(dir1+'Sprite\\'):
+    if filename in os.listdir(dir1):
+        print('passed ' + filename)
+        continue
     print(filename)
     if '#' in filename:
         continue
