@@ -112,6 +112,7 @@ var story = [
         "playground.drawDialog({name:'黑',text:'现在一切都明晰了，没什么好说的。'});",
         "playground.drawCharacter({name:'avg_npc_020'});playground.drawDialog({name:'克洛宁的手下',text:'快，快动手！快把她们两个都抓了！'});",
         "playground.drawCharacter({name:'char_340_shwaz_4'});playground.drawDialog({name:'黑',text:'第二个命令你们也已经听见了。'});",
-        "playground.drawDialog({name:'黑',text:'——小姐要我保护她。'});"
+        "playground.drawDialog({name:'黑',text:'——小姐要我保护她。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({fadetime:3,block:true});playground.drawImage({});"
     ]
 ];

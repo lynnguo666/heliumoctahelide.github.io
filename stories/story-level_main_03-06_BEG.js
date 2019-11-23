@@ -70,6 +70,7 @@ var story = [
         "playground.drawCharacter({name:'char_010_chen_1',name2:'char_002_amiya_7',focus:1});playground.drawDialog({name:'陈',text:'阿米娅,你呢？'});",
         "playground.drawCharacter({name:'char_002_amiya_7'});playground.drawDialog({name:'阿米娅',text:'我明白。'});",
         "playground.drawDialog({name:'阿米娅',text:'我们已经不剩多少时间了。'});",
-        "playground.drawDialog({name:'阿米娅',text:'和切城不一样——现在，轮到我们来阻截整合运动了！'});"
+        "playground.drawDialog({name:'阿米娅',text:'和切城不一样——现在，轮到我们来阻截整合运动了！'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

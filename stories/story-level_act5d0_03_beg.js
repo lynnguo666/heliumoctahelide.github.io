@@ -105,6 +105,7 @@ var story = [
         "playground.drawCharacter({name:'char_325_bison_4',name2:'char_213_mostma_5',focus:1});playground.drawDialog({name:'拜松',text:'被、被敌人发现了！？'});",
         "playground.drawCharacter({name:'char_325_bison_4',name2:'char_213_mostma_1',focus:2});playground.drawDialog({name:'莫斯提马',text:'原来是这里，这么多年没有回过龙门，名字都换了。'});",
         "playground.drawDialog({name:'莫斯提马',text:'嗯......你想不想吃点什么？我想想，抹茶还是巧克力？'});",
-        "playground.drawCharacter({name:'char_325_bison_1',name2:'char_213_mostma_1',focus:1});playground.drawDialog({name:'拜松',text:'......'});"
+        "playground.drawCharacter({name:'char_325_bison_1',name2:'char_213_mostma_1',focus:1});playground.drawDialog({name:'拜松',text:'......'});",
+        "playground.clearDialog();delay(0.5);playground.clearDialog();blocker.blocker({fadetime:2,block:true});"
     ]
 ];

@@ -128,6 +128,7 @@ var story = [
         "playground.clearDialog();delay(1);blocker.blocker({block:true, fadetime:2});playground.drawImage({fadetime:0, xscale:1, yscale:1});background.showImage({screenadapt:'coverall', image:'bg_lungmen_r', width:1, height:1, fadetime:1, screenadapt:'coverall'});blocker.blocker({block:true, a:0, fadetime:1});playground.drawCharacter({name:'char_002_amiya_1', fadetime:1});playground.drawDialog({name:'阿米娅',text:'......'});",
         "playground.drawDialog({name:'阿米娅',text:'陈长官......'});",
         "playground.clearDialog();blocker.blocker({a:1, r:0,g:0, b:0, fadetime:1.6, block:true});blocker.blocker({block:true, fadetime:2});playground.drawCharacter({});playground.drawImage({image:'avg_31_3', fadetime:0, xscale:1, yscale:1});blocker.blocker({block:true, a:0, fadetime:1});delay(1);playground.drawDialog({name:'阿米娅',text:'这是我第一次看到......'});",
-        "playground.drawDialog({name:'阿米娅',text:'她是那样的眼神......'});"
+        "playground.drawDialog({name:'阿米娅',text:'她是那样的眼神......'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

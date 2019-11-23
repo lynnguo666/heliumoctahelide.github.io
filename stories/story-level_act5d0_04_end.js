@@ -107,6 +107,7 @@ var story = [
         "playground.drawCharacter({name:'avg_npc_027_2',name2:'avg_npc_031',focus:2});playground.drawDialog({name:'黑帮',text:'是。'});",
         "playground.drawCharacter({name:'avg_npc_027_4',name2:'avg_npc_031',focus:1});playground.drawDialog({name:'卡彭',text:'我们时间不多，今晚必须得到结果，争分夺秒，快。'});",
         "playground.clearDialog();playground.drawCharacter({});voice.playSound({key:'d_gen_soldiersrun',volume:0.5});delay(3);playground.drawCharacter({name:'avg_npc_027'});playground.drawDialog({name:'卡彭',text:'我在龙门这么多年什么都没干......？'});",
-        "playground.drawDialog({name:'卡彭',text:'错了，甘比诺·里奇，大错特错。'});"
+        "playground.drawDialog({name:'卡彭',text:'错了，甘比诺·里奇，大错特错。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({fadetime:2,block:true});playground.drawImage({});"
     ]
 ];

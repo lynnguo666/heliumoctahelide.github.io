@@ -80,6 +80,7 @@ var story = [
         "playground.drawDialog({name:'米莎',text:'大家都是......需要被保护的人。'});",
         "playground.clearDialog();blocker.blocker({a:1, initr:2, r:0, g:0, b:0, block:true, fadetime:0.6});background.showImage({fadetime:0});playground.drawCharacter({fadetime:0});blocker.blocker({a:0, fadetime:0.6, block:true});playground.drawDialog({name:'米莎',text:'碎骨的......'});",
         "playground.drawDialog({name:'米莎',text:'......'});",
-        "playground.drawDialog({name:'米莎',text:'我必须......'});"
+        "playground.drawDialog({name:'米莎',text:'我必须......'});",
+        "delay(0.6);playground.clearDialog();delay(1);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

@@ -144,6 +144,7 @@ var story = [
         "playground.drawCharacter({name:'avg_npc_028_2',name2:'avg_npc_031',focus:1});playground.drawDialog({name:'甘比诺',text:'......走，我们还有机会。'});",
         "voice.playSound({key:'e_skill_driftsand', volume:0.9});voice.playSound({key:'e_skill_driftsand', volume:0.9});background.cameraShake({duration:2, xstrength:10, ystrength:12, vibrato:30, randomness:90, fadeout:true, block:true});playground.drawCharacter({name:'avg_npc_028_3'});playground.drawDialog({name:'甘比诺',text:'该死！到底发生了什么！？'});",
         "playground.clearDialog();playground.drawCharacter({});blocker.blocker({a:1, r:0, g:0, b:0, fadetime:1, block:true});delay(0.4);blocker.blocker({a:0.4, r:0.9, g:0.8, b:0.7,fadetime:1, block:true});voice.playSound({key:'d_gen_walk_n'});playground.drawCharacter({name:'avg_npc_034_3',fadetime:2,block:true});delay(2);playground.drawDialog({name:'鼠王',text:'机会，机会......啊......'});",
-        "playground.drawCharacter({name:'avg_npc_034_7'});playground.drawDialog({name:'鼠王',text:'奇怪......我怎么不记得，你们剩下什么机会？'});"
+        "playground.drawCharacter({name:'avg_npc_034_7'});playground.drawDialog({name:'鼠王',text:'奇怪......我怎么不记得，你们剩下什么机会？'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({fadetime:2,block:true});playground.drawImage({});"
     ]
 ];

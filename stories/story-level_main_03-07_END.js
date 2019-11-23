@@ -110,6 +110,7 @@ var story = [
         "playground.drawDialog({name:'陈',text:'立刻收拢包围圈，合力夹击整合运动！'});",
         "delay(1);playground.drawCharacter({name:'char_002_amiya_5'});playground.drawDialog({name:'阿米娅',text:'为什么......'});",
         "blocker.blocker({a:1, r:0, g:0, b:0, fadetime:1.1, block:true});playground.drawDialog({name:'阿米娅',text:'......为什么会这样.......'});",
-        "playground.drawDialog({name:'阿米娅',text:'不......'});"
+        "playground.drawDialog({name:'阿米娅',text:'不......'});",
+        "delay(1);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

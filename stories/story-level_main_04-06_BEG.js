@@ -55,6 +55,7 @@ var story = [
         "playground.drawDialog({name:'星熊',text:'而且......从哪爬出来这么多源石生物？'});",
         "playground.drawCharacter({name:'char_002_amiya_6'});playground.drawDialog({name:'阿米娅',text:'那些源石生物......可能会爆炸！'});",
         "playground.drawCharacter({name:'char_136_hsguma'});playground.drawDialog({name:'星熊',text:`Dr.${nickname}！`});",
-        "playground.drawDialog({name:'星熊',text:'让罗德岛的伙计们，都小心点！！'});"
+        "playground.drawDialog({name:'星熊',text:'让罗德岛的伙计们，都小心点！！'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

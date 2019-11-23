@@ -91,6 +91,7 @@ var story = [
         "playground.drawDialog({name:'普罗旺斯',text:'那就拜托你好好想想了，我立刻去发报！可别被热昏头脑！'});",
         "playground.drawCharacter({name:'char_145_prove_1',name2:'char_166_skfire_1',focus:2});playground.drawDialog({name:'天火',text:'我很冷静。'});",
         "playground.drawCharacter({name:'char_145_prove_1',name2:'char_166_skfire_1',focus:1});playground.drawDialog({name:'普罗旺斯',text:'刚才你才说很激动来着！而且你头发都烧着了啊！'});",
-        "playground.clearDialog();blocker.blocker({a:1, r:0,g:0, b:0, fadetime:2, block:true});playground.drawCharacter({});playground.clearDialog();background.showImage({});playground.drawDialog({name:'天火',text:'唔，生态圈恶化导致的地质演变......哼，还有救！'});"
+        "playground.clearDialog();blocker.blocker({a:1, r:0,g:0, b:0, fadetime:2, block:true});playground.drawCharacter({});playground.clearDialog();background.showImage({});playground.drawDialog({name:'天火',text:'唔，生态圈恶化导致的地质演变......哼，还有救！'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

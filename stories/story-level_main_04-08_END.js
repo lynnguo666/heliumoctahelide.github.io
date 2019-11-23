@@ -99,6 +99,7 @@ var story = [
         "playground.drawCharacter({name:'char_259_jessica_6', name2:'char_002_amiya_3', focus:1});playground.drawDialog({name:'杰西卡',text:'......嗯！'});",
         "playground.drawCharacter({fadetime:1});delay(0.6);playground.drawCharacter({name:'char_193_frostl_1'});playground.drawDialog({name:'霜叶',text:'......'});",
         "playground.drawDialog({name:'霜叶',text:'阿米娅......你......刚才用了......'});",
-        "playground.drawCharacter({name:'char_002_amiya_3'});playground.drawDialog({name:'阿米娅',text:'可得......向凯尔希医生保密哦。'});"
+        "playground.drawCharacter({name:'char_002_amiya_3'});playground.drawDialog({name:'阿米娅',text:'可得......向凯尔希医生保密哦。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

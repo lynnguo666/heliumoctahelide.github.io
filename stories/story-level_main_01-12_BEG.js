@@ -70,6 +70,7 @@ var story = [
         "playground.drawDialog({name:'阿米娅',text:'博士！！'});",
         "playground.Decision({options:[['罗德岛，准备战斗！']]});",
         "predicate = ['1'];",
-        "playground.drawCharacter({name:'char_1504_cqbw'});playground.drawDialog({name:'W',text:'哼哼......'});"
+        "playground.drawCharacter({name:'char_1504_cqbw'});playground.drawDialog({name:'W',text:'哼哼......'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

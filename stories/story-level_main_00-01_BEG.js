@@ -80,6 +80,7 @@ var story = [
         "playground.drawCharacter({name:'char_002_amiya_7'});playground.drawDialog({name:'阿米娅',text:'我明白。'});",
         "blocker.blocker({a:1, initr:2, r:0, g:0, b:0, fadetime:0.2, block:true});playground.drawCharacter({fadetime:0});background.showImage({fadetime:0});playground.drawImage({image:'avg_1_3',x:0, y:-20, xscale:1.1, yscale:1.1, fadetime:1});playground.imageTween({xfrom:0, yfrom:-20, xto:0, yto:0, xscalefrom:1.1, yscalefrom:1.1, xscaleto:1, yscaleto:1, duration:4, block:false});blocker.blocker({a:0, fadetime:0.5, block:true});delay(0.6);playground.drawDialog({name:'阿米娅',text:'......“如果争端能够避免，那我们应当沉默——'});",
         "playground.drawDialog({name:'阿米娅',text:'——如果战斗是必要的，那就战斗到最后！”'});",
-        "playground.drawDialog({name:'阿米娅',text:'罗德岛的信条......从来没有改变过！'});"
+        "playground.drawDialog({name:'阿米娅',text:'罗德岛的信条......从来没有改变过！'});",
+        "delay(0.6);playground.clearDialog();playground.drawImage({image:'avg_1_3',x:0, y:0, xscale:1, yscale:1, fadetime:1});voice.playSound({key:'g_ui_stagepush', volume:0.7});playground.imageTween({xfrom:0, yfrom:0, xto:0, yto:-700, xscalefrom:1, yscalefrom:1, xscaleto:8, yscaleto:8, duration:1.6, block:false});voice.playSound({key:'g_ui_stagepush', volume:0.7, delay:0.3});voice.playSound({key:'g_ui_stagepush', volume:0.7, delay:0.7});delay(0.2);blocker.blocker({a:1,r:255, g:255, b:255, fadetime:0.3, block:true});playground.drawImage({});blocker.blocker({block:true, fadetime:0.5});"
     ]
 ];

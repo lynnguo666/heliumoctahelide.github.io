@@ -153,6 +153,7 @@ var story = [
         "voice.playSound({key:'d_gen_transmissionget', volume:0.4});playground.drawCharacter({name:'char_102_texas_1'});playground.drawDialog({name:'德克萨斯',text:'......挂了。'});",
         "playground.drawCharacter({name:'char_201_moeshd'});playground.drawDialog({name:'可颂',text:'我怎么感觉这事似曾相识？'});",
         "playground.drawCharacter({name:'char_101_sora_1'});playground.drawDialog({name:'空',text:'......总之，我们也要去那个什么派对就对了吧。'});",
-        "playground.drawCharacter({name:'char_103_angel_1'});playground.drawDialog({name:'能天使',text:'嗯，出发！'});"
+        "playground.drawCharacter({name:'char_103_angel_1'});playground.drawDialog({name:'能天使',text:'嗯，出发！'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

@@ -51,6 +51,7 @@ var story = [
         "playground.drawDialog({name:'凯尔希',text:'没错。在贫民区东入口处会合。'});",
         "playground.drawDialog({name:'凯尔希',text:'嗯。就我们两个。'});",
         "playground.drawDialog({name:'凯尔希',text:'没问题的。'});",
-        "playground.drawDialog({name:'凯尔希',text:'对付整合运动，我们两个已经足够了。'});"
+        "playground.drawDialog({name:'凯尔希',text:'对付整合运动，我们两个已经足够了。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

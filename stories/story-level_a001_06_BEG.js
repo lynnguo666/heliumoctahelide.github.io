@@ -102,6 +102,7 @@ var story = [
         "playground.drawCharacter({name:'char_263_skadi_2',name2:'char_220_grani_3',focus:2});playground.drawDialog({name:'格拉尼',text:'只能用武力来裁定宝藏的归属了。'});",
         "playground.drawDialog({name:'格拉尼',text:'斯卡蒂，下手一定要轻一点，轻一点哦！'});",
         "playground.drawCharacter({name:'avg_npc_010_2'});playground.drawDialog({name:'大鲍勃',text:'格 拉 尼！'});",
-        "playground.drawCharacter({name:'char_220_grani_5'});playground.drawDialog({name:'格拉尼',text:'鲍勃大叔，抱歉，可能会有点疼！'});"
+        "playground.drawCharacter({name:'char_220_grani_5'});playground.drawDialog({name:'格拉尼',text:'鲍勃大叔，抱歉，可能会有点疼！'});",
+        "playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

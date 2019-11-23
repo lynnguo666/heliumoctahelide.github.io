@@ -50,6 +50,7 @@ var story = [
         "playground.drawCharacter({name:'char_1002_nsabr_2'});playground.drawDialog({name:'整合运动成员',text:'————'});",
         "delay(0.5);playground.drawCharacter({name:'char_1002_nsabr_2',name2:'char_1002_nsabr_2'});playground.drawDialog({name:'整合运动成员',text:'——————杀了他们。'});",
         "playground.drawCharacter({name:'char_148_nearl_1'});playground.drawDialog({name:'临光',text:'开阔区各个出口同时出现大量整合运动！'});",
-        "playground.drawCharacter({name:'char_130_doberm_ex'});playground.drawDialog({name:'杜宾',text:'准备作战！'});"
+        "playground.drawCharacter({name:'char_130_doberm_ex'});playground.drawDialog({name:'杜宾',text:'准备作战！'});",
+        "playground.clearDialog();blocker.blocker({block:true});delay(0.6);playground.drawImage({});"
     ]
 ];

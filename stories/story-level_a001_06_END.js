@@ -123,6 +123,7 @@ var story = [
         "playground.drawDialog({text:'鲍勃'});",
         "playground.drawDialog({text:'致   泥岩'});",
         "playground.clearDialog();playground.drawCharacter({name:'avg_npc_011',fadetime:2});delay(3);playground.drawDialog({name:'？？？',text:'......'});",
-        "playground.drawDialog({name:'？？？',text:'那真是太好了。'});"
+        "playground.drawDialog({name:'？？？',text:'那真是太好了。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({fadetime:3,block:true});playground.drawImage({});"
     ]
 ];

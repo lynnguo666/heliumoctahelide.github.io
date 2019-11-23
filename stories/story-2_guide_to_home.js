@@ -98,6 +98,7 @@ var story = [
         "predicate = ['1'];",
         "voice.playSound({key:'d_gen_transmissionget',volume:0.4});playground.drawCharacter({name:'char_002_amiya_3', focus:-1});playground.drawDialog({name:'PRTS',text:'虽然不知道为什么你不说话，反而触碰了一下屏幕中央——'});",
         "playground.drawDialog({name:'PRTS',text:'——不过我已经找到了相匹配的指纹。身份确认，权限水平：8。'});",
-        "blocker.blocker({a:1, r:0,g:0, b:0, fadetime:0.6, block:true});background.showImage({});playground.drawCharacter({fadetime:0});playground.drawImage({image:'avg_ep00',x:0, y:0, xscale:1, yscale:1, fadetime:0});blocker.blocker({a:0, fadetime:0.6, block:false});playground.imageTween({xfrom:0, yfrom:0, xto:0, yto:-20, xscalefrom:1, yscalefrom:1, xscaleto:1.1, yscaleto:1.1, duration:15, block:false});playground.drawDialog({name:'PRTS',text:`——欢迎回家，Dr.${nickname}。`});"
+        "blocker.blocker({a:1, r:0,g:0, b:0, fadetime:0.6, block:true});background.showImage({});playground.drawCharacter({fadetime:0});playground.drawImage({image:'avg_ep00',x:0, y:0, xscale:1, yscale:1, fadetime:0});blocker.blocker({a:0, fadetime:0.6, block:false});playground.imageTween({xfrom:0, yfrom:0, xto:0, yto:-20, xscalefrom:1, yscalefrom:1, xscaleto:1.1, yscaleto:1.1, duration:15, block:false});playground.drawDialog({name:'PRTS',text:`——欢迎回家，Dr.${nickname}。`});",
+        "delay(0.6);background.showImage({});playground.drawCharacter({});playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});blocker.blocker({afrom:0, a:1, fadetime:1, block:true});"
     ]
 ];

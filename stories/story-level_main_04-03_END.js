@@ -88,6 +88,7 @@ var story = [
         "playground.drawCharacter({name:'char_259_jessica_4', name2:'char_219_meteo_1', focus:1});playground.drawDialog({name:'杰西卡',text:'唔......'});",
         "playground.drawCharacter({name:'char_259_jessica_4', name2:'char_219_meteo_1', focus:2});playground.drawDialog({name:'陨星',text:'怎么了？'});",
         "playground.drawCharacter({name:'char_259_jessica_4', name2:'char_219_meteo_1', focus:1});playground.drawDialog({name:'杰西卡',text:'你们有没有闻到一股......'});",
-        "playground.drawDialog({name:'杰西卡',text:'烧焦的味道？'});"
+        "playground.drawDialog({name:'杰西卡',text:'烧焦的味道？'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

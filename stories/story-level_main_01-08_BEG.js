@@ -171,6 +171,7 @@ var story = [
         "playground.drawDialog({name:'Ace',text:'......总有一天，你要和阿米娅一起共同面对这片残酷的大地。'});",
         "playground.drawDialog({name:'Ace',text:'所以，保护好她，博士。'});",
         "playground.drawDialog({name:'Ace',text:'走吧。'});",
-        "playground.drawDialog({name:'Ace',text:'祝你们前路无阻。'});"
+        "playground.drawDialog({name:'Ace',text:'祝你们前路无阻。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

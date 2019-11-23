@@ -98,6 +98,7 @@ var story = [
         "playground.drawCharacter({name:'char_002_amiya_7',name2:'char_107_liskam_1',focus:1});playground.drawDialog({name:'阿米娅',text:'（下次我会再和你谈谈我的猜想！）'});",
         "playground.drawCharacter({name:'char_102_texas_1'});playground.drawDialog({name:'德克萨斯',text:'......唔哦。'});",
         "playground.drawCharacter({name:'char_002_amiya_7'});playground.drawDialog({name:'阿米娅',text:'大家，请做好准备！'});",
-        "playground.drawDialog({name:'阿米娅',text:'可能......会是场十分艰巨的战斗！'});"
+        "playground.drawDialog({name:'阿米娅',text:'可能......会是场十分艰巨的战斗！'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

@@ -113,6 +113,7 @@ var story = [
         "playground.drawDialog({name:'星熊',text:'好。'});",
         "playground.drawDialog({name:'线人',text:'大姐......虽然我们一直都怕你，但我们其实......都撑你。'});",
         "playground.drawDialog({name:'线人',text:'一直......都......撑你......'});",
-        "playground.drawDialog({name:'星熊',text:'我也是。'});"
+        "playground.drawDialog({name:'星熊',text:'我也是。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({fadetime:2,block:true});playground.drawImage({});"
     ]
 ];

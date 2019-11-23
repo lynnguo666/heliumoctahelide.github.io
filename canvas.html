@@ -18,15 +18,15 @@
     </div>
     <hr>
     <div onclick='clickme(event)' id="playground" style="position: relative;">
-        <canvas id='backgroundcanvas' width=1440 height=720
+        <canvas id='backgroundcanvas' width=1280 height=720
             style="position: absolute; border:1px solid #FFFFFF; left: 0px; top: 0px; background-color: #000000;"></canvas>
-        <canvas id='charactercanvas' width=1440 height=720
+        <canvas id='charactercanvas' width=1280 height=720
             style="position: absolute; border:1px solid #FFFFFF; left: 0px; top: 0px;"></canvas>
-        <canvas id='imgcanvas' width=1440 height=720
+        <canvas id='imgcanvas' width=1280 height=720
             style="position: absolute; border:1px solid #FFFFFF; left: 0px; top: 0px;"></canvas>
-        <canvas id='blockcanvas' width=1440 height=720
+        <canvas id='blockcanvas' width=1280 height=720
             style="position: absolute; border:1px solid #FFFFFF; left: 0px; top: 0px;"></canvas>
-        <canvas id='textcanvas' width=1440 height=720
+        <canvas id='textcanvas' width=1280 height=720
             style="position: absolute; border:1px solid #FFFFFF; left: 0px; top: 0px;"></canvas>
     </div>
     <div id="loadingdiv"
@@ -38,6 +38,8 @@
 </body>
 <script type='text/javascript'>
     var list = {
+    "05opening": ["开 幕 雷 击", "story-ui_act5d0_firstenter.js"],
+    "05teaching": ["危机合约", "story-ui_act5d1_cc.js"],
     "05-1beg": ["CB-1 6:44P.M.", "story-level_act5d0_01_beg.js"],
     "05-1end": ["CB-1 6:44P.M.", "story-level_act5d0_01_end.js"],
     "05-2beg": ["CB-2 7:15P.M.", "story-level_act5d0_02_beg.js"],

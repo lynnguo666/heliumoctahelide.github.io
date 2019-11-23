@@ -46,6 +46,7 @@ var story = [
         "playground.drawCharacter({name:'char_188_helage_1',name2:'char_348_ceylon_5',focus:2});playground.drawDialog({name:'锡兰',text:'十分感谢您的相助，请问......'});",
         "playground.drawCharacter({name:'char_188_helage_1',name2:'char_348_ceylon_5',focus:1});playground.drawDialog({name:'赫拉格',text:'你可以叫我赫拉格。'});",
         "playground.drawDialog({name:'赫拉格',text:'和博士一样，我也来自罗德岛。'});",
-        "playground.drawCharacter({name:'char_188_helage_1'});playground.drawDialog({name:'赫拉格',text:'博士，你现在有时间吗，有些话我要单独告诉你。'});"
+        "playground.drawCharacter({name:'char_188_helage_1'});playground.drawDialog({name:'赫拉格',text:'博士，你现在有时间吗，有些话我要单独告诉你。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

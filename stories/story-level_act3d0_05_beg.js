@@ -74,6 +74,7 @@ var story = [
         "playground.drawDialog({name:'红豆',text:'嗯，咳咳，哼！'});",
         "playground.drawDialog({name:'红豆',text:'“开门！快递！”'});",
         "playground.Decision({options:[['这不是已经被你踢开了吗！']]});",
-        "predicate = ['1'];"
+        "predicate = ['1'];",
+        "delay(0.6);playground.clearDialog();blocker.blocker({fadetime:3,block:true});playground.drawImage({});"
     ]
 ];

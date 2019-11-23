@@ -163,6 +163,7 @@ var story = [
         "playground.drawCharacter({name:'avg_npc_034'});playground.drawDialog({name:'鼠王',text:'活久一点，多卖点鱼丸。'});",
         "playground.drawDialog({name:'鼠王',text:'先考虑在龙门买个门面，开家店，收几个徒弟，然后再想想棺材搁哪儿，不着急。'});",
         "playground.drawDialog({name:'鼠王',text:'鼠王还活着，轮不到你们送死。'});",
-        "playground.drawCharacter({});playground.drawDialog({name:'董阿伯',text:'......得嘞。'});"
+        "playground.drawCharacter({});playground.drawDialog({name:'董阿伯',text:'......得嘞。'});",
+        "delay(0.5);playground.clearDialog();blocker.blocker({fadetime:2,block:true});playground.drawImage({});"
     ]
 ];

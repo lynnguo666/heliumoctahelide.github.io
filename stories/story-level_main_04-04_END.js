@@ -64,6 +64,7 @@ var story = [
         "playground.drawCharacter({name:'char_219_meteo_1'});playground.drawDialog({name:'陨星',text:'快走！我掩护你们！'});",
         "playground.drawCharacter({name:'char_193_frostl_1'});playground.drawDialog({name:'霜叶',text:'听好，阿米娅。'});",
         "playground.drawDialog({name:'霜叶',text:'——不要来。'});",
-        "playground.drawDialog({name:'霜叶',text:'这个废城分城是——'});"
+        "playground.drawDialog({name:'霜叶',text:'这个废城分城是——'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

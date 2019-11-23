@@ -71,6 +71,7 @@ var story = [
         "playground.drawCharacter({name:'char_136_hsguma',name2:'char_010_chen_1',focus:2});playground.drawDialog({name:'陈',text:'就像你说的，也许我有些头绪了。'});",
         "playground.drawCharacter({name:'char_136_hsguma',name2:'char_010_chen_1',focus:1});playground.drawDialog({name:'星熊',text:'对了，根据报告，周遭的整合运动确实溃散了，原先分配好的警力正在驱赶他们。'});",
         "playground.drawCharacter({name:'char_136_hsguma',name2:'char_010_chen_1',focus:2});playground.drawDialog({name:'陈',text:'那就好。我们的道路又畅通了一些，也更接近目标了。'});",
-        "playground.drawDialog({name:'陈',text:'近卫局诸位，整队出发！让我们去把龙门拿回来！'});"
+        "playground.drawDialog({name:'陈',text:'近卫局诸位，整队出发！让我们去把龙门拿回来！'});",
+        "delay(0.3);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

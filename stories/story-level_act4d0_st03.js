@@ -111,6 +111,7 @@ var story = [
         "playground.drawDialog({name:'芙兰卡',text:'不管杰西卡自己多没有自信，这可不是一个差生的数据。'});",
         "playground.drawDialog({name:'芙兰卡',text:'长久的训练和坚持，可绝对不会辜负付出努力的人。'});",
         "playground.drawDialog({name:'雷蛇',text:'这......我一点都没有发现这些。'});",
-        "playground.drawDialog({name:'芙兰卡',text:'你啊，别把木头脑袋也教给了杰西卡就好了。'});"
+        "playground.drawDialog({name:'芙兰卡',text:'你啊，别把木头脑袋也教给了杰西卡就好了。'});",
+        "delay(0.5);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

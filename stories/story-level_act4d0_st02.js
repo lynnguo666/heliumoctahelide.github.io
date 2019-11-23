@@ -205,6 +205,7 @@ var story = [
         "playground.drawCharacter({});playground.clearDialog();voice.playSound({key:'d_gen_walk_n'});delay(3);playground.drawCharacter({name:'char_131_flameb_4'});playground.drawDialog({name:'炎客',text:'......呵。'});",
         "playground.drawDialog({name:'炎客',text:'真是这样。'});",
         "playground.drawDialog({name:'炎客',text:'W，你还真是诚实啊......'});",
-        "playground.drawDialog({name:'炎客',text:'看来活久一点，确实有些益处。'});"
+        "playground.drawDialog({name:'炎客',text:'看来活久一点，确实有些益处。'});",
+        "delay(0.5);playground.clearDialog();blocker.blocker({fadetime:2,block:true});playground.drawImage({});"
     ]
 ];

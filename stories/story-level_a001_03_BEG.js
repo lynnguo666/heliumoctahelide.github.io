@@ -104,6 +104,7 @@ var story = [
         "playground.drawCharacter({name:'char_220_grani_5'});playground.drawDialog({name:'格拉尼',text:'趁现在，快点走！'});",
         "playground.drawCharacter({name:'avg_npc_010'});playground.drawDialog({name:'大鲍勃',text:'——向东突围！走！'});",
         "playground.drawCharacter({name:'avg_npc_007',name2:'avg_npc_007'});playground.drawDialog({name:'赏金猎人',text:'别想逃出去！受死吧怪物！！'});",
-        "playground.drawCharacter({name:'char_263_skadi_2'});playground.drawDialog({name:'斯卡蒂',text:'（阿戈尔语）滚开!'});"
+        "playground.drawCharacter({name:'char_263_skadi_2'});playground.drawDialog({name:'斯卡蒂',text:'（阿戈尔语）滚开!'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

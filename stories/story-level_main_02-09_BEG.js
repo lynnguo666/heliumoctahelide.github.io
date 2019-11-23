@@ -44,6 +44,7 @@ var story = [
         "playground.drawCharacter({name:'char_002_amiya_7'});playground.drawDialog({name:'阿米娅',text:'与你有什么关系？'});",
         "playground.drawCharacter({name:'char_1500_skulsr'});playground.drawDialog({name:'碎骨',text:'......你！'});",
         "playground.drawDialog({name:'碎骨',text:'......'});",
-        "playground.drawDialog({name:'碎骨',text:'我的同胞，动手吧！'});"
+        "playground.drawDialog({name:'碎骨',text:'我的同胞，动手吧！'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

@@ -102,6 +102,7 @@ var story = [
         "playground.drawDialog({name:'碎骨',text:'谢谢。'});",
         "playground.drawCharacter({name:'char_010_chen_6'});playground.drawDialog({name:'陈',text:'......'});",
         "playground.drawDialog({name:'陈',text:'不。请一定要恨我。'});",
-        "delay(0.3);playground.drawDialog({name:'陈',text:'近卫局！进攻！'});"
+        "delay(0.3);playground.drawDialog({name:'陈',text:'近卫局！进攻！'});",
+        "playground.clearDialog();delay(1);playground.drawImage({});"
     ]
 ];

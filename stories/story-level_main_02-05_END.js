@@ -76,6 +76,7 @@ var story = [
         "playground.drawCharacter({name:'char_102_texas_1'});playground.drawDialog({name:'德克萨斯',text:`你就是罗德岛的那位Dr.${nickname}？`});",
         "playground.drawDialog({name:'德克萨斯',text:'看起来你不太喜欢爬楼。'});",
         "playground.drawDialog({name:'德克萨斯',text:'到了。'});",
-        "playground.drawCharacter({name:'char_002_amiya_6'});playground.drawDialog({name:'阿米娅',text:'——？！'});"
+        "playground.drawCharacter({name:'char_002_amiya_6'});playground.drawDialog({name:'阿米娅',text:'——？！'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

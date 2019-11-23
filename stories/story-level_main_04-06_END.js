@@ -55,6 +55,7 @@ var story = [
         "playground.drawDialog({name:'凯尔希',text:'皮肤红肿，全身失温，组织坏死——'});",
         "playground.drawDialog({name:'凯尔希',text:'怎么回事？'});",
         "playground.drawCharacter({fadetime:0});playground.drawDialog({name:'重伤的罗德岛干员',text:'咕......'});",
-        "playground.drawCharacter({name:'char_003_kalts_3'});playground.drawDialog({name:'凯尔希',text:'全是冻伤？'});"
+        "playground.drawCharacter({name:'char_003_kalts_3'});playground.drawDialog({name:'凯尔希',text:'全是冻伤？'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

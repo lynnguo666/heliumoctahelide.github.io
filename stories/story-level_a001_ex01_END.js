@@ -40,6 +40,7 @@ var story = [
         "playground.drawDialog({name:'斯卡蒂',text:'是时候出发了，回来的时候，情况也许会有所进展。不过，你也可以和以前一样，把我忘了。'});",
         "playground.drawCharacter({name:'char_143_ghost',name2:'char_263_skadi_1',focus:1});playground.drawDialog({name:'幽灵鲨',text:'你要去哪里？'});",
         "playground.drawCharacter({name:'char_143_ghost',name2:'char_263_skadi_1',focus:2});playground.drawDialog({name:'斯卡蒂',text:'秘密被埋葬的地方。'});",
-        "playground.drawCharacter({});playground.clearDialog();background.showImage({fadetime:1});delay(2);playground.drawDialog({name:'斯卡蒂',text:'一个离你很远的地方。'});"
+        "playground.drawCharacter({});playground.clearDialog();background.showImage({fadetime:1});delay(2);playground.drawDialog({name:'斯卡蒂',text:'一个离你很远的地方。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({fadetime:3,block:true});playground.drawImage({});"
     ]
 ];

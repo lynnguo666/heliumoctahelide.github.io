@@ -69,6 +69,7 @@ var story = [
         "playground.drawDialog({name:'阿米娅',text:'凯尔希医生？请问有什么事？'});",
         "playground.drawCharacter({fadetime:0});playground.drawDialog({name:'凯尔希',text:'阿米娅，有几支侦查小队发来了消息。'});",
         "playground.drawDialog({name:'凯尔希',text:'情况变得有些刻不容缓。'});",
-        "playground.drawCharacter({name:'char_002_amiya_7'});playground.drawDialog({name:'阿米娅',text:'好的，我马上就来。'});"
+        "playground.drawCharacter({name:'char_002_amiya_7'});playground.drawDialog({name:'阿米娅',text:'好的，我马上就来。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

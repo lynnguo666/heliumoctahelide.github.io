@@ -97,6 +97,7 @@ var story = [
         "playground.drawDialog({name:'梅菲斯特',text:'来吧，罗德岛的客人们，把这个家伙当成见面礼留给我吧？'});",
         "playground.drawDialog({name:'梅菲斯特',text:'那样的话，虽然令人惋惜，但我放你们离开，也是可以的哦？'});",
         "playground.drawCharacter({name:'char_002_amiya_7'});playground.drawDialog({name:'阿米娅',text:'博士——'});",
-        "playground.drawDialog({name:'阿米娅',text:'——退到我身后！！'});"
+        "playground.drawDialog({name:'阿米娅',text:'——退到我身后！！'});",
+        "delay(0.3);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

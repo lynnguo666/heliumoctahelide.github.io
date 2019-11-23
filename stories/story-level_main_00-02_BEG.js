@@ -61,6 +61,7 @@ var story = [
         "playground.drawCharacter({name:'char_130_doberm_ex'});playground.drawDialog({name:'杜宾',text:'——至少，我们现在的优势，也就只有谨小慎微这一点了。'});",
         "playground.drawCharacter({});blocker.blocker({a:1, r:0,g:0, b:0, fadetime:0.6, block:true});playground.clearDialog();blocker.blocker({a:0, fadetime:0.6, block:true});playground.drawCharacter({name:'char_1002_nsabr_2'});playground.drawDialog({name:'整合运动成员',text:'嗯？'});",
         "playground.drawDialog({name:'整合运动成员',text:'这，这里也有武装力量？！'});",
-        "playground.drawCharacter({name:'char_130_doberm_ex'});playground.drawDialog({name:'杜宾',text:'各小队，作战准备！不要给他们反击的机会！'});"
+        "playground.drawCharacter({name:'char_130_doberm_ex'});playground.drawDialog({name:'杜宾',text:'各小队，作战准备！不要给他们反击的机会！'});",
+        "delay(0.3);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

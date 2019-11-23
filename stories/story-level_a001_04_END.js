@@ -58,6 +58,7 @@ var story = [
         "playground.drawCharacter({name:'avg_npc_003',name2:'char_220_grani_4',focus:2});playground.drawDialog({name:'格拉尼',text:'是吗……'});",
         "playground.drawDialog({name:'格拉尼',text:'你真坚强啊。'});",
         "playground.drawCharacter({name:'avg_npc_003',name2:'char_220_grani_4',focus:1});playground.drawDialog({name:'可萝尔',text:'欸？'});",
-        "playground.drawCharacter({name:'avg_npc_003',name2:'char_220_grani_5',focus:2});playground.drawDialog({name:'格拉尼',text:'没事。事不宜迟，我们继续前进吧。'});"
+        "playground.drawCharacter({name:'avg_npc_003',name2:'char_220_grani_5',focus:2});playground.drawDialog({name:'格拉尼',text:'没事。事不宜迟，我们继续前进吧。'});",
+        "delay(0.3);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

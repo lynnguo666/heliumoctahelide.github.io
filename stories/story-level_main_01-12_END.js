@@ -111,6 +111,7 @@ var story = [
         "playground.drawDialog({name:'阿米娅',text:'现在......还不行。'});",
         "playground.drawCharacter({name:'char_016_medic', name2:'char_002_amiya_4', focus:1});playground.drawDialog({name:'医疗干员',text:'嗯......呜......嗯......'});",
         "blocker.blocker({a:1, r:0, g:0, b:0, fadetime:0.5, block:true});playground.clearDialog();playground.drawCharacter({fadetime:0});background.showImage({image:'bg_0_rhodes3', fadetime:0, screenadapt:'coverall', screenadapt:'coverall'});blocker.blocker({a:0, r:0, g:0, b:0, fadetime:1, block:true});playground.drawDialog({name:'阿米娅',text:'走吧......'});",
-        "playground.drawDialog({name:'阿米娅',text:'......我们回家。'});"
+        "playground.drawDialog({name:'阿米娅',text:'......我们回家。'});",
+        "playground.clearDialog();delay(1);blocker.blocker({a:1, r:0,g:0, b:0, fadetime:3, block:true});background.showImage({});playground.drawCharacter({fadetime:0});playground.drawImage({image:'avg_ep01',x:0, y:0, xscale:1, yscale:1, fadetime:3, screenadapt:'coverall'});blocker.blocker({a:0, fadetime:0.6, block:false});delay(5);blocker.blocker({a:1, r:0,g:0, b:0, fadetime:2, block:true});playground.drawImage({fadetime:0});playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

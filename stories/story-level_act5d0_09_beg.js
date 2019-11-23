@@ -169,6 +169,7 @@ var story = [
         "playground.drawDialog({name:'鼠王',text:'人无仪，不死何为。'});",
         "playground.drawDialog({name:'鼠王',text:'真有趣，他那微不足道的尊严反倒救了他一命。'});",
         "playground.drawCharacter({name:'avg_npc_034_3',name2:'avg_npc_031',focus:2});playground.drawDialog({name:'黑帮',text:'......谢谢。'});",
-        "playground.drawCharacter({name:'avg_npc_034'});playground.drawDialog({name:'鼠王',text:'走吧，该为今晚的事情收场了。'});"
+        "playground.drawCharacter({name:'avg_npc_034'});playground.drawDialog({name:'鼠王',text:'走吧，该为今晚的事情收场了。'});",
+        "voice.playSound({key:'d_gen_walk_n'});playground.drawCharacter({fadetiem:1});playground.clearDialog();delay(0.5);playground.clearDialog();blocker.blocker({fadetime:2,block:true});"
     ]
 ];

@@ -392,6 +392,7 @@ var story = [
         "playground.drawDialog({name:'伊芙利特',text:'但那些不能的，我是绝对不会动的！连一点火我都不会发出来！'});",
         "playground.drawDialog({text:'那我等着，小东西。'});",
         "playground.clearDialog();playground.drawCharacter({name:'char_134_ifrit_8',fadetime:1,block:true});delay(1);playground.drawDialog({name:'伊芙利特',text:'......'});",
-        "playground.drawDialog({name:'伊芙利特',text:'迟早有一天......一定！'});"
+        "playground.drawDialog({name:'伊芙利特',text:'迟早有一天......一定！'});",
+        "delay(0.5);playground.clearDialog();blocker.blocker({fadetime:2,block:true});playground.drawImage({});"
     ]
 ];

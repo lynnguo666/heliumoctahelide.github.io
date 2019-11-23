@@ -110,6 +110,7 @@ var story = [
         "playground.drawCharacter({name:'char_103_angel_4',name2:'char_325_bison_4',focus:2});playground.drawDialog({name:'拜松',text:'怎么办？'});",
         "playground.drawCharacter({name:'char_103_angel_7',name2:'char_325_bison_4',focus:1});playground.drawDialog({name:'能天使',text:'既然你也是丰蹄，也拿着面盾——'});",
         "playground.drawCharacter({name:'char_103_angel_7',name2:'char_325_bison_2',focus:2});playground.drawDialog({name:'拜松',text:'呃？'});",
-        "playground.drawCharacter({name:'char_103_angel_8',name2:'char_325_bison_2',focus:1});playground.drawDialog({name:'能天使',text:'那可颂和我怎么办，咱们就怎么办！你开路，我殿后，但这次估计没奖金了，上啦！'});"
+        "playground.drawCharacter({name:'char_103_angel_8',name2:'char_325_bison_2',focus:1});playground.drawDialog({name:'能天使',text:'那可颂和我怎么办，咱们就怎么办！你开路，我殿后，但这次估计没奖金了，上啦！'});",
+        "playground.drawCharacter({fadetiem:1});delay(0.5);playground.clearDialog();blocker.blocker({fadetime:1,block:true});"
     ]
 ];

@@ -67,6 +67,7 @@ var story = [
         "playground.drawCharacter({});playground.drawDialog({name:'乌萨斯军警队长',text:'来啊！感染者混球！'});",
         "playground.drawDialog({name:'乌萨斯军警队长',text:'你们就这点本事吗？只会站在那里看着吗？'});",
         "playground.drawCharacter({name:'char_1502_crowns'});playground.drawDialog({name:'？？？',text:'切尔诺伯格人......'});",
-        "playground.drawDialog({name:'？？？',text:'该死。'});"
+        "playground.drawDialog({name:'？？？',text:'该死。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

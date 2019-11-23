@@ -130,6 +130,7 @@ var story = [
         "playground.drawCharacter({name:'char_002_amiya_6'});playground.drawDialog({name:'阿米娅',text:'冰晶正在迅速侵蚀周边的地形！'});",
         "voice.playSound({key:'d_gen_surfacefrozen', volume:0.8});playground.drawCharacter({name:'char_002_amiya_7'});playground.drawDialog({name:'阿米娅',text:'别让她唱完！！'});",
         "playground.drawCharacter({name:'char_002_amiya_7', focus:-1});playground.Decision({options:[['罗德岛，全力进攻！']]});",
-        "predicate = ['1'];"
+        "predicate = ['1'];",
+        "voice.playSound({key:'g_ui_stagepush', volume:0.7, delay:0.3});voice.playSound({key:'g_ui_stagepush', volume:0.7, delay:0.7});delay(0.2);blocker.blocker({a:1,r:255, g:255, b:255, fadetime:0.3, block:true});playground.drawImage({});blocker.blocker({block:true, fadetime:0.5});"
     ]
 ];

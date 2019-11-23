@@ -57,6 +57,7 @@ var story = [
         "playground.drawCharacter({name:'char_010_chen_2', name2:'char_015_lmg', focus:1});playground.drawDialog({name:'陈',text:'怎么可能，就凭整合运动那帮乌合之众！'});",
         "blocker.blocker({a:1, r:0,g:0, b:0, fadetime:0.6, block:true});playground.drawCharacter({name:'char_010_chen_2', name2:'char_015_lmg', focus:2});playground.drawDialog({name:'近卫局队员',text:'......而且对方只有......一个人......'});",
         "playground.drawCharacter({name:'char_010_chen_3'});playground.drawDialog({name:'陈',text:'......'});",
-        "playground.drawCharacter({fadetime:0});playground.drawImage({image:'avg_ep02',x:0, y:0, xscale:1, yscale:1, fadetime:0, screenadapt:'coverall'});blocker.blocker({a:0, fadetime:0.6, block:false});playground.drawCharacter({name:'char_010_chen_5'});playground.drawDialog({name:'陈',text:'除非......'});"
+        "playground.drawCharacter({fadetime:0});playground.drawImage({image:'avg_ep02',x:0, y:0, xscale:1, yscale:1, fadetime:0, screenadapt:'coverall'});blocker.blocker({a:0, fadetime:0.6, block:false});playground.drawCharacter({name:'char_010_chen_5'});playground.drawDialog({name:'陈',text:'除非......'});",
+        "blocker.blocker({a:1, r:0,g:0, b:0, fadetime:0.6, block:true});playground.drawImage({fadetime:0});delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

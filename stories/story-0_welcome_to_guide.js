@@ -171,6 +171,7 @@ var story = [
         "playground.drawCharacter({name:'char_002_amiya_4'});playground.drawDialog({name:'阿米娅',text:'————也许连你自己都可能还不太相信......'});",
         "playground.drawCharacter({});background.showImage({});playground.drawDialog({name:'阿米娅',text:'但是我相信你。'});",
         "playground.drawImage({image:'avg_0_3', fadetime:0.8});playground.drawDialog({name:'阿米娅',text:'——我相信你，一定可以的。'});",
-        "playground.drawDialog({name:'阿米娅',text:'请指挥————罗德岛！'});"
+        "playground.drawDialog({name:'阿米娅',text:'请指挥————罗德岛！'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

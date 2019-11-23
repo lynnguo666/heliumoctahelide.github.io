@@ -286,6 +286,7 @@ var story = [
         "playground.drawCharacter({name:'char_325_bison_1'});playground.drawDialog({name:'拜松',text:'“安魂夜快乐”......'});",
         "playground.drawDialog({name:'拜松',text:'......'});",
         "playground.drawDialog({name:'拜松',text:'......'});",
-        "playground.drawCharacter({name:'char_325_bison_2'});playground.drawDialog({name:'拜松',text:'............哈？'});"
+        "playground.drawCharacter({name:'char_325_bison_2'});playground.drawDialog({name:'拜松',text:'............哈？'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

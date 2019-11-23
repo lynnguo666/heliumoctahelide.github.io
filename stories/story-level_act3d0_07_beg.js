@@ -38,6 +38,7 @@ var story = [
         "playground.drawDialog({name:'克洛宁',text:'财富才是新生活的钥匙，我自那时就明白了这个道理！而你呢？却用我们辛苦得到的钱，去救助那些感染者垃圾！？'});",
         "playground.drawDialog({name:'克洛宁',text:'你要把汐斯塔无上的价值葬送在你的伪善之中吗！？'});",
         "playground.drawCharacter({name:'avg_npc_024',name2:'avg_npc_023_2',focus:1});playground.drawDialog({name:'赫尔曼',text:'你好好看看你自己，克洛宁。'});",
-        "playground.drawDialog({name:'赫尔曼',text:'然后，去监狱中思考自己看到了什么吧！'});"
+        "playground.drawDialog({name:'赫尔曼',text:'然后，去监狱中思考自己看到了什么吧！'});",
+        "playground.clearDialog();playground.drawCharacter({});background.cameraShake({duration:2, xstrength:8, ystrength:8, vibrato:30, randomness:90, fadeout:true, block:false});voice.playSound({key:'d_gen_fireworks', volume:0.8});delay(0.6);playground.clearDialog();blocker.blocker({fadetime:3,block:true});playground.drawImage({});"
     ]
 ];

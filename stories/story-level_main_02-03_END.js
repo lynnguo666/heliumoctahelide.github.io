@@ -75,6 +75,7 @@ var story = [
         "playground.drawDialog({name:'米莎',text:'......那就......走吧。'});",
         "playground.drawDialog({name:'米莎',text:'毕竟，我没什么选择，是吗？'});",
         "playground.drawCharacter({name:'char_002_amiya_1', name2:'char_012_misa_1', focus:1});playground.drawDialog({name:'阿米娅',text:'也不是这么说......'});",
-        "playground.drawDialog({name:'阿米娅',text:'至少，谢谢你......米莎小姐！'});"
+        "playground.drawDialog({name:'阿米娅',text:'至少，谢谢你......米莎小姐！'});",
+        "delay(1);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

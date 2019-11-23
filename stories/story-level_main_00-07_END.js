@@ -61,6 +61,7 @@ var story = [
         "playground.drawDialog({name:'？？？',text:'这里已经是我的处理范围咯，弑君者。'});",
         "playground.drawCharacter({name:'char_1502_crowns'});playground.drawDialog({name:'弑君者',text:'......'});",
         "playground.drawDialog({name:'弑君者',text:'你来做什么？'});",
-        "playground.drawCharacter({name:'char_1507_mephisto_6'});playground.drawDialog({name:'？？？',text:'该把他们，交给我了吧？'});"
+        "playground.drawCharacter({name:'char_1507_mephisto_6'});playground.drawDialog({name:'？？？',text:'该把他们，交给我了吧？'});",
+        "delay(0.3);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

@@ -71,6 +71,7 @@ var story = [
         "playground.drawDialog({name:'W',text:'虽然我和你们无冤无仇——'});",
         "playground.drawDialog({name:'W',text:'但我手上有一个很有意思的剧本哦。'});",
         "playground.drawDialog({name:'W',text:'为了让事情变得好玩起来，有必要让你们参与其中呢。'});",
-        "playground.drawDialog({name:'W',text:'就让我们开始吧。'});"
+        "playground.drawDialog({name:'W',text:'就让我们开始吧。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

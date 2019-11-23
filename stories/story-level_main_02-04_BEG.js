@@ -75,6 +75,7 @@ var story = [
         "playground.drawCharacter({name:'char_002_amiya_1'});playground.drawDialog({name:'阿米娅',text:'......唔。'});",
         "playground.drawDialog({name:'阿米娅',text:'博士，请牢牢跟在我身边。'});",
         "playground.drawDialog({name:'阿米娅',text:'接下来也请你继续指挥小队作战，我会传达你的命令。'});",
-        "playground.drawDialog({name:'阿米娅',text:'......我们就走这最安全的路线试试看。'});"
+        "playground.drawDialog({name:'阿米娅',text:'......我们就走这最安全的路线试试看。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

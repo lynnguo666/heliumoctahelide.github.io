@@ -163,6 +163,7 @@ var story = [
         "predicate = ['1', '2', '3'];",
         "playground.clearDialog();blocker.blocker({a:1, r:0,g:0, b:0, fadetime:3, block:true});background.showImage({});playground.drawCharacter({fadetime:0});playground.drawImage({image:'ac3_kv',x:0, y:0, xscale:1, yscale:1, fadetime:0, screenadapt:'coverall'});blocker.blocker({a:0, fadetime:3, block:false});playground.drawDialog({name:'黑',text:'嗯。'});",
         "playground.drawDialog({name:'黑',text:'小姐请等等，我们这就来。'});",
-        "playground.drawDialog({name:'黑',text:'走吧，博士。'});"
+        "playground.drawDialog({name:'黑',text:'走吧，博士。'});",
+        "playground.drawImage({fadetime:2});delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

@@ -84,6 +84,7 @@ var story = [
         "playground.drawDialog({name:'碎骨',text:'原谅你们这种......'});",
         "playground.drawDialog({name:'碎骨',text:'呃......'});",
         "delay(1);playground.clearDialog();playground.drawImage({fadetime:2, block:true});delay(2);playground.drawCharacter({name:'char_012_misa_2'});playground.drawDialog({name:'米莎',text:'............'});",
-        "delay(0.6);playground.drawDialog({name:'米莎',text:'不...........不要.............'});"
+        "delay(0.6);playground.drawDialog({name:'米莎',text:'不...........不要.............'});",
+        "delay(1);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

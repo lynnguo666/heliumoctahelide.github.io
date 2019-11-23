@@ -53,6 +53,7 @@ var story = [
         "playground.drawDialog({name:'整合运动成员',text:'联络——'});",
         "playground.drawCharacter({name:'char_010_chen_2'});playground.drawDialog({name:'陈',text:'狙击手！射击那个背着无线电台的家伙！别让他发讯！'});",
         "playground.drawCharacter({name:'char_136_hsguma'});playground.drawDialog({name:'星熊',text:'明明该固守据点，第一反应居然是跑？肯定有鬼！'});",
-        "playground.drawCharacter({name:'char_010_chen_2'});playground.drawDialog({name:'陈',text:'想跑就跑，跑得了吗！'});"
+        "playground.drawCharacter({name:'char_010_chen_2'});playground.drawDialog({name:'陈',text:'想跑就跑，跑得了吗！'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

@@ -141,6 +141,7 @@ var story = [
         "playground.drawDialog({name:'魏彦吾',text:'科西切公爵。'});",
         "playground.drawCharacter({name:'char_2006_weiywfmzuki_1',name2:'char_2005_weiyw_1',focus:1});playground.drawDialog({name:'文月',text:'哎，可怜的小塔，你能说小塔身上没有他的影子吗？'});",
         "playground.drawCharacter({name:'char_2006_weiywfmzuki_1',name2:'char_2005_weiyw_1',focus:2});playground.drawDialog({name:'魏彦吾',text:'但他已经死了。'});",
-        "playground.drawDialog({name:'魏彦吾',text:'被塔露拉亲手所杀。'});"
+        "playground.drawDialog({name:'魏彦吾',text:'被塔露拉亲手所杀。'});",
+        "playground.clearDialog();blocker.blocker({a:1, r:0,g:0, b:0, fadetime:3, block:true});background.showImage({});playground.drawCharacter({fadetime:0});playground.drawImage({image:'avg_ep05',x:0, y:0, xscale:1, yscale:1, fadetime:0, screenadapt:'coverall'});blocker.blocker({a:0, fadetime:3, block:false});delay(5);playground.drawImage({fadetime:2});playground.clearDialog();blocker.blocker({fadetime:2,block:true});playground.drawImage({});"
     ]
 ];

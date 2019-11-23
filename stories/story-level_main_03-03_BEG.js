@@ -66,6 +66,7 @@ var story = [
         "playground.drawCharacter({widgetid:'1', fadetime:0.5, block:true});playground.drawCharacter({name:'char_002_amiya_7'});playground.drawDialog({name:'阿米娅',text:'全体干员注意，敌人的狙击手可能利用了地形来隐蔽自己。'});",
         "playground.drawDialog({name:'阿米娅',text:'一定要注意自己的位置，优先解决狙击手。'});",
         "playground.drawDialog({name:'阿米娅',text:'接下来......大家，准备突袭。'});",
-        "playground.drawDialog({name:'阿米娅',text:'......小心目标，不要太过火了。'});"
+        "playground.drawDialog({name:'阿米娅',text:'......小心目标，不要太过火了。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

@@ -156,6 +156,7 @@ var story = [
         "playground.drawCharacter({name:'char_102_texas_1',name2:'char_101_sora_4',focus:2});playground.drawDialog({name:'空',text:'别胡闹了，哪有用葡萄酒消毒的！这里有医用酒精......为什么有个吸管？不、不管了，德克萨斯，我来帮你消毒......'});",
         "playground.drawCharacter({name:'char_105_emper'});playground.drawDialog({name:'大帝',text:'......我改主意了。'});",
         "playground.drawDialog({name:'大帝',text:'既然他们执意要在安魂节这一天找麻烦——'});",
-        "playground.drawDialog({name:'大帝',text:'那就只好让他们此世安息了。'});"
+        "playground.drawDialog({name:'大帝',text:'那就只好让他们此世安息了。'});",
+        "playground.clearDialog();playground.drawCharacter({});delay(0.5);blocker.blocker({fadetime:2,block:true});"
     ]
 ];

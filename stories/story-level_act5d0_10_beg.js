@@ -180,6 +180,7 @@ var story = [
         "playground.drawCharacter({name:'char_325_bison_4'});playground.drawDialog({name:'拜松',text:'......你说了算？'});",
         "playground.clearDialog();playground.drawCharacter({});voice.playSound({key:'p_imp_blunt_h'});voice.playSound({key:'d_sp_ballista'});blocker.blocker({a:1, r:0.95, g:0.95, b:0.95, fadetime:0.2, block:true});blocker.blocker({a:0, r:0, g:0, b:0, fadetime:0.25, block:true});background.cameraShake({duration:1, xstrength:10, ystrength:12, vibrato:30, randomness:90, fadeout:true, block:true});playground.drawCharacter({});playground.drawDialog({name:'看似普通的居民',text:'唔——！你还是有点本事的嘛！'});",
         "playground.drawCharacter({name:'char_213_mostma_2'});playground.drawDialog({name:'莫斯提马',text:'放手去做就对了！'});",
-        "playground.drawCharacter({name:'char_213_mostma_2',name2:'char_325_bison_4',focus:2});playground.drawDialog({name:'拜松',text:'——明白！'});"
+        "playground.drawCharacter({name:'char_213_mostma_2',name2:'char_325_bison_4',focus:2});playground.drawDialog({name:'拜松',text:'——明白！'});",
+        "voice.playSound({key:'d_gen_rungeneral', volume:0.9});playground.drawCharacter({fadetiem:1});delay(0.5);playground.clearDialog();blocker.blocker({fadetime:1,block:true});"
     ]
 ];

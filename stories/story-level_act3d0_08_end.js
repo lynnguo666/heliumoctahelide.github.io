@@ -50,6 +50,7 @@ var story = [
         "playground.drawCharacter({name:'char_166_skfire_2',name2:'char_145_prove_1',focus:2});playground.drawDialog({name:'普罗旺斯',text:'啊，我这就来。'});",
         "playground.drawDialog({name:'普罗旺斯',text:'......天火。'});",
         "playground.drawCharacter({name:'char_166_skfire_2',name2:'char_145_prove_1',focus:1});playground.drawDialog({name:'天火',text:'我知道。'});",
-        "playground.drawDialog({name:'天火',text:'但我们应该尊重这座城市的选择，剩下的不该由我们插手，不是吗？'});"
+        "playground.drawDialog({name:'天火',text:'但我们应该尊重这座城市的选择，剩下的不该由我们插手，不是吗？'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({fadetime:3,block:true});playground.drawImage({});"
     ]
 ];

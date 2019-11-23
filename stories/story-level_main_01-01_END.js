@@ -76,6 +76,7 @@ var story = [
         "playground.drawDialog({name:'阿米娅',text:'但只要在罗德岛，大家一定能解开误会。'});",
         "playground.drawDialog({name:'阿米娅',text:'阿撒兹勒......罗德岛，又何尝不是一个阿撒兹勒呢？'});",
         "playground.drawCharacter({name:'char_013_riop'});playground.drawDialog({name:'近卫干员',text:'......阿米娅......'});",
-        "playground.drawCharacter({name:'char_002_amiya_1'});playground.drawDialog({name:'阿米娅',text:'我们走吧，博士。'});"
+        "playground.drawCharacter({name:'char_002_amiya_1'});playground.drawDialog({name:'阿米娅',text:'我们走吧，博士。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

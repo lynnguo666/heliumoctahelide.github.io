@@ -97,6 +97,7 @@ var story = [
         "playground.drawDialog({name:'格拉尼',text:'这些家伙可不是一般的——'});",
         "playground.drawCharacter({name:'avg_npc_010'});playground.drawDialog({name:'大鲍勃',text:'别多说，开战！'});",
         "playground.drawCharacter({name:'char_1002_nsabr_2',name2:'char_1002_nsabr_1'});playground.drawDialog({name:'整合运动',text:'......'});",
-        "playground.drawDialog({name:'整合运动',text:'快，快把他们全都抓起来！'});"
+        "playground.drawDialog({name:'整合运动',text:'快，快把他们全都抓起来！'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

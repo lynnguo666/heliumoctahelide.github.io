@@ -35,6 +35,7 @@ var story = [
         "playground.drawDialog({name:'赫拉格',text:'（......不过以博士的能力，加之汐斯塔市内还有其他人在，应当问题不大。）'});",
         "playground.drawCharacter({name:'avg_npc_020'});playground.drawDialog({name:'保镖',text:'他往我们这边冲了，他疯了吧！'});",
         "playground.drawDialog({name:'保镖',text:'快，快拦住他！！！'});",
-        "playground.drawCharacter({name:'char_188_helage_1'});playground.drawDialog({name:'赫拉格',text:'太慢了！'});"
+        "playground.drawCharacter({name:'char_188_helage_1'});playground.drawDialog({name:'赫拉格',text:'太慢了！'});",
+        "playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

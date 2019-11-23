@@ -72,6 +72,7 @@ var story = [
         "playground.drawCharacter({name:'char_014_riope' });playground.drawDialog({name:'Ace',text:'还没有。'});",
         "playground.drawCharacter({name:'char_014_riope' ,name2:'char_130_doberm_ex',focus:2});playground.drawDialog({name:'杜宾',text:'但是......'});",
         "playground.drawCharacter({name:'char_014_riope' ,name2:'char_130_doberm_ex',focus:1});playground.drawDialog({name:'Ace',text:'我们避不开。这是这条路径中的最短路线，如果我们迂回，就会损失时间。'});",
-        "playground.drawCharacter({name:'char_014_riope' ,name2:'char_130_doberm_ex',focus:2});playground.drawDialog({name:'杜宾',text:'那没什么好说的了。无论他们是棋子还是暴徒，只要从战场上赶出去就好！'});"
+        "playground.drawCharacter({name:'char_014_riope' ,name2:'char_130_doberm_ex',focus:2});playground.drawDialog({name:'杜宾',text:'那没什么好说的了。无论他们是棋子还是暴徒，只要从战场上赶出去就好！'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

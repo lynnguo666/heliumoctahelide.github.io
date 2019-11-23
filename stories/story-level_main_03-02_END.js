@@ -134,6 +134,7 @@ var story = [
         "playground.drawCharacter({name:'char_102_texas_1', name2:'char_103_angel_1', focus:1});playground.drawDialog({name:'德克萨斯',text:'准备好了吗，能天使？'});",
         "playground.drawCharacter({name:'char_102_texas_1', name2:'char_103_angel_1', focus:2});playground.drawDialog({name:'能天使',text:'要做什么？该怎么做？'});",
         "playground.drawCharacter({name:'char_102_texas_1', name2:'char_103_angel_1', focus:1});playground.drawDialog({name:'德克萨斯',text:'先做点热身运动。'});",
-        "playground.drawDialog({name:'德克萨斯',text:'就从他们的岗哨开始。'});"
+        "playground.drawDialog({name:'德克萨斯',text:'就从他们的岗哨开始。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

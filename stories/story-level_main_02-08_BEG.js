@@ -69,6 +69,7 @@ var story = [
         "playground.drawDialog({name:'芙兰卡',text:'完全是让敌人有机可乘嘛！'});",
         "playground.drawCharacter({name:'char_002_amiya_1'});playground.drawDialog({name:'阿米娅',text:'又是整合运动......！'});",
         "playground.drawDialog({name:'阿米娅',text:'——追到这里来了吗！'});",
-        "playground.drawCharacter({name:'char_002_amiya_1'});playground.drawDialog({name:'阿米娅',text:'他们究竟要米莎......做什么？'});"
+        "playground.drawCharacter({name:'char_002_amiya_1'});playground.drawDialog({name:'阿米娅',text:'他们究竟要米莎......做什么？'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

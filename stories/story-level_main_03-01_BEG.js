@@ -91,6 +91,7 @@ var story = [
         "playground.drawDialog({name:'陈',text:'愚蠢的感染者......'});",
         "playground.drawCharacter({name:'char_010_chen_4'});playground.drawDialog({name:'陈',text:'————'});",
         "playground.drawDialog({name:'陈',text:'龙门难道是个允许你们随便撒野的地方吗？！'});",
-        "playground.drawCharacter({name:'char_010_chen_2'});playground.drawDialog({name:'陈',text:'近卫局，进攻！'});"
+        "playground.drawCharacter({name:'char_010_chen_2'});playground.drawDialog({name:'陈',text:'近卫局，进攻！'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

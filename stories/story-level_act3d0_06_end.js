@@ -73,6 +73,7 @@ var story = [
         "predicate = ['1', '2', '3'];",
         "playground.drawCharacter({name:'char_188_helage_1'});playground.drawDialog({name:'赫拉格',text:'博士，请小心，他也许还会做些垂死挣扎。'});",
         "playground.drawCharacter({name:'avg_npc_023_2'});playground.drawDialog({name:'克洛宁',text:'你们......你们......'});",
-        "playground.drawCharacter({name:'char_348_ceylon_3'});playground.drawDialog({name:'锡兰',text:'你的计划败露了，克洛宁！'});"
+        "playground.drawCharacter({name:'char_348_ceylon_3'});playground.drawDialog({name:'锡兰',text:'你的计划败露了，克洛宁！'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({fadetime:3,block:true});playground.drawImage({});"
     ]
 ];

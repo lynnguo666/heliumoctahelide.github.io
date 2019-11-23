@@ -82,6 +82,7 @@ var story = [
         "playground.drawCharacter({name:'char_empty',name2:'char_010_chen_1',focus:1});playground.drawDialog({name:'诗怀雅',text:'随你。记得看时间。'});",
         "playground.clearDialog();playground.drawCharacter({});voice.playSound({key:'d_gen_transmissionget', volume:0.4});playground.drawCharacter({widgetid:'1',fadetime:0.5,block:true});playground.drawCharacter({name:'char_010_chen_1'});playground.drawDialog({name:'陈',text:'星熊，走吧。'});",
         "playground.drawCharacter({name:'char_136_hsguma',name2:'char_010_chen_1',focus:1});playground.drawDialog({name:'星熊',text:'去哪？'});",
-        "playground.drawCharacter({name:'char_136_hsguma',name2:'char_010_chen_1',focus:2});playground.drawDialog({name:'陈',text:'木禾仓库。'});"
+        "playground.drawCharacter({name:'char_136_hsguma',name2:'char_010_chen_1',focus:2});playground.drawDialog({name:'陈',text:'木禾仓库。'});",
+        "delay(0.3);playground.clearDialog();blocker.blocker({fadetime:2,block:true});playground.drawImage({});"
     ]
 ];

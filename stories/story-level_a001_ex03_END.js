@@ -37,6 +37,7 @@ var story = [
         "playground.drawDialog({name:'临光',text:'我怎么又写这么沉重的东西，还是给她写封简单的吧。'});",
         "playground.drawDialog({name:'临光',text:'该说什么来着......'});",
         "playground.drawDialog({name:'临光',text:'糟了，必须得提醒格拉尼。'});",
-        "playground.drawDialog({name:'临光',text:'格拉尼，一定要收到这段话......！'});"
+        "playground.drawDialog({name:'临光',text:'格拉尼，一定要收到这段话......！'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({fadetime:3,block:true});playground.drawImage({});"
     ]
 ];

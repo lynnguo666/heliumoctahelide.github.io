@@ -53,6 +53,7 @@ var story = [
         "playground.drawDialog({name:'阿米娅',text:'......没关系的。'});",
         "playground.drawDialog({name:'阿米娅',text:'我知道......罗德岛又要孤军奋战了。'});",
         "playground.drawCharacter({name:'char_002_amiya_7'});playground.drawDialog({name:'阿米娅',text:'但现在可不是垂头丧气的时候。'});",
-        "playground.drawDialog({name:'阿米娅',text:'毕竟，杰西卡她们还在等着我们。'});"
+        "playground.drawDialog({name:'阿米娅',text:'毕竟，杰西卡她们还在等着我们。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

@@ -104,6 +104,7 @@ var story = [
         "playground.drawCharacter({name:'char_002_amiya_7',name2:'char_013_riop',focus:1});playground.drawDialog({name:'阿米娅',text:'保护医生，快带她去安全的地方！'});",
         "playground.drawCharacter({name:'char_002_amiya_7',name2:'char_013_riop',focus:2});playground.drawDialog({name:'近卫干员',text:'明白！'});",
         "playground.drawCharacter({name:'char_014_riope'});playground.drawDialog({name:'Ace',text:'干员们，各自寻找安全位置！'});",
-        "playground.drawCharacter({name:'char_002_amiya_7'});playground.drawDialog({name:'阿米娅',text:'各小队！准备好......应对天灾！'});"
+        "playground.drawCharacter({name:'char_002_amiya_7'});playground.drawDialog({name:'阿米娅',text:'各小队！准备好......应对天灾！'});",
+        "voice.playSound({key:'d_gen_thunders_amb', volume:0.3});delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

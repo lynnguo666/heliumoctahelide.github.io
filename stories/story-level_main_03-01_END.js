@@ -61,6 +61,7 @@ var story = [
         "playground.drawDialog({name:'芙兰卡',text:'光是我们可不成。'});",
         "playground.drawCharacter({name:'char_002_amiya_1', name2:'char_106_franka_1', focus:1});playground.drawDialog({name:'阿米娅',text:'专业的事，就交给专家去做吧。'});",
         "playground.drawDialog({name:'阿米娅',text:'芙兰卡，帮我联络企鹅物流。'});",
-        "playground.drawDialog({name:'阿米娅',text:'又要麻烦能天使和德克萨斯他们两个了。'});"
+        "playground.drawDialog({name:'阿米娅',text:'又要麻烦能天使和德克萨斯他们两个了。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

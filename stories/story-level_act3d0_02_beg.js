@@ -110,6 +110,7 @@ var story = [
         "playground.drawDialog({name:'克洛宁',text:'赶紧的，把这些想要扰乱黑曜石节的人抓起来。'});",
         "playground.drawCharacter({name:'avg_npc_023_3'});playground.drawDialog({name:'克洛宁',text:'你们去把大小姐也控制住！别弄伤她，让她冷静冷静！'});",
         "playground.Decision({options:[['锡兰，小心！', '走！离开这里！']]});",
-        "predicate = ['1', '2'];"
+        "predicate = ['1', '2'];",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

@@ -55,6 +55,7 @@ var story = [
         "playground.Decision({options:[['伊芙利特，下手别太重！！', '把他们衣服烧光差不多了。']]});",
         "voice.playMusic({intro:'m_dia_farce_intro', key:'m_dia_farce_loop', volume:0.8, crossfade:1.5});predicate = ['1', '2'];",
         "playground.drawCharacter({name:'char_134_ifrit_summer_1'});playground.drawDialog({name:'伊芙利特',text:'啧——'});",
-        "playground.drawDialog({name:'伊芙利特',text:'那就三成！'});"
+        "playground.drawDialog({name:'伊芙利特',text:'那就三成！'});",
+        "delay(0.3);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});delay(0.3);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

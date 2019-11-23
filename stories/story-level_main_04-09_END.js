@@ -85,6 +85,7 @@ var story = [
         "playground.drawCharacter({name:'char_193_frostl_1'});background.cameraShake({duration:5, xstrength:10, ystrength:8, vibrato:20, randomness:90, fadeout:true, block:false});playground.drawDialog({name:'霜叶',text:'走！'});",
         "playground.clearDialog();blocker.blocker({a:1, initr:2, r:1, g:1, b:1, fadetime:2, block:true});voice.playSound({key:'d_gen_surfacefrozen', volume:0.8});background.showImage({fadetime:0});playground.drawCharacter({fadetime:0});voice.playSound({key:'d_gen_surfacefrozen', volume:0.8});background.cameraShake({duration:-1, xstrength:5, ystrength:5, vibrato:15, randomness:90, fadeout:true, block:false});playground.drawImage({image:'avg_40_2', xscale:1.2, yscale:1.2, fadetime:0});playground.imageTween({image:'avg_40_2', xscaleto:1, yscaleto:1, duration:10});blocker.blocker({a:0, r:1, g:1, b:1, fadetime:1, block:true});playground.drawDialog({name:'霜星',text:'————'});",
         "playground.drawDialog({name:'霜星',text:'放心吧，罗德岛。'});",
-        "playground.drawDialog({name:'霜星',text:'我会让你们死的毫无痛苦。'});"
+        "playground.drawDialog({name:'霜星',text:'我会让你们死的毫无痛苦。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

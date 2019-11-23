@@ -248,6 +248,7 @@ var story = [
         "predicate = ['1'];",
         "voice.playSound({key:'d_gen_transmissionget',volume:0.6});playground.drawDialog({name:'普罗旺斯',text:'喂，博士，听得到吗？'});",
         "playground.drawDialog({name:'普罗旺斯',text:'周围有其他人在吗，我有很重要的事情要向你汇报！'});",
-        "blocker.blocker({a:1, r:0,g:0, b:0, fadetime:0.6, block:true});playground.drawDialog({name:'普罗旺斯',text:'这件事，可能事关这座城市的存亡......'});"
+        "blocker.blocker({a:1, r:0,g:0, b:0, fadetime:0.6, block:true});playground.drawDialog({name:'普罗旺斯',text:'这件事，可能事关这座城市的存亡......'});",
+        "delay(0.5);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

@@ -98,6 +98,7 @@ var story = [
         "playground.drawCharacter({name:'char_105_emper'});playground.drawDialog({name:'大帝',text:'......你们是成立了一个贼喊捉贼协会吗？好吧，反正也和我想的差不太多。'});",
         "playground.drawDialog({name:'大帝',text:'德克萨斯，动手。'});",
         "playground.drawCharacter({name:'char_102_texas_1'});playground.drawDialog({name:'德克萨斯',text:'明白——啊。'});",
-        "playground.drawCharacter({name:'char_101_sora_1'});playground.drawDialog({name:'空',text:'——明白了！我上了！'});"
+        "playground.drawCharacter({name:'char_101_sora_1'});playground.drawDialog({name:'空',text:'——明白了！我上了！'});",
+        "delay(0.5);playground.clearDialog();blocker.blocker({fadetime:1,block:true});playground.drawImage({});"
     ]
 ];

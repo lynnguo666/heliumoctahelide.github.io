@@ -104,6 +104,7 @@ var story = [
         "playground.drawCharacter({name:'char_010_chen_1',name2:'avg_npc_012',focus:2});playground.drawDialog({name:'罗德岛干员',text:'啊。'});",
         "playground.drawCharacter({name:'char_010_chen_1',name2:'avg_npc_012',focus:1});playground.drawDialog({name:'陈',text:'整合运动封锁了接泊区域的主干道。我需要打开一个缺口。近卫局的时间不多，请各位争分夺秒。'});",
         "playground.drawCharacter({name:'char_010_chen_1',name2:'avg_npc_012',focus:2});playground.drawDialog({name:'罗德岛干员',text:'这是协议内容，长官，我们义不容辞。'});",
-        "playground.drawCharacter({name:'char_010_chen_1',name2:'avg_npc_012',focus:1});playground.drawDialog({name:'陈',text:'那就好。跟我来！'});"
+        "playground.drawCharacter({name:'char_010_chen_1',name2:'avg_npc_012',focus:1});playground.drawDialog({name:'陈',text:'那就好。跟我来！'});",
+        "delay(0.3);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

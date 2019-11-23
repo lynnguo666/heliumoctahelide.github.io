@@ -95,6 +95,7 @@ var story = [
         "voice.stopMusic({fadetime:2});playground.drawDialog({name:'格拉尼',text:'你已经想明白了。'});",
         "delay(0.5);playground.drawCharacter({});playground.clearDialog();voice.playSound({key:'d_gen_soldiersrun',volume:0.5});playground.drawCharacter({name:'char_1002_nsabr_1',name2:'char_1002_nsabr_2',fadetime:1,block:true});delay(2);playground.drawCharacter({});voice.playSound({key:'d_gen_walk_n'});delay(1);playground.drawCharacter({name:'avg_npc_010_2',fadetime:2});delay(3);playground.drawDialog({name:'？？？',text:'......'});",
         "playground.drawDialog({name:'？？？',text:'我哪里演得不好吗？'});",
-        "playground.drawCharacter({name:'char_220_grani_5'});playground.drawDialog({name:'格拉尼',text:'你果然是————'});"
+        "playground.drawCharacter({name:'char_220_grani_5'});playground.drawDialog({name:'格拉尼',text:'你果然是————'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

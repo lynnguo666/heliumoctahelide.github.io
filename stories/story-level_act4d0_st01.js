@@ -380,6 +380,7 @@ var story = [
         "playground.drawDialog({name:'爱国者',text:'选择。这是你的自由。'});",
         "playground.clearDialog();playground.drawCharacter({});blocker.blocker({a:1, r:0, g:0, b:0, fadetime:2, block:true});background.showImage({});blocker.blocker({a:0, fadetime:1, block:true});playground.drawDialog({name:'近卫干员',text:'......'});",
         "playground.drawDialog({name:'近卫干员',text:'头儿，Scout先生，还有弟兄们......'});",
-        "playground.drawDialog({name:'近卫干员',text:'我会的。'});"
+        "playground.drawDialog({name:'近卫干员',text:'我会的。'});",
+        "delay(0.5);playground.clearDialog();blocker.blocker({fadetime:2,block:true});playground.drawImage({});"
     ]
 ];

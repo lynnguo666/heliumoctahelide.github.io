@@ -83,6 +83,7 @@ var story = [
         "playground.clearDialog();blocker.blocker({a:1, r:0,g:0, b:0, fadetime:1.5, block:true});background.showImage({screenadapt:'coverall', image:'bg_wild_m', width:1, height:1, fadetime:0});blocker.blocker({a:0, r:0,g:0, b:0, fadetime:2, block:true});delay(0.5);blocker.blocker({a:1, r:0,g:0, b:0, fadetime:2, ease:'inoutcubic', block:true});playground.drawCharacter({fadetime:0});blocker.blocker({a:1, r:0,g:0, b:0, fadetime:1, block:true});playground.drawCharacter({name:'char_1504_cqbw'});playground.drawDialog({name:'W',text:'啧，看来人的命运总是交织在一起。'});",
         "blocker.blocker({a:0, r:0,g:0, b:0, fadetime:1, block:true});playground.drawDialog({name:'W',text:'互相牵绊，互相阻挠。再好的棋手都会被一些意外将了军。'});",
         "playground.drawDialog({name:'W',text:'算了，也不差。'});",
-        "blocker.blocker({a:1, r:0,g:0, b:0, fadetime:0.6, block:true});playground.drawCharacter({fadetime:0});playground.drawImage({image:'avg_ep03',x:0, y:0, xscale:1, yscale:1, fadetime:0, screenadapt:'coverall'});blocker.blocker({a:0, fadetime:0.6, block:false});playground.drawDialog({name:'W',text:'至少，之后的事情......还算值得期待，呵呵。'});"
+        "blocker.blocker({a:1, r:0,g:0, b:0, fadetime:0.6, block:true});playground.drawCharacter({fadetime:0});playground.drawImage({image:'avg_ep03',x:0, y:0, xscale:1, yscale:1, fadetime:0, screenadapt:'coverall'});blocker.blocker({a:0, fadetime:0.6, block:false});playground.drawDialog({name:'W',text:'至少，之后的事情......还算值得期待，呵呵。'});",
+        "playground.clearDialog();delay(1.5);blocker.blocker({a:1, r:0,g:0, b:0, fadetime:0.6, block:true});playground.drawImage({fadetime:0});playground.drawCharacter({fadetime:1.5});playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

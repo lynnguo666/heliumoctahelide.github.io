@@ -105,6 +105,7 @@ var story = [
         "playground.drawCharacter({name:'char_002_amiya_3'});playground.drawDialog({name:'阿米娅',text:'没事的，博士。'});",
         "playground.drawDialog({name:'阿米娅',text:'隶属罗德岛的干员，红，正在龙门执行其他任务。'});",
         "playground.drawDialog({name:'阿米娅',text:'她很厉害的！'});",
-        "playground.drawDialog({name:'阿米娅',text:'有她在，你可以放心。'});"
+        "playground.drawDialog({name:'阿米娅',text:'有她在，你可以放心。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

@@ -68,6 +68,7 @@ var story = [
         "playground.drawCharacter({name:'char_014_riope' });playground.drawDialog({name:'Ace',text:'阿米娅，拜托你。'});",
         "playground.drawCharacter({name:'char_002_amiya_7'});playground.drawDialog({name:'阿米娅',text:'知道了！我会辅佐博士，通过法术支援你们的！'});",
         "playground.drawCharacter({name:'char_014_riope' });playground.drawDialog({name:'Ace',text:'终于......'});",
-        "playground.drawDialog({name:'Ace',text:`Dr.${nickname}，请你，指挥罗德岛。`});"
+        "playground.drawDialog({name:'Ace',text:`Dr.${nickname}，请你，指挥罗德岛。`});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

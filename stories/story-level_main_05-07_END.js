@@ -109,6 +109,7 @@ var story = [
         "playground.drawDialog({name:'陈',text:'不要让龙门为我们担忧。记住了吗！服从，尽职，坚定！'});",
         "playground.drawDialog({name:'陈',text:'是时候了，就让我们去摧毁近卫局里的所有整合运动！'});",
         "playground.clearDialog();blocker.blocker({a:1, r:0, g:0, b:0, fadetime:0.6, block:true});playground.drawImage({});blocker.blocker({a:0, fadetime:0.6, block:true});playground.drawCharacter({name:'char_015_lmg'});playground.drawDialog({name:'近卫局成员',text:'Yes sir！'});",
-        "playground.drawCharacter({name:'char_010_chen_2'});playground.drawDialog({name:'陈',text:'出发。'});"
+        "playground.drawCharacter({name:'char_010_chen_2'});playground.drawDialog({name:'陈',text:'出发。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({fadetime:1,block:true});playground.drawImage({});"
     ]
 ];

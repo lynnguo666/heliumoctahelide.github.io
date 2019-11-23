@@ -157,6 +157,7 @@ var story = [
         "playground.drawDialog({name:'魏彦吾',text:'该向谁出剑，就由你自己选择。'});",
         "playground.drawCharacter({name:'char_010_chen_5',fadetime:1,block:true});playground.drawDialog({name:'陈',text:'（......竟然还在蛰伏。）'});",
         "playground.drawDialog({name:'陈',text:'（即使是这种时候也依然不肯出鞘吗。）'});",
-        "playground.drawCharacter({name:'char_010_chen_2'});playground.drawDialog({name:'陈',text:'（但现在，赤霄，你必须饮血！）'});"
+        "playground.drawCharacter({name:'char_010_chen_2'});playground.drawDialog({name:'陈',text:'（但现在，赤霄，你必须饮血！）'});",
+        "playground.clearDialog();blocker.blocker({a:1, r:0,g:0, b:0, fadetime:2, block:true});playground.drawImage({fadetime:0});delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

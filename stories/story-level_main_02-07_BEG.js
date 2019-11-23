@@ -72,6 +72,7 @@ var story = [
         "playground.drawCharacter({name:'char_102_texas_1'});playground.drawDialog({name:'德克萨斯',text:'难度不小。'});",
         "playground.drawDialog({name:'德克萨斯',text:'——但，没问题。'});",
         "playground.drawCharacter({name:'char_103_angel_1'});playground.drawDialog({name:'能天使',text:'那就，上吧！'});",
-        "playground.drawDialog({name:'能天使',text:`Dr.${nickname}，要好好指挥我和德克萨斯哦！`});"
+        "playground.drawDialog({name:'能天使',text:`Dr.${nickname}，要好好指挥我和德克萨斯哦！`});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

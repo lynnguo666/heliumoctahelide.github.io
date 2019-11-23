@@ -74,6 +74,7 @@ var story = [
         "playground.drawDialog({name:'整合运动成员',text:'咕咳——唔啊啊啊啊！'});",
         "background.cameraShake({duration:1, xstrength:8, ystrength:6, vibrato:30, randomness:90, fadeout:true, block:false});blocker.blocker({a:0.7, r:0.95, g:0.95, b:0.95, fadetime:0.02, block:true});voice.playSound({key:'p_imp_blunt_h'});voice.playSound({key:'d_sp_ballista'});blocker.blocker({a:0, r:0.95, g:0.95, b:0.95, fadetime:0.25, block:true});delay(1);playground.drawCharacter({name:'char_148_nearl_3'});playground.drawDialog({name:'临光',text:'想要对抗卡西米尔骑士——再去训练个几十年再说！'});",
         "playground.drawCharacter({name:'char_148_nearl_3',name2:'char_130_doberm_ex',focus:1});playground.drawDialog({name:'临光',text:'杜宾！跟上我！'});",
-        "playground.drawCharacter({name:'char_130_doberm_ex'});playground.drawDialog({name:'杜宾',text:'了解！'});"
+        "playground.drawCharacter({name:'char_130_doberm_ex'});playground.drawDialog({name:'杜宾',text:'了解！'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

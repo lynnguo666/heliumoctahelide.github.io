@@ -74,6 +74,7 @@ var story = [
         "playground.drawCharacter({name:'char_130_doberm_ex', name2:'char_148_nearl_1', focus:2});playground.drawDialog({name:'临光',text:'信号弹的定位很有效。看来你们遇到的麻烦确实不小。'});",
         "playground.drawCharacter({name:'char_148_nearl_1'});playground.drawDialog({name:'临光',text:'——'});",
         "playground.drawDialog({name:'临光',text:`您就是${nickname}博士吧？`});",
-        "blocker.blocker({a:1, r:0, g:0, b:0, fadetime:0.5, block:true});playground.drawCharacter({name:'char_148_nearl_1'});playground.drawDialog({name:'临光',text:'耀骑士临光，前来迎接你们了。'});"
+        "blocker.blocker({a:1, r:0, g:0, b:0, fadetime:0.5, block:true});playground.drawCharacter({name:'char_148_nearl_1'});playground.drawDialog({name:'临光',text:'耀骑士临光，前来迎接你们了。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

@@ -403,7 +403,7 @@ for filename in os.listdir("C:\\Users\\Helium\\OneDrive\\dreamweaver\\heliumocta
             sc = ""
         else:
             print("未识别的行："+ line[:-1])
-
+    commands.append(sc)
 
     with open(f"stories\\story-{filename[:-4]}.js", 'w', encoding='utf8') as f:
         alltext = "var story = " + json.dumps([usedimg, usedaudio, commands], sort_keys=True, indent=4,  ensure_ascii=False)+';'

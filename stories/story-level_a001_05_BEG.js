@@ -63,6 +63,7 @@ var story = [
         "playground.drawCharacter({});playground.clearDialog();voice.playSound({key:'b_char_defboost'});blocker.blocker({a:0.7, r:0.95, g:0.95, b:0.95, fadetime:0.02, block:true});blocker.blocker({a:0, r:0.95, g:0.95, b:0.95, fadetime:0.25, block:true});background.cameraShake({duration:0.6, xstrength:5, ystrength:8, vibrato:30, randomness:90, block:true});playground.drawCharacter({name:'avg_npc_008'});playground.drawDialog({name:'赏金猎人',text:'咕哇——'});",
         "playground.drawCharacter({});playground.clearDialog();blocker.blocker({a:1, r:0,g:0, b:0, fadetime:1, block:true});blocker.blocker({a:0, fadetime:1, block:true});voice.playSound({key:'d_gen_walk_n'});playground.drawCharacter({name:'char_263_skadi_2',fadetime:1});delay(3);playground.drawCharacter({name:'avg_npc_008'});playground.drawDialog({name:'赏金猎人',text:'你、你——'});",
         "playground.drawCharacter({});voice.playSound({key:'e_skill_skulsrsword',volume:0.5,block:true});blocker.blocker({a:0.7, r:0.95, g:0.95, b:0.95, fadetime:0.02, block:true});blocker.blocker({a:0, r:0.95, g:0.95, b:0.95, fadetime:0.25, block:true});background.cameraShake({duration:0.6, xstrength:5, ystrength:8, vibrato:30, randomness:90, block:true});playground.clearDialog();delay(0.7);playground.drawCharacter({name:'char_263_skadi_2'});playground.drawDialog({name:'斯卡蒂',text:'你们，全都给我让开。'});",
-        "playground.drawDialog({name:'斯卡蒂',text:'我现在心情很差。'});"
+        "playground.drawDialog({name:'斯卡蒂',text:'我现在心情很差。'});",
+        "delay(0.3);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

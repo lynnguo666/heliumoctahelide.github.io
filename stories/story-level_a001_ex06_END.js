@@ -43,6 +43,7 @@ var story = [
         "playground.drawCharacter({name:'char_263_skadi_2'});playground.drawDialog({name:'斯卡蒂',text:'......告诉我。'});",
         "playground.drawCharacter({name:'char_263_skadi_2',name2:'char_003_kalts_1',focus:2});background.showImage({image:'bg_infirmary', fadetime:1});playground.drawDialog({name:'凯尔希',text:'可以。只要你听我的命令，我甚至会主动帮助你。前提是，你必须听从命令。'});",
         "playground.drawCharacter({name:'char_263_skadi_2',name2:'char_003_kalts_1',focus:1});playground.drawDialog({name:'斯卡蒂',text:'我只相信可信之人。'});",
-        "playground.drawCharacter({name:'char_003_kalts_1'});playground.drawDialog({name:'凯尔希',text:'我言而有信。'});"
+        "playground.drawCharacter({name:'char_003_kalts_1'});playground.drawDialog({name:'凯尔希',text:'我言而有信。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({fadetime:3,block:true});playground.drawImage({});"
     ]
 ];

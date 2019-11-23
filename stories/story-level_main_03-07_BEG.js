@@ -76,6 +76,7 @@ var story = [
         "playground.drawDialog({name:'星熊',text:'阿米娅，做好苦战的准备。'});",
         "playground.drawDialog({name:'星熊',text:`罗德岛的Dr.${nickname}，一定要多加侦察，注意保护你自己的队伍。`});",
         "playground.drawCharacter({name:'char_002_amiya_1'});playground.drawDialog({name:'阿米娅',text:'好的！'});",
-        "playground.drawDialog({name:'阿米娅',text:'大家......我们一起去把米莎救出来！'});"
+        "playground.drawDialog({name:'阿米娅',text:'大家......我们一起去把米莎救出来！'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

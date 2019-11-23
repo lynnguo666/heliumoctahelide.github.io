@@ -46,6 +46,7 @@ var story = [
         "playground.drawCharacter({name:'char_136_hsguma'});playground.drawDialog({name:'星熊',text:'这简单。'});",
         "playground.drawCharacter({name:'char_002_amiya_1'});playground.drawDialog({name:'阿米娅',text:'嗯，我们只要小心谨慎地行动，就能发现他们的踪迹，先发制人。'});",
         "playground.drawCharacter({name:'char_136_hsguma'});playground.drawDialog({name:'星熊',text:'好！'});",
-        "playground.drawDialog({name:'星熊',text:'就让我看看，罗德岛战斗起来是不是也一样内行！'});"
+        "playground.drawDialog({name:'星熊',text:'就让我看看，罗德岛战斗起来是不是也一样内行！'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

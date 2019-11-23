@@ -139,6 +139,7 @@ var story = [
         "playground.drawDialog({name:'米莎',text:'他们，也是感染者啊......'});",
         "playground.drawDialog({name:'米莎',text:'再见了......'});",
         "playground.drawDialog({name:'阿米娅',text:'米莎？米莎？！米莎！！'});",
-        "playground.drawDialog({name:'阿米娅',text:'......'});"
+        "playground.drawDialog({name:'阿米娅',text:'......'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

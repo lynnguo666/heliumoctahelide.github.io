@@ -27,6 +27,7 @@ var story = [
         "playground.drawCharacter({name:'char_340_shwaz_2',name2:'char_348_ceylon_8',focus:2});playground.drawDialog({name:'锡兰',text:'黑？你在说什么？'});",
         "playground.drawCharacter({name:'char_340_shwaz_2',name2:'char_348_ceylon_8',focus:1});playground.drawDialog({name:'黑',text:'快跟我回去找克洛宁，把这些人都交给他。'});",
         "playground.drawDialog({name:'黑',text:'我不想对小姐动手。'});",
-        "playground.drawCharacter({name:'char_340_shwaz_2',name2:'char_348_ceylon_8',focus:2});playground.drawDialog({name:'锡兰',text:'......黑？'});"
+        "playground.drawCharacter({name:'char_340_shwaz_2',name2:'char_348_ceylon_8',focus:2});playground.drawDialog({name:'锡兰',text:'......黑？'});",
+        "delay(0.3);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

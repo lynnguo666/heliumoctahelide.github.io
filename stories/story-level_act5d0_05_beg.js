@@ -74,6 +74,7 @@ var story = [
         "voice.playMusic({intro:'m_bat_chasing_intro', key:'m_bat_chasing_loop', volume:0.8, crossfade:1.5});playground.drawCharacter({name:'avg_npc_028',name2:'char_102_texas_1',focus:2});playground.drawDialog({name:'德克萨斯',text:'毕竟我们也是这么想的。'});",
         "playground.drawCharacter({name:'char_102_texas_4'});playground.drawDialog({name:'德克萨斯',text:'可颂和空维持阵型。'});",
         "playground.drawDialog({name:'德克萨斯',text:'能天使注意掩护。'});",
-        "playground.drawDialog({name:'德克萨斯',text:'抢回拜松。'});"
+        "playground.drawDialog({name:'德克萨斯',text:'抢回拜松。'});",
+        "playground.clearDialog();playground.drawCharacter({fadetiem:1});delay(0.5);blocker.blocker({fadetime:2,block:true});"
     ]
 ];

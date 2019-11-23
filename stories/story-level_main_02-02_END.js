@@ -116,6 +116,7 @@ var story = [
         "playground.drawCharacter({name:'char_003_kalts_1'});playground.drawDialog({name:'凯尔希',text:'......呵。'});",
         "playground.drawDialog({name:'凯尔希',text:'希望我们之前的牺牲......能有所回报。'});",
         "delay(0.6);playground.drawCharacter({name:'char_003_kalts_2'});playground.drawDialog({name:'凯尔希',text:`你好，Dr.${nickname}。`});",
-        "playground.drawDialog({name:'凯尔希',text:'欢迎回来。'});"
+        "playground.drawDialog({name:'凯尔希',text:'欢迎回来。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

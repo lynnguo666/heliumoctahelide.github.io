@@ -190,6 +190,7 @@ var story = [
         "voice.playMusic({intro:'m_dia_darkness02_intro', key:'m_dia_darkness02_loop', volume:1, crossfade:1, delay:0.5});delay(1);playground.drawDialog({name:'梅菲斯特',text:'还有什么吩咐吗，塔露拉。'});",
         "delay(1);playground.drawDialog({name:'塔露拉',text:'————'});",
         "delay(1);playground.drawDialog({name:'塔露拉',text:'是时候了————'});",
-        "playground.drawDialog({name:'塔露拉',text:'让这腐败的城市，化为灰烬。'});"
+        "playground.drawDialog({name:'塔露拉',text:'让这腐败的城市，化为灰烬。'});",
+        "playground.clearDialog();voice.stopMusic({fadetime:5});blocker.blocker({block:true});"
     ]
 ];

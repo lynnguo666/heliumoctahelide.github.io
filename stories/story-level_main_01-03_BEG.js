@@ -56,6 +56,7 @@ var story = [
         "playground.drawDialog({name:'杜宾',text:'至少在战场，我的生命，已经交给你了。'});",
         "playground.drawDialog({name:'杜宾',text:'闲谈到此为止，抓紧时间。'});",
         "playground.drawCharacter({name:'char_148_nearl_1', name2:'char_130_doberm_ex', focus:1});playground.drawDialog({name:'临光',text:'是的。'});",
-        "playground.drawDialog({name:'临光',text:'卡西米尔有句谚语：“喘息时，死亡就会追上你。”'});"
+        "playground.drawDialog({name:'临光',text:'卡西米尔有句谚语：“喘息时，死亡就会追上你。”'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

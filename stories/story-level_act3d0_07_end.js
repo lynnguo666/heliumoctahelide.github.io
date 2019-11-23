@@ -67,6 +67,7 @@ var story = [
         "background.cameraShake({duration:0.4, xstrength:12, ystrength:18, vibrato:30, randomness:30, fadeout:false});playground.drawDialog({name:'克洛宁',text:'呃——'});",
         "playground.drawCharacter({name:'char_188_helage_1'});playground.drawDialog({name:'赫拉格',text:'抱歉，顺手。'});",
         "playground.drawCharacter({name:'char_188_helage_1',name2:'avg_npc_024',focus:2});playground.drawDialog({name:'赫尔曼',text:'无妨，何况他说的没错，不能让市民们继续身处险境了。'});",
-        "playground.drawDialog({name:'赫尔曼',text:'希望你们能助我一臂之力。'});"
+        "playground.drawDialog({name:'赫尔曼',text:'希望你们能助我一臂之力。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({fadetime:3,block:true});playground.drawImage({});"
     ]
 ];

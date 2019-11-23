@@ -200,6 +200,7 @@ var story = [
         "playground.drawDialog({text:'但那依旧不是什么值得称赞的事情，相反，正因如此，才让人生显得荒谬之极。'});",
         "playground.drawDialog({text:'但她是我的遗产。'});",
         "playground.drawDialog({text:'是我的希望。'});",
-        "playground.drawDialog({text:'愿主保佑。'});"
+        "playground.drawDialog({text:'愿主保佑。'});",
+        "delay(0.5);playground.clearDialog();blocker.blocker({fadetime:2,block:true});playground.drawImage({});"
     ]
 ];

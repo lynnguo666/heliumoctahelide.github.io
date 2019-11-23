@@ -63,6 +63,7 @@ var story = [
         "playground.drawCharacter({name:'char_010_chen_4'});playground.drawDialog({name:'陈',text:'你无处可去了，整合运动的指挥官。'});",
         "playground.drawCharacter({});playground.clearDialog();playground.drawCharacter({name:'char_1507_mephisto_1',fadetime:1,block:true});delay(1);playground.drawDialog({name:'梅菲斯特',text:'是吗？从我的角度看，是长官你无路可逃了。我的同胞们会将你淹没。'});",
         "playground.drawCharacter({name:'char_010_chen_2'});playground.drawDialog({name:'陈',text:'多说无益，齐上吧。'});",
-        "playground.drawDialog({name:'陈',text:'这里不是整合运动该来的地方！'});"
+        "playground.drawDialog({name:'陈',text:'这里不是整合运动该来的地方！'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

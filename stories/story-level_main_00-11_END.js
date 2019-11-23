@@ -80,6 +80,7 @@ var story = [
         "playground.drawCharacter({name:'char_1507_mephisto_1',name2:'char_1508_faust_1',focus:2});playground.drawDialog({name:'浮士德',text:'......好。'});",
         "blocker.blocker({a:1, initr:2, r:0, g:0, b:0, fadetime:1, block:true});playground.drawCharacter({fadetime:0});blocker.blocker({a:0, initr:2, r:0, g:0, b:0, fadetime:1, block:true});playground.drawCharacter({name:'char_1507_mephisto_1'});playground.drawDialog({name:'梅菲斯特',text:'......我的任务也完成了。'});",
         "delay(0.6);playground.drawDialog({name:'梅菲斯特',text:'同胞们，该走了。'});",
-        "blocker.blocker({a:1, r:0,g:0, b:0, fadetime:3, block:true});background.showImage({});playground.drawCharacter({fadetime:0});playground.drawImage({image:'avg_ep00_2',x:0, y:0, xscale:1, yscale:1, fadetime:3, screenadapt:'coverall'});blocker.blocker({a:0, fadetime:0.6, block:false});playground.drawCharacter({name:'char_1507_mephisto_5'});playground.drawDialog({name:'梅菲斯特',text:'去迎接属于我们的时代吧！！'});"
+        "blocker.blocker({a:1, r:0,g:0, b:0, fadetime:3, block:true});background.showImage({});playground.drawCharacter({fadetime:0});playground.drawImage({image:'avg_ep00_2',x:0, y:0, xscale:1, yscale:1, fadetime:3, screenadapt:'coverall'});blocker.blocker({a:0, fadetime:0.6, block:false});playground.drawCharacter({name:'char_1507_mephisto_5'});playground.drawDialog({name:'梅菲斯特',text:'去迎接属于我们的时代吧！！'});",
+        "delay(3);blocker.blocker({a:1, r:0,g:0, b:0, fadetime:2, block:true});playground.drawImage({fadetime:0});delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

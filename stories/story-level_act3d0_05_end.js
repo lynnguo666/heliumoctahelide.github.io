@@ -59,6 +59,7 @@ var story = [
         "playground.drawCharacter({name:'char_348_ceylon_4',name2:'char_340_shwaz_1',focus:1});playground.drawDialog({name:'锡兰',text:'说起来，市长是谁都无所谓吧？父亲也一定会这么觉得。他在乎的，不也是这个城市吗？'});",
         "playground.drawDialog({name:'锡兰',text:'所以，父亲一定会同意我的观点的。'});",
         "playground.drawDialog({name:'锡兰',text:'黑......我说的对吗？'});",
-        "playground.drawCharacter({name:'char_348_ceylon_4',name2:'char_340_shwaz_5',focus:2});playground.drawDialog({name:'黑',text:'你长大了，小姐。'});"
+        "playground.drawCharacter({name:'char_348_ceylon_4',name2:'char_340_shwaz_5',focus:2});playground.drawDialog({name:'黑',text:'你长大了，小姐。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({fadetime:3,block:true});playground.drawImage({});"
     ]
 ];

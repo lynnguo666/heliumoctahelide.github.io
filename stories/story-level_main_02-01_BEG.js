@@ -48,6 +48,7 @@ var story = [
         "playground.drawCharacter({name:'char_130_doberm_ex'});playground.drawDialog({name:'杜宾',text:'那么......'});",
         "blocker.blocker({a:1, r:0,g:0, b:0, fadetime:1, block:true});playground.drawCharacter({fadetime:0});background.showImage({image:'bg_0_rhodes3', fadetime:0, screenadapt:'coverall', screenadapt:'coverall'});blocker.blocker({a:0, r:0,g:0, b:0, fadetime:1, block:true});playground.drawDialog({name:'杜宾',text:'请你们各自完成出发前的准备。博士请把准备好的编队配置命令下达给其他干员，让他们做好准备。'});",
         "playground.drawDialog({name:'杜宾',text:'完成演习后15分钟出发。'});",
-        "blocker.blocker({a:1, r:0,g:0, b:0, fadetime:2, block:true});playground.clearDialog();playground.drawImage({fadetime:0});delay(0.4);playground.drawDialog({name:'杜宾',text:'这次，千万不要迟到。'});"
+        "blocker.blocker({a:1, r:0,g:0, b:0, fadetime:2, block:true});playground.clearDialog();playground.drawImage({fadetime:0});delay(0.4);playground.drawDialog({name:'杜宾',text:'这次，千万不要迟到。'});",
+        ""
     ]
 ];

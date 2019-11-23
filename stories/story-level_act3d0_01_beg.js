@@ -59,6 +59,7 @@ var story = [
         "playground.drawDialog({name:'？？？',text:'不、不要过来啊！谁来帮帮我！'});",
         "voice.playMusic({intro:'m_bat_indust_intro', key:'m_bat_indust_loop', volume:0.8, crossfade:0.5});playground.drawCharacter({name:'char_145_prove_1',name2:'char_166_skfire_1',focus:1});playground.drawDialog({name:'普罗旺斯',text:'是求救声！海滩那边传来的！'});",
         "playground.drawDialog({name:'普罗旺斯',text:'我们快过去看看！'});",
-        "playground.drawCharacter({name:'char_166_skfire_1'});playground.drawDialog({name:'天火',text:'喂，等等我啊！'});"
+        "playground.drawCharacter({name:'char_166_skfire_1'});playground.drawDialog({name:'天火',text:'喂，等等我啊！'});",
+        "playground.drawCharacter({fadetiem:1});playground.clearDialog();voice.playSound({key:'d_gen_runsand',volume:0.5});delay(0.5);playground.clearDialog();blocker.blocker({block:true});"
     ]
 ];

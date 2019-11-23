@@ -83,6 +83,7 @@ var story = [
         "playground.drawCharacter({});playground.clearDialog();voice.playSound({key:'b_char_defboost'});blocker.blocker({a:0.7, r:0.95, g:0.95, b:0.95, fadetime:0.02, block:true});blocker.blocker({a:0, r:0.95, g:0.95, b:0.95, fadetime:0.25, block:true});background.cameraShake({duration:0.6, xstrength:5, ystrength:8, vibrato:30, randomness:90, block:true});playground.drawCharacter({name:'char_220_grani_2'});playground.drawDialog({name:'格拉尼',text:'就用那把断刀？'});",
         "playground.drawCharacter({name:'avg_npc_007'});playground.drawDialog({name:'赏金猎人',text:'......这，这小子什么时候出的枪？！'});",
         "playground.drawCharacter({name:'avg_npc_007'});playground.drawDialog({name:'粗暴的赏金猎人',text:'用暗号召集附近还在的人！'});",
-        "playground.drawDialog({name:'粗暴的赏金猎人',text:'还有，去把之前用来毁掉农田的虫子都赶出来，让她们尝尝厉害！'});"
+        "playground.drawDialog({name:'粗暴的赏金猎人',text:'还有，去把之前用来毁掉农田的虫子都赶出来，让她们尝尝厉害！'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});"
     ]
 ];

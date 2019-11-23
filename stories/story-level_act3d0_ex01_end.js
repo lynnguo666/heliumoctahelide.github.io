@@ -70,6 +70,7 @@ var story = [
         "playground.drawCharacter({});playground.drawImage({image:'ac3_title1', fadetime:3,block:true});playground.drawDialog({text:'“很久没见了，Grace. 你还联系得到Dijkstra吗？找机会再叫他一起去做点大事吧！”'});",
         "playground.drawDialog({text:'“对了，注意身体:3”'});",
         "playground.drawDialog({name:'D.D.D.',text:'天哪......'});",
-        "playground.drawDialog({name:'D.D.D.',text:'果然今天也会是很棒的一天！'});"
+        "playground.drawDialog({name:'D.D.D.',text:'果然今天也会是很棒的一天！'});",
+        "playground.clearDialog();blocker.blocker({a:1, r:0,g:0, b:0, fadetime:2, block:true});playground.drawImage({});"
     ]
 ];

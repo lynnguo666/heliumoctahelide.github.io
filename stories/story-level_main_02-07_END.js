@@ -52,6 +52,7 @@ var story = [
         "playground.drawDialog({name:'阿米娅',text:'很快，我们就能离开贫民区，与龙门近卫局会合了。'});",
         "playground.drawDialog({name:'阿米娅',text:'谢谢你，米莎。'});",
         "playground.drawCharacter({name:'char_002_amiya_3', name2:'char_012_misa_1', focus:2});playground.drawDialog({name:'米莎',text:'不......'});",
-        "playground.drawDialog({name:'米莎',text:'该我......感谢你。'});"
+        "playground.drawDialog({name:'米莎',text:'该我......感谢你。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

@@ -51,6 +51,7 @@ var story = [
         "playground.drawCharacter({name:'avg_npc_010',name2:'char_220_grani_2',focus:2});playground.drawDialog({name:'格拉尼',text:'也就洗澡的时候能看得出来吧？'});",
         "playground.drawCharacter({name:'avg_npc_010',name2:'char_220_grani_2',focus:1});playground.drawDialog({name:'大鲍勃',text:'——哼。'});",
         "playground.drawDialog({name:'大鲍勃',text:'多谢你了，没戒心的小个子。'});",
-        "playground.drawCharacter({});playground.clearDialog();delay(2);playground.drawDialog({name:'大鲍勃',text:'......'});"
+        "playground.drawCharacter({});playground.clearDialog();delay(2);playground.drawDialog({name:'大鲍勃',text:'......'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

@@ -190,6 +190,7 @@ var story = [
         "playground.drawDialog({name:'陈',text:'接下来，只需等待他们的反扑即可。'});",
         "playground.drawDialog({name:'陈',text:'我的任务已经完成。'});",
         "playground.drawCharacter({name:'char_empty',name2:'char_010_chen_5',focus:1});playground.drawDialog({name:'魏彦吾',text:'你们的其他几位同事也已经向我递交了报告，上个阶段的任务，大家都圆满地完成了。各位做得很不错。'});",
-        "playground.drawDialog({name:'魏彦吾',text:'那么，我们该进入下个阶段了。'});"
+        "playground.drawDialog({name:'魏彦吾',text:'那么，我们该进入下个阶段了。'});",
+        "playground.clearDialog();voice.playSound({key:'d_gen_transmissionget', volume:0.4});playground.drawCharacter({widgetid:'1',fadetime:0.5,block:true});blocker.blocker({a:1, r:0,g:0, b:0, fadetime:2, block:true});playground.drawImage({fadetime:0});delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

@@ -87,6 +87,7 @@ var story = [
         "playground.drawCharacter({name:'char_002_amiya_7'});playground.drawDialog({name:'阿米娅',text:'......塔露拉。'});",
         "voice.playSound({key:'d_gen_thunders_amb'});background.cameraShake({duration:1, xstrength:5, ystrength:3, vibrato:30, randomness:90, block:false});voice.stopMusic({fadetime:2});playground.drawCharacter({});playground.clearDialog();blocker.blocker({a:1, initr:2, r:0, g:0, b:0, block:true, fadetime:1});background.showImage({});blocker.blocker({a:1, initr:2, r:1, g:1, b:1, block:true, fadetime:0.3});blocker.blocker({a:0, fadetime:0.3, block:false});playground.drawCharacter({name:'char_011_talula_1'});playground.drawDialog({name:'塔露拉',text:'......'});",
         "playground.drawDialog({name:'塔露拉',text:'............'});",
-        "blocker.blocker({a:1, initr:2, r:0, g:0, b:0, block:true, fadetime:1});playground.drawCharacter({name:'char_148_nearl_3'});playground.drawDialog({name:'临光',text:'大概......是能烧尽整片大地的火焰吧。'});"
+        "blocker.blocker({a:1, initr:2, r:0, g:0, b:0, block:true, fadetime:1});playground.drawCharacter({name:'char_148_nearl_3'});playground.drawDialog({name:'临光',text:'大概......是能烧尽整片大地的火焰吧。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

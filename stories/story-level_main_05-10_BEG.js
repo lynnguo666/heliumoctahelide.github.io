@@ -307,6 +307,7 @@ var story = [
         "playground.Decision({options:[['罗德岛，听我指挥。']]});",
         "predicate = ['1'];",
         "playground.Decision({options:[['协助陈长官，夺回近卫局大楼！']]});",
-        "predicate = ['1'];"
+        "predicate = ['1'];",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

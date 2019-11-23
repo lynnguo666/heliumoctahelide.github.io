@@ -64,6 +64,7 @@ var story = [
         "playground.drawCharacter({name:'char_002_amiya_7'});playground.drawDialog({name:'阿米娅',text:'————'});",
         "playground.drawDialog({name:'阿米娅',text:'整合运动————'});",
         "playground.drawDialog({name:'阿米娅',text:'先结仇的、先伤害别人的、先使用暴力的——'});",
-        "playground.drawDialog({name:'阿米娅',text:'可是切尔诺伯格的你们！！'});"
+        "playground.drawDialog({name:'阿米娅',text:'可是切尔诺伯格的你们！！'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

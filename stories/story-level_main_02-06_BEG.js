@@ -48,6 +48,7 @@ var story = [
         "playground.drawCharacter({name:'char_106_franka_1'});playground.drawDialog({name:'芙兰卡',text:'那就麻烦你动作快些了，拉特兰的救世主小姐。'});",
         "playground.drawCharacter({name:'char_107_liskam_1'});playground.drawDialog({name:'雷蛇',text:'重装小队，防御阵型！快！'});",
         "playground.drawCharacter({name:'char_102_texas_1'});playground.drawDialog({name:'德克萨斯',text:'......上了。'});",
-        "playground.drawCharacter({name:'char_002_amiya_7'});playground.drawDialog({name:'阿米娅',text:'大家，掩护先锋！'});"
+        "playground.drawCharacter({name:'char_002_amiya_7'});playground.drawDialog({name:'阿米娅',text:'大家，掩护先锋！'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

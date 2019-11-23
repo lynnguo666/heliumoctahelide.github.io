@@ -160,6 +160,7 @@ var story = [
         "playground.drawDialog({name:'鼠王',text:'时间不多，朋友们。'});",
         "blocker.blocker({a:1, fadetime:1, block:true});playground.clearDialog();playground.drawCharacter({});blocker.blocker({a:1, r:0, g:0, b:0, fadetime:2, block:true});delay(0.4);background.showImage({image:'bg_lmstreet_1',screenadapt:'coverall'});playground.drawImage({});blocker.blocker({a:0, fadetime:1, block:true});playground.drawCharacter({name:'char_325_bison_4'});playground.drawDialog({name:'拜松',text:'（他在看着我？不，等等，那个老人是——）'});",
         "playground.drawCharacter({name:'avg_npc_034_7'});playground.drawDialog({name:'鼠王',text:'如果没有人找到这份宝藏，很遗憾。'});",
-        "playground.drawDialog({name:'鼠王',text:'那将是你们人生中最后的惊喜。'});"
+        "playground.drawDialog({name:'鼠王',text:'那将是你们人生中最后的惊喜。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({fadetime:2,block:true});playground.drawImage({});"
     ]
 ];

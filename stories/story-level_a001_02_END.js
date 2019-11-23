@@ -93,6 +93,7 @@ var story = [
         "playground.drawCharacter({name:'avg_npc_008',name2:'avg_npc_007',focus:2});playground.drawDialog({name:'赏金猎人',text:'可那个怪物也往那个方向去了，我们......'});",
         "playground.drawCharacter({name:'avg_npc_008'});playground.drawDialog({name:'“上尉”',text:'怕什么？虽然那家伙是有点厉害，但是别忘了那边可是我们的地盘。那么多陷阱，有她好受的！'});",
         "playground.drawDialog({name:'“上尉”',text:'宝藏，我们要拿！怪物，我们也要狩猎！'});",
-        "playground.drawDialog({name:'“上尉”',text:'老子全都要！'});"
+        "playground.drawDialog({name:'“上尉”',text:'老子全都要！'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

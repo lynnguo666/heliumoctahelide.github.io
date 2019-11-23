@@ -55,6 +55,7 @@ var story = [
         "playground.drawCharacter({name:'char_136_hsguma',name2:'char_010_chen_1',focus:2});playground.drawDialog({name:'陈',text:'我们在哪？'});",
         "playground.drawCharacter({name:'char_136_hsguma',name2:'char_010_chen_1',focus:1});playground.drawDialog({name:'星熊',text:'罗德岛的某个舱室。'});",
         "playground.drawCharacter({name:'char_308_swire_5'});playground.drawDialog({name:'诗怀雅',text:'三刻钟前，陈警司，你和你的小队逃窜回了龙门。'});",
-        "playground.drawDialog({name:'诗怀雅',text:'你可能觉得你们把自己的行踪隐藏得很好，但徘徊在龙门外围的整合运动并不这么想。'});"
+        "playground.drawDialog({name:'诗怀雅',text:'你可能觉得你们把自己的行踪隐藏得很好，但徘徊在龙门外围的整合运动并不这么想。'});",
+        "playground.clearDialog();delay(0.5);blocker.blocker({a:1,r:0, g:0, b:0, fadetime:2, block:true});blocker.blocker({block:true, fadetime:0.5});"
     ]
 ];

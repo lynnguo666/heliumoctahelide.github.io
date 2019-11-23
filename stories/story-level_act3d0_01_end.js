@@ -70,6 +70,7 @@ var story = [
         "playground.drawCharacter({name:'char_348_ceylon_7',name2:'char_145_prove_1',focus:1});playground.drawDialog({name:'锡兰',text:'火山的实际情况并没有多少人知道，而且通常也被市政厅和相关机构管理着。'});",
         "playground.drawDialog({name:'锡兰',text:'因为环境改变带来的生物狂躁化......至少对比以前的状况，我多少也能对现在的异变有些猜测。'});",
         "playground.drawDialog({name:'锡兰',text:'为了保障市民和城市的安全，我一直在到处寻找对此方面有专业经验的人。'});",
-        "playground.drawDialog({name:'锡兰',text:'希望你们务必要帮助我，帮助我让汐斯塔市度过这个难关。'});"
+        "playground.drawDialog({name:'锡兰',text:'希望你们务必要帮助我，帮助我让汐斯塔市度过这个难关。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

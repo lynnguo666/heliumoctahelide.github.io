@@ -289,6 +289,7 @@ var story = [
         "playground.drawCharacter({name:'avg_npc_034_9'});playground.drawDialog({name:'林',text:'——换个话题吧，你最近过得如何？'});",
         "playground.drawCharacter({});playground.drawDialog({name:'董阿伯',text:'其实我听说哥伦比亚盛行龙门料理，我打算找机会去那儿发展发展——'});",
         "playground.drawCharacter({name:'avg_npc_034'});playground.drawDialog({name:'林',text:'不许。'});",
-        "playground.drawCharacter({});playground.drawDialog({name:'董阿伯',text:'......'});"
+        "playground.drawCharacter({});playground.drawDialog({name:'董阿伯',text:'......'});",
+        "delay(0.5);playground.clearDialog();blocker.blocker({fadetime:2,block:true});playground.drawImage({});"
     ]
 ];

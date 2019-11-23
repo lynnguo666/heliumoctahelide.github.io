@@ -80,6 +80,7 @@ var story = [
         "playground.drawDialog({name:'魏彦吾',text:'据我所知，罗德岛也参与清剿了附近的感染者吧？'});",
         "playground.drawDialog({name:'魏彦吾',text:'陈警官，以目前确切了解的情报，罗德岛在军事力量的实力如何？'});",
         "playground.drawCharacter({name:'char_010_chen_1'});playground.drawDialog({name:'陈',text:'......请容我简要描述一下我所见的罗德岛的行动情况。'});",
-        "playground.drawDialog({name:'陈',text:'——详情如下——'});"
+        "playground.drawDialog({name:'陈',text:'——详情如下——'});",
+        "voice.stopSound({channel:'2', fadetime:1});delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

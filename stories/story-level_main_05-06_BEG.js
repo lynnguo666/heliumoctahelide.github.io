@@ -77,6 +77,7 @@ var story = [
         "playground.drawCharacter({name:'char_010_chen_1'});playground.drawDialog({name:'陈',text:'如果你已经汇报完毕了，那你的任务就已经完成了。'});",
         "playground.clearDialog();playground.drawCharacter({name:'char_1002_nsabr_1'});blocker.blocker({a:1, r:1, g:1, b:1, afrom:0, rfrom:0, gfrom:0, bfrom:0, fadetime:0.1, block:true});voice.playSound({key:'e_skill_skulsrsword', volume:0.9});blocker.blocker({a:0, fadetime:1.5, block:false});background.cameraShake({duration:1, xstrength:10, ystrength:12, vibrato:30, randomness:90, fadeout:true, block:false});blocker.blocker({a:1, r:1, g:1, b:1, afrom:0, rfrom:0, gfrom:0, bfrom:0, fadetime:0.1, block:true});voice.playSound({key:'e_skill_skulsrsword', volume:0.9});blocker.blocker({a:0, fadetime:1.5, block:false});background.cameraShake({duration:1, xstrength:10, ystrength:12, vibrato:30, randomness:90, fadeout:true, block:false});delay(1);playground.drawCharacter({name:'char_010_chen_2'});playground.drawDialog({name:'陈',text:'让整个龙门的整合运动都知道我们在这里。'});",
         "playground.drawDialog({name:'陈',text:'我们等着他们来，等着他们追逐我们，等着和他们在近卫局决一死战。'});",
-        "playground.drawDialog({name:'陈',text:'近卫局！继续攻击！别停火！'});"
+        "playground.drawDialog({name:'陈',text:'近卫局！继续攻击！别停火！'});",
+        "delay(0.3);playground.clearDialog();blocker.blocker({fadetime:2,block:true});playground.drawImage({});"
     ]
 ];

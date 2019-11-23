@@ -71,6 +71,7 @@ var story = [
         "playground.drawDialog({name:'梅菲斯特',text:'但他为什么......还能战斗？'});",
         "playground.drawCharacter({name:'char_1505_frstar_1'});playground.drawDialog({name:'？？？',text:'奋战至尸骨无存——了不起。'});",
         "background.showImage({ fadetime:4, block:false});playground.drawCharacter({name:'char_011_talula_1'});playground.drawDialog({name:'塔露拉',text:'我记住了。'});",
-        "delay(0.6);playground.drawDialog({name:'塔露拉',text:'......罗德岛。'});"
+        "delay(0.6);playground.drawDialog({name:'塔露拉',text:'......罗德岛。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

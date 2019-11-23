@@ -100,6 +100,7 @@ var story = [
         "playground.drawCharacter({});blocker.blocker({a:1, r:0,g:0, b:0, fadetime:0.6, block:true});background.showImage({image:'bg_cher_1',x:0, y:20, xscale:1.1, yscale:1.1, fadetime:1});blocker.blocker({a:0, fadetime:0.6, block:true});delay(1);playground.drawCharacter({name:'char_1502_crowns_2'});playground.drawDialog({name:'？？？',text:'......'});",
         "playground.drawDialog({name:'？？？',text:'不确定因素。'});",
         "playground.drawDialog({name:'？？？',text:'去，通知其他人。'});",
-        "playground.drawDialog({name:'？？？',text:'我们追。'});"
+        "playground.drawDialog({name:'？？？',text:'我们追。'});",
+        "blocker.blocker({a:1, r:0,g:0, b:0, fadetime:1, block:true});playground.drawCharacter({});playground.clearDialog();playground.drawImage({});"
     ]
 ];

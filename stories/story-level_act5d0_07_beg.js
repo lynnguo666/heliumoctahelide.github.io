@@ -164,6 +164,7 @@ var story = [
         "playground.drawCharacter({name:'char_102_texas_1'});playground.drawDialog({name:'德克萨斯',text:'没关系，越早解决这出闹剧越好。'});",
         "playground.drawDialog({name:'德克萨斯',text:'就按老板的意思，把他们扔进江里吧。'});",
         "playground.drawCharacter({name:'avg_npc_027_2'});playground.drawDialog({name:'卡彭',text:'哼，越混乱，越合我意。'});",
-        "playground.drawDialog({name:'卡彭',text:'看来，谁能从这里站着出去，谁就会成为今晚的赢家。'});"
+        "playground.drawDialog({name:'卡彭',text:'看来，谁能从这里站着出去，谁就会成为今晚的赢家。'});",
+        "playground.drawCharacter({fadetiem:1});playground.clearDialog();delay(0.5);playground.clearDialog();blocker.blocker({fadetime:1,block:true});"
     ]
 ];

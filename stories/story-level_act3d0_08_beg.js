@@ -74,6 +74,7 @@ var story = [
         "playground.drawCharacter({name:'char_145_prove_1',name2:'char_166_skfire_3',focus:1});playground.drawDialog({name:'普罗旺斯',text:'这样庞大的身体要是直接在这里爆炸，真的不会直接引发火山喷发吗！？'});",
         "playground.drawCharacter({name:'char_145_prove_1',name2:'char_166_skfire_3',focus:2});playground.drawDialog({name:'天火',text:'那就麻烦他回到巢穴里去！'});",
         "playground.drawCharacter({name:'char_166_skfire_1'});playground.drawDialog({name:'天火',text:'嗯......'});",
-        "playground.drawDialog({name:'天火',text:'总之还是得揍它嘛！！'});"
+        "playground.drawDialog({name:'天火',text:'总之还是得揍它嘛！！'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({fadetime:3,block:true});playground.drawImage({});"
     ]
 ];

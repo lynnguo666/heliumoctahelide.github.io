@@ -93,6 +93,7 @@ var story = [
         "blocker.blocker({a:1, initr:2, r:0, g:0, b:0, fadetime:0.6, block:true});playground.drawDialog({name:'阿米娅',text:'......'});",
         "playground.drawDialog({name:'阿米娅',text:'因为我要提醒自己。'});",
         "playground.drawDialog({name:'阿米娅',text:'我还不能退后——'});",
-        "playground.drawDialog({name:'阿米娅',text:'我还要继续战斗下去!'});"
+        "playground.drawDialog({name:'阿米娅',text:'我还要继续战斗下去!'});",
+        "playground.clearDialog();blocker.blocker({a:1, initr:2, r:0, g:0, b:0, fadetime:0.3, block:true});playground.drawCharacter({fadetime:0});delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

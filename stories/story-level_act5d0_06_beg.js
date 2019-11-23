@@ -124,6 +124,7 @@ var story = [
         "playground.clearDialog();playground.drawCharacter({});voice.playSound({key:'d_gen_bottlebroken'});background.cameraShake({duration:1, xstrength:10, ystrength:12, vibrato:30, randomness:90, fadeout:true, block:true});playground.drawCharacter({name:'char_325_bison_4',name2:'char_201_moeshd_5',focus:1});playground.drawDialog({name:'拜松',text:'这、这是......？'});",
         "playground.drawCharacter({name:'char_325_bison_4',name2:'char_201_moeshd_5',focus:2});playground.drawDialog({name:'可颂',text:'今晚的损失数字，不行，至少我们两个还可以靠盾牌战斗，不能再让损失扩大了。'});",
         "playground.drawCharacter({name:'char_325_bison_4',name2:'char_201_moeshd_5',focus:1});playground.drawDialog({name:'拜松',text:'明、明白！'});",
-        "playground.drawCharacter({name:'char_325_bison_4',name2:'char_201_moeshd_5',focus:2});playground.drawDialog({name:'可颂',text:'OK~三，二，一，上！'});"
+        "playground.drawCharacter({name:'char_325_bison_4',name2:'char_201_moeshd_5',focus:2});playground.drawDialog({name:'可颂',text:'OK~三，二，一，上！'});",
+        "playground.clearDialog();blocker.blocker({fadetime:0.5,block:true});"
     ]
 ];

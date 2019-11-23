@@ -40,6 +40,7 @@ var story = [
         "playground.drawDialog({name:'阿米娅',text:'对我来说，只是罗德岛的处境，变得越来越危险。'});",
         "playground.drawCharacter({name:'char_002_amiya_1',name2:'char_014_riope',focus:2});playground.drawDialog({name:'Ace',text:'在这个时间点挑起事端——'});",
         "playground.drawDialog({name:'Ace',text:'整合运动不是足够狠毒，就是足够疯狂。'});",
-        "playground.drawCharacter({name:'char_130_doberm_ex'});playground.drawDialog({name:'杜宾',text:'也许，两者兼有。'});"
+        "playground.drawCharacter({name:'char_130_doberm_ex'});playground.drawDialog({name:'杜宾',text:'也许，两者兼有。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

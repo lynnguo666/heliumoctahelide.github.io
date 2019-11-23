@@ -86,6 +86,7 @@ var story = [
         "playground.drawDialog({name:'陈',text:'我一会儿通知你们。'});",
         "playground.clearDialog();playground.drawCharacter({fadetime:0.6});delay(1);playground.drawCharacter({name:'char_002_amiya_4'});playground.drawDialog({name:'阿米娅',text:'呼......那个陈警官，真的很难应付呢。'});",
         "playground.drawCharacter({name:'char_002_amiya_2'});playground.drawDialog({name:'阿米娅',text:'博士，接下来的交涉就交给凯尔希医生。'});",
-        "playground.drawDialog({name:'阿米娅',text:'请相信她吧。'});"
+        "playground.drawDialog({name:'阿米娅',text:'请相信她吧。'});",
+        "playground.clearDialog();playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

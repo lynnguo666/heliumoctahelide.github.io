@@ -48,6 +48,7 @@ var story = [
         "background.cameraShake({duration:0.5, xstrength:10, ystrength:12, vibrato:30, randomness:20, block:false});playground.drawDialog({name:'可萝尔',text:'咦？！'});",
         "playground.drawCharacter({name:'char_220_grani_1'});background.cameraShake({duration:0.5, xstrength:10, ystrength:12, vibrato:30, randomness:20, block:false});playground.drawDialog({name:'格拉尼',text:'可萝尔小姐！别乱动呀！'});",
         "playground.drawCharacter({name:'avg_npc_003'});playground.drawDialog({name:'可萝尔',text:'可、可那个，那是什么呀......'});",
-        "playground.drawDialog({name:'可萝尔',text:'刚才，有个人，从窗户外飞了过去......?'});"
+        "playground.drawDialog({name:'可萝尔',text:'刚才，有个人，从窗户外飞了过去......?'});",
+        "delay(0.5);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

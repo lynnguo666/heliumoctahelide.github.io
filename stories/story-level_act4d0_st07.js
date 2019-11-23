@@ -184,6 +184,7 @@ var story = [
         "playground.drawCharacter({name:'char_003_kalts_1',name2:'char_007_closre_1',focus:2});playground.drawDialog({name:'可露希尔',text:'哎！快住口。别说啦！'});",
         "playground.drawDialog({name:'可露希尔',text:'别说别的......趁现在，就赶紧享受下这盏小灯吧。'});",
         "playground.drawCharacter({name:'char_003_kalts_1'});playground.drawDialog({name:'凯尔希',text:'......'});",
-        "playground.drawDialog({name:'凯尔希',text:'真是柔和的光芒。'});"
+        "playground.drawDialog({name:'凯尔希',text:'真是柔和的光芒。'});",
+        "delay(0.5);playground.clearDialog();blocker.blocker({fadetime:2,block:true});playground.drawImage({});"
     ]
 ];

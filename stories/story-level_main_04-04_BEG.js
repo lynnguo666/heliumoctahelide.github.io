@@ -101,6 +101,7 @@ var story = [
         "playground.drawCharacter({name:'char_1507_mephisto_1'});playground.drawDialog({name:'梅菲斯特',text:'——分食丰盛的猎物之前——'});",
         "playground.drawDialog({name:'梅菲斯特',text:'先去尝尝小的吧。'});",
         "playground.drawCharacter({name:'char_1002_nsabr_2',name2:'char_1002_nsabr_2'});playground.drawDialog({name:'整合运动成员',text:'噢噢，噢噢噢！！'});",
-        "playground.drawCharacter({name:'char_193_frostl_1'});playground.drawDialog({name:'霜叶',text:'呿！'});"
+        "playground.drawCharacter({name:'char_193_frostl_1'});playground.drawDialog({name:'霜叶',text:'呿！'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

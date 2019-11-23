@@ -65,6 +65,7 @@ var story = [
         "playground.drawDialog({name:'星熊',text:'哗。你说这话脸都不红一下的吗？'});",
         "playground.drawDialog({name:'陈',text:'*龙门粗口*。'});",
         "playground.drawDialog({name:'星熊',text:'哈哈哈。'});",
-        "playground.drawDialog({name:'星熊',text:'算了，行吧。行啊，老陈，都听你的。'});"
+        "playground.drawDialog({name:'星熊',text:'算了，行吧。行啊，老陈，都听你的。'});",
+        "delay(0.3);playground.clearDialog();blocker.blocker({fadetime:1,block:true});playground.drawImage({});"
     ]
 ];

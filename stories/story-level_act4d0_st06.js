@@ -272,6 +272,7 @@ var story = [
         "playground.drawDialog({name:'西蒙娜',text:'“风雪会听见你的歌，也会拥你入怀♪”'});",
         "playground.drawDialog({name:'西蒙娜',text:'——北地的风雪，听见歌声了吗？'});",
         "playground.drawCharacter({});playground.drawDialog({name:'西蒙娜',text:'麦哲伦......我啊，想看你坚持自己的梦想。'});",
-        "playground.drawDialog({name:'西蒙娜',text:'是啊，雪也该停了。'});"
+        "playground.drawDialog({name:'西蒙娜',text:'是啊，雪也该停了。'});",
+        "delay(0.5);playground.clearDialog();blocker.blocker({fadetime:2,block:true});playground.drawImage({});"
     ]
 ];

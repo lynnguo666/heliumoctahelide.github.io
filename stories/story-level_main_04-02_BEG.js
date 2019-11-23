@@ -99,6 +99,7 @@ var story = [
         "playground.drawCharacter({name:'char_193_frostl_1'});playground.drawDialog({name:'霜叶',text:'感染者......'});",
         "delay(0.6);blocker.blocker({block:true, fadetime:1});playground.drawDialog({name:'霜叶',text:'我听别人说过这么一个传说。'});",
         "playground.drawDialog({name:'霜叶',text:'——一个，关于雪怪的传说。'});",
-        "playground.drawCharacter({name:'char_219_meteo_1'});playground.drawDialog({name:'陨星',text:'......真是......令人讨厌的感觉。'});"
+        "playground.drawCharacter({name:'char_219_meteo_1'});playground.drawDialog({name:'陨星',text:'......真是......令人讨厌的感觉。'});",
+        "playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

@@ -40,6 +40,7 @@ var story = [
         "playground.drawDialog({name:'陈',text:'如果你出了任何差错，我会立刻指挥进攻！'});",
         "playground.drawCharacter({name:'char_136_hsguma',name2:'char_010_chen_5',focus:1});playground.drawDialog({name:'星熊',text:'不。给我三分钟。'});",
         "playground.drawCharacter({name:'char_136_hsguma',name2:'char_010_chen_5',focus:2});playground.drawDialog({name:'陈',text:'......只有三分钟。'});",
-        "playground.drawCharacter({name:'char_136_hsguma',name2:'char_010_chen_5',focus:1});playground.drawDialog({name:'星熊',text:'我去了。'});"
+        "playground.drawCharacter({name:'char_136_hsguma',name2:'char_010_chen_5',focus:1});playground.drawDialog({name:'星熊',text:'我去了。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

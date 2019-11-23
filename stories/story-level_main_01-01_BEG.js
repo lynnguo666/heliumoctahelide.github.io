@@ -52,6 +52,7 @@ var story = [
         "playground.drawDialog({name:'杜宾',text:'只要他们体内的病变器官不是什么警报器或爆炸物就行。'});",
         "playground.drawCharacter({name:'char_130_doberm_ex',name2:'char_014_riope',focus:2});playground.drawDialog({name:'Ace',text:'另一侧，游离于据点之外的大批整合运动，就交给我们吧。'});",
         "playground.drawDialog({name:'Ace',text:'只要杂音够大，就没有人能分辨出里面究竟包含了什么声音。'});",
-        "playground.drawCharacter({name:'char_130_doberm_ex'});playground.drawDialog({name:'杜宾',text:'那么，各自行动起来！'});"
+        "playground.drawCharacter({name:'char_130_doberm_ex'});playground.drawDialog({name:'杜宾',text:'那么，各自行动起来！'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

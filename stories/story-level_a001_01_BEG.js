@@ -118,6 +118,7 @@ var story = [
         "playground.drawCharacter({name:'avg_npc_005'});playground.drawDialog({name:'村民',text:'你们要小心点自己的安全，骑士......不对，骑警小姐，村长就交给你了！'});",
         "playground.drawCharacter({name:'char_220_grani_2'});playground.drawDialog({name:'格拉尼',text:'大叔，你放心，我一定保护好——'});",
         "playground.drawCharacter({name:'char_220_grani_1'});playground.drawDialog({name:'格拉尼',text:'啊？村长？'});",
-        "playground.drawCharacter({name:'avg_npc_003'});playground.drawDialog({name:'可萝尔',text:'......滴水村村长可萝尔，虽然上任才半年，就算是我，也是有村长的自尊心的哦。'});"
+        "playground.drawCharacter({name:'avg_npc_003'});playground.drawDialog({name:'可萝尔',text:'......滴水村村长可萝尔，虽然上任才半年，就算是我，也是有村长的自尊心的哦。'});",
+        "delay(0.5);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

@@ -24,6 +24,7 @@ var story = [
         "playground.drawCharacter({name:'char_013_riop', name2:'char_148_nearl_3', focus:2});playground.drawDialog({name:'临光',text:'他们跟不上我们的速度！继续冲刺！'});",
         "playground.drawCharacter({fadetime:0});voice.playSound({key:'d_gen_soldiersrun',volume:0.8});background.cameraShake({duration:3,xstrength:2,ystrength:3,vibrato:10,randomness:90,fadeout:true,block:true});playground.drawCharacter({name:'char_130_doberm_ex', name2:'char_148_nearl_3', focus:1});playground.drawDialog({name:'杜宾',text:'马上就能离开整合运动控制的区域了！不要停下！！'});",
         "playground.drawCharacter({name:'char_130_doberm_ex', name2:'char_148_nearl_3', focus:2});playground.drawDialog({name:'临光',text:'区区暴徒——'});",
-        "playground.drawDialog({name:'临光',text:'怎么能阻止我们！'});"
+        "playground.drawDialog({name:'临光',text:'怎么能阻止我们！'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

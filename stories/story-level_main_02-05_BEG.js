@@ -66,6 +66,7 @@ var story = [
         "playground.drawDialog({name:'碎骨',text:'我......'});",
         "voice.playSound({key:'d_gen_walk_n'});playground.drawDialog({name:'米莎',text:'......'});",
         "playground.clearDialog();delay(0.5);playground.drawDialog({name:'碎骨',text:'我终于......找到你了。'});",
-        "playground.clearDialog();delay(0.5);playground.drawDialog({name:'米莎',text:'你是......？！'});"
+        "playground.clearDialog();delay(0.5);playground.drawDialog({name:'米莎',text:'你是......？！'});",
+        "delay(1);playground.clearDialog();blocker.blocker({a:1, initr:2, r:0, g:0, b:0, block:true});playground.drawCharacter({fadetime:0});playground.drawImage({fadetime:0});blocker.blocker({a:0, block:true});playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

@@ -138,6 +138,7 @@ var story = [
         "playground.drawDialog({name:'拜松',text:'这是......糖果？为什么要用船运糖果？'});",
         "playground.drawDialog({name:'拜松',text:'但我们总算甩开他们了，莫斯提马——'});",
         "playground.drawDialog({name:'拜松',text:'——'});",
-        "playground.drawCharacter({name:'char_325_bison_2'});playground.drawDialog({name:'拜松',text:'莫斯提马小姐？'});"
+        "playground.drawCharacter({name:'char_325_bison_2'});playground.drawDialog({name:'拜松',text:'莫斯提马小姐？'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({fadetime:2,block:true});playground.drawImage({});"
     ]
 ];

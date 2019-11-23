@@ -1,9 +1,10 @@
 var story = [
     [
-        "char_002_amiya_1"
+        "$ill_amiya_normal"
     ],
     [],
     [
-        "playground.drawCharacter({name:'char_002_amiya_1'});blocker.blocker({afrom:1, a:0, fadetime:1, block:true});playground.drawDialog({name:'阿米娅',text:'博士，小心另一个方向！'});"
+        "playground.drawCharacter({name:'$ill_amiya_normal'});blocker.blocker({afrom:1, a:0, fadetime:1, block:true});playground.drawDialog({name:'阿米娅',text:'博士，小心另一个方向！'});",
+        ""
     ]
 ];

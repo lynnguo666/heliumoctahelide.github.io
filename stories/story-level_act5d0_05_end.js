@@ -81,6 +81,7 @@ var story = [
         "playground.drawCharacter({name:'char_272_strong_1'});playground.drawDialog({name:'孑',text:'还好，都是皮外伤，别急，我这就去叫医生，他们离这不远。'});",
         "playground.drawCharacter({});playground.drawDialog({name:'贫民窟居民',text:'阿孑！别管我，先去找你董阿伯！'});",
         "playground.drawDialog({name:'贫民窟居民',text:'他们下一个目标就是他！'});",
-        "playground.drawCharacter({name:'char_272_strong_1'});playground.drawDialog({name:'孑',text:'——'});"
+        "playground.drawCharacter({name:'char_272_strong_1'});playground.drawDialog({name:'孑',text:'——'});",
+        "playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

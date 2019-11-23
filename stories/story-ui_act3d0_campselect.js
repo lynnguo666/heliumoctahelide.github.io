@@ -26,6 +26,7 @@ var story = [
         "playground.drawDialog({name:'主持人',text:'只要你做出了选择并<color=#ee4321>完成了所有里程碑任务</color>，你将获得你所投票艺人对应的限定音乐设备！'});",
         "voice.playSound({key:'d_gen_livecrowd', volume:0.6, loop:false, channel:'people'});playground.drawCharacter({});background.cameraShake({duration:3, xstrength:15, ystrength:13, vibrato:30, randomness:90, fadeout:true, block:false});playground.drawDialog({name:'观众',text:'噢噢噢噢噢噢！'});",
         "playground.drawCharacter({name:'avg_npc_017_4'});playground.drawDialog({name:'主持人',text:'所以，请不要犹豫，为你最喜欢的艺人投上宝贵的一票吧！'});",
-        "playground.drawDialog({name:'主持人',text:'那么接下来，做出你的选择！！告诉我，你最爱的音乐艺人到底在哪里！！'});"
+        "playground.drawDialog({name:'主持人',text:'那么接下来，做出你的选择！！告诉我，你最爱的音乐艺人到底在哪里！！'});",
+        "playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

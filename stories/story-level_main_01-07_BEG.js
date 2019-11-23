@@ -99,6 +99,7 @@ var story = [
         "playground.drawCharacter({name:'char_148_nearl_3'});playground.drawDialog({name:'临光',text:'这些人为什么就不能珍惜自己的生命？！'});",
         "playground.drawCharacter({name:'char_002_amiya_7'});playground.drawDialog({name:'阿米娅',text:'杜宾......'});",
         "playground.drawCharacter({name:'char_130_doberm_ex'});playground.drawDialog({name:'杜宾',text:'没有办法......'});",
-        "playground.drawDialog({name:'杜宾',text:'彻底击溃他们，然后马上移动！'});"
+        "playground.drawDialog({name:'杜宾',text:'彻底击溃他们，然后马上移动！'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

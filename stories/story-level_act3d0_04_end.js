@@ -57,6 +57,7 @@ var story = [
         "playground.clearDialog();playground.drawCharacter({fadetime:1,block:true});voice.playSound({key:'d_gen_doorclosequite', volume:0.9});delay(1);playground.drawCharacter({name:'char_188_helage_1'});playground.drawDialog({name:'赫拉格',text:'博士，请。'});",
         "playground.Decision({options:[['啊？', '我是该做些什么吧？']]});",
         "predicate = ['1', '2'];",
-        "playground.drawDialog({name:'赫拉格',text:'自然。现在她需要一个能够理解她的人。'});"
+        "playground.drawDialog({name:'赫拉格',text:'自然。现在她需要一个能够理解她的人。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({fadetime:3,block:true});playground.drawImage({});"
     ]
 ];

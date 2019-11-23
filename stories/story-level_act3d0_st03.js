@@ -103,6 +103,7 @@ var story = [
         "playground.drawCharacter({name:'char_188_helage_3',name2:'char_348_ceylon_2',focus:2});playground.drawDialog({name:'锡兰',text:'但是，那里也是克洛宁管辖的区域。他也常常在面向全市的广播中露面。'});",
         "playground.drawDialog({name:'锡兰',text:'趁着LIVE开始的时候，人群集中起来，克洛宁的人也难免应接不暇。'});",
         "playground.drawDialog({name:'锡兰',text:'只要我们能在那个时候控制电台，就能向全城的人传递火山的情报。'});",
-        "playground.drawDialog({name:'锡兰',text:'所以拜托你们了，请助我一臂之力吧。'});"
+        "playground.drawDialog({name:'锡兰',text:'所以拜托你们了，请助我一臂之力吧。'});",
+        "playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

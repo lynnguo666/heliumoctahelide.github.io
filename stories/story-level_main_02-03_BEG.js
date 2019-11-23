@@ -113,6 +113,7 @@ var story = [
         "playground.drawDialog({name:'芙兰卡',text:'雷蛇，这孩子很聪明呢。'});",
         "playground.drawCharacter({name:'char_106_franka_1', name2:'char_107_liskam_1', focus:2});playground.drawDialog({name:'雷蛇',text:`......Dr.${nickname}可是战术指挥官，你严肃点。`});",
         "playground.drawCharacter({name:'char_002_amiya_7'});playground.drawDialog({name:'阿米娅',text:'行动吧。'});",
-        "playground.drawCharacter({name:'char_002_amiya_4'});playground.drawDialog({name:'阿米娅',text:'攻击罗德岛的感染者......吗。'});"
+        "playground.drawCharacter({name:'char_002_amiya_4'});playground.drawDialog({name:'阿米娅',text:'攻击罗德岛的感染者......吗。'});",
+        "playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

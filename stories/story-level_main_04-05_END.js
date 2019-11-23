@@ -47,6 +47,7 @@ var story = [
         "playground.drawCharacter({name:'char_136_hsguma', name2:'char_010_chen_1', focus:2});playground.drawDialog({name:'陈',text:'好。'});",
         "playground.drawCharacter({name:'char_010_chen_1'});playground.drawDialog({name:'陈',text:'阿米娅，十分钟之后，我们一起出发。'});",
         "playground.drawCharacter({name:'char_002_amiya_1'});playground.drawDialog({name:'阿米娅',text:'好的。'});",
-        "background.showImage({fadetime:1, block:true});playground.drawCharacter({name:'char_002_amiya_4'});playground.drawDialog({name:'阿米娅',text:'你们一定要平安无事......'});"
+        "background.showImage({fadetime:1, block:true});playground.drawCharacter({name:'char_002_amiya_4'});playground.drawDialog({name:'阿米娅',text:'你们一定要平安无事......'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

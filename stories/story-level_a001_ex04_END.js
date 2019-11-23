@@ -24,6 +24,7 @@ var story = [
         "playground.drawCharacter({name:'avg_npc_003',name2:'char_220_grani_2',focus:2});playground.drawDialog({name:'格拉尼',text:'哎呀，这个，我早就清楚啦......'});",
         "playground.drawCharacter({name:'avg_npc_003',name2:'char_220_grani_2',focus:1});playground.drawDialog({name:'可萝尔',text:'唔，你在干什么，格拉尼？'});",
         "playground.drawCharacter({name:'char_220_grani_3'});playground.drawDialog({name:'格拉尼',text:'折纸飞机啊。'});",
-        "playground.drawDialog({name:'格拉尼',text:'罗德岛的信纸材料很好，能飞很远呢。'});"
+        "playground.drawDialog({name:'格拉尼',text:'罗德岛的信纸材料很好，能飞很远呢。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({fadetime:3,block:true});playground.drawImage({});"
     ]
 ];

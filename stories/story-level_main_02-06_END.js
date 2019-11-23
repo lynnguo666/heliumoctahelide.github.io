@@ -38,6 +38,7 @@ var story = [
         "playground.drawDialog({name:'米莎',text:'......我......'});",
         "playground.drawDialog({name:'米莎',text:'......'});",
         "background.cameraShake({duration:1, xstrength:5, ystrength:3, vibrato:30, randomness:90, fadeout:true, block:true});playground.drawCharacter({name:'char_002_amiya_6'});playground.drawDialog({name:'阿米娅',text:'......米莎？米莎？！'});",
-        "playground.drawCharacter({name:'char_002_amiya_5'});playground.drawDialog({name:'阿米娅',text:'医疗！医疗小队！！'});"
+        "playground.drawCharacter({name:'char_002_amiya_5'});playground.drawDialog({name:'阿米娅',text:'医疗！医疗小队！！'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

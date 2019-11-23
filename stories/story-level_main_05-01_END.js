@@ -38,6 +38,7 @@ var story = [
         "playground.drawCharacter({name:'char_308_swire_5',name2:'char_010_chen_5',focus:2});playground.drawDialog({name:'陈',text:'......'});",
         "playground.drawCharacter({name:'char_308_swire_5',name2:'char_010_chen_5',focus:1});playground.drawDialog({name:'诗怀雅',text:'这也是你接到的命令？'});",
         "playground.drawDialog({name:'诗怀雅',text:'没有你的擅离职守，龙门不会失陷。'});",
-        "playground.drawDialog({name:'诗怀雅',text:'我替你感到羞耻，陈警司。你该马上辞职，而我会接管特别督查组。'});"
+        "playground.drawDialog({name:'诗怀雅',text:'我替你感到羞耻，陈警司。你该马上辞职，而我会接管特别督查组。'});",
+        "playground.clearDialog();delay(0.5);blocker.blocker({a:1,r:0, g:0, b:0, fadetime:2, block:true});"
     ]
 ];

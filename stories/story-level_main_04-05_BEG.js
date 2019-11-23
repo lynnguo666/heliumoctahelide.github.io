@@ -39,6 +39,7 @@ var story = [
         "playground.drawCharacter({name:'char_002_amiya_1', name2:'char_010_chen_1', focus:1});playground.drawDialog({name:'阿米娅',text:'陈长官，我请求龙门出动近卫局，配合罗德岛进行救援任务。'});",
         "playground.drawDialog({name:'阿米娅',text:'甚至，那里会有整合运动的临时指挥部——'});",
         "playground.drawCharacter({name:'char_002_amiya_1', name2:'char_010_chen_1', focus:2});playground.drawDialog({name:'陈',text:'......'});",
-        "playground.drawCharacter({name:'char_002_amiya_4', name2:'char_010_chen_1', focus:1});playground.drawDialog({name:'阿米娅',text:'而且，各个侦查小队，一定还在我看不见的地方战斗着......'});"
+        "playground.drawCharacter({name:'char_002_amiya_4', name2:'char_010_chen_1', focus:1});playground.drawDialog({name:'阿米娅',text:'而且，各个侦查小队，一定还在我看不见的地方战斗着......'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

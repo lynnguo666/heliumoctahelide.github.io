@@ -108,6 +108,7 @@ var story = [
         "playground.drawDialog({name:'阿米娅',text:'小心敌人的突袭！迅速援护星熊警官！'});",
         "playground.drawDialog({name:'阿米娅',text:'还有很多敌人埋伏在周围！'});",
         "playground.drawDialog({name:'阿米娅',text:'只有暴露他们的踪迹，我们才能取得优势！'});",
-        "playground.drawDialog({name:'阿米娅',text:'博士！请指挥各小队应对敌人的袭击！'});"
+        "playground.drawDialog({name:'阿米娅',text:'博士！请指挥各小队应对敌人的袭击！'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

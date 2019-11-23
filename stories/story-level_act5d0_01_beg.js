@@ -154,6 +154,7 @@ var story = [
         "playground.drawDialog({name:'大帝',text:'你们已经出现在我的视线之内，而我视线之内就是企鹅帝国的国土。'});",
         "playground.drawDialog({name:'大帝',text:'不好意思，请问你们的过境签证有带在身上吗？'});",
         "playground.drawDialog({name:'大帝',text:'没有？'});",
-        "playground.drawDialog({name:'大帝',text:'那你们得准备好滚回娘家哭鼻子了。'});"
+        "playground.drawDialog({name:'大帝',text:'那你们得准备好滚回娘家哭鼻子了。'});",
+        "playground.clearDialog();blocker.blocker({a:1,r:0, g:0, b:0, fadetime:1, block:true});playground.clearDialog();background.showImage({});playground.drawImage({});playground.drawCharacter({fadetiem:1});delay(0.5);playground.clearDialog();blocker.blocker({block:true});"
     ]
 ];

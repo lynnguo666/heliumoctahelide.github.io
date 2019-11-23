@@ -86,6 +86,7 @@ var story = [
         "playground.drawDialog({name:'霜叶',text:'这边，别走散了。'});",
         "playground.drawDialog({name:'霜叶',text:'那些东西......别去看。'});",
         "playground.drawDialog({name:'霜叶',text:'——有敌人。'});",
-        "playground.drawDialog({name:'霜叶',text:'悄无声息的干掉吧。'});"
+        "playground.drawDialog({name:'霜叶',text:'悄无声息的干掉吧。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

@@ -56,6 +56,7 @@ var story = [
         "playground.drawDialog({name:'阿米娅',text:'比起你的心情，还是你的安全更重要。'});",
         "playground.drawDialog({name:'阿米娅',text:'如果有机会，我会解释一切。'});",
         "playground.drawDialog({name:'阿米娅',text:'并且有些事情，我也想知道......'});",
-        "playground.drawCharacter({name:'char_002_amiya_4', name2:'char_012_misa_1', focus:2});playground.drawDialog({name:'米莎',text:'......'});"
+        "playground.drawCharacter({name:'char_002_amiya_4', name2:'char_012_misa_1', focus:2});playground.drawDialog({name:'米莎',text:'......'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

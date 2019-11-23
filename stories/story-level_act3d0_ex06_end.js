@@ -95,6 +95,7 @@ var story = [
         "playground.drawCharacter({name:'npc_2004_alty',name2:'char_003_kalts_1',focus:1});playground.drawDialog({name:'Alty',text:'Frost是我们中最年轻的。只有我们四个是年轻的。'});",
         "playground.drawDialog({name:'Alty',text:'她嗅到那几个阿戈尔人的味道。那不是阿戈尔人应该有的味道。'});",
         "playground.drawDialog({name:'Alty',text:'“它们不能再歌唱。它们不能再说话。它们离我们越来越远。它们饥渴难当。”'});",
-        "playground.drawDialog({name:'Alty',text:'AMa-10凯尔希医生，请你告诉我——这些特别的阿戈尔人，他们是怎么诞生的？'});"
+        "playground.drawDialog({name:'Alty',text:'AMa-10凯尔希医生，请你告诉我——这些特别的阿戈尔人，他们是怎么诞生的？'});",
+        "playground.clearDialog();"
     ]
 ];

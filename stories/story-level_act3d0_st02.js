@@ -88,6 +88,7 @@ var story = [
         "predicate = ['8'];",
         "playground.drawDialog({name:'锡兰',text:'真是个顽固的人，非要我这么说才能接受。'});",
         "playground.drawDialog({name:'锡兰',text:'那么，请稍等片刻。'});",
-        "predicate = ['2', '4', '6', '8'];"
+        "predicate = ['2', '4', '6', '8'];",
+        "playground.clearDialog();blocker.blocker({a:1, r:0,g:0, b:0, fadetime:2, block:true});playground.drawCharacter({});delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

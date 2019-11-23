@@ -123,6 +123,7 @@ var story = [
         "playground.drawCharacter({});playground.drawDialog({name:'能天使',text:'就是糖果盒啊，上面还写着“维多利亚水果软糖”......'});",
         "playground.drawCharacter({name:'char_102_texas_4'});playground.drawDialog({name:'德克萨斯',text:'离远点能天使，那大概是个陷阱，别打开——'});",
         "voice.stopMusic({fadetime:0.5});playground.drawCharacter({name:'char_103_angel_4'});playground.drawDialog({name:'能天使',text:'欸？'});",
-        "playground.drawCharacter({name:'char_102_texas_2'});playground.drawDialog({name:'德克萨斯',text:'唉，趴下。'});"
+        "playground.drawCharacter({name:'char_102_texas_2'});playground.drawDialog({name:'德克萨斯',text:'唉，趴下。'});",
+        "playground.drawCharacter({});playground.clearDialog();background.showImage({});background.cameraShake({duration:1, xstrength:8, ystrength:6, vibrato:30, randomness:90, fadeout:true, block:false});blocker.blocker({a:0.7, r:0.95, g:0.95, b:0.95, fadetime:0.02, block:true});voice.playSound({key:'d_sp_ballista'});blocker.blocker({a:0, r:0.95, g:0.95, b:0.95, fadetime:0.25, block:true});background.cameraShake({duration:1, xstrength:8, ystrength:6, vibrato:30, randomness:90, fadeout:true, block:false});blocker.blocker({a:0.7, r:0.95, g:0.95, b:0.95, fadetime:0.02, block:true});voice.playSound({key:'d_sp_ballista'});blocker.blocker({a:0, r:0, g:0, b:0, fadetime:0.25, block:true});delay(1);playground.clearDialog();blocker.blocker({block:true});"
     ]
 ];

@@ -118,6 +118,7 @@ var story = [
         "playground.drawDialog({name:'凯尔希',text:'无论戒指产生了什么变化，都必须向我报告。'});",
         "blocker.blocker({fadetime:1.2, block:true});playground.drawCharacter({name:'char_003_kalts_1'});playground.drawDialog({name:'凯尔希',text:'其他的，现在你还不适合知道。'});",
         "playground.drawDialog({name:'凯尔希',text:'哦对了，两天后你还需要去检测中心做一次身体检查。别忘了。'});",
-        "playground.clearDialog();playground.drawDialog({name:'凯尔希',text:'——去吧。雷蛇在外面等着护送你。'});"
+        "playground.clearDialog();playground.drawDialog({name:'凯尔希',text:'——去吧。雷蛇在外面等着护送你。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

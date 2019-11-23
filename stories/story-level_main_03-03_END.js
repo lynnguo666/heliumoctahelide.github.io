@@ -102,6 +102,7 @@ var story = [
         "playground.drawCharacter({name:'char_1504_cqbw', name2:'char_1500_skulsr', focus:2});playground.drawDialog({name:'碎骨',text:'我明白。'});",
         "playground.drawDialog({name:'碎骨',text:'——帮我照顾好米莎。'});",
         "playground.drawCharacter({name:'char_1504_cqbw', name2:'char_1500_skulsr', focus:1});playground.drawDialog({name:'W',text:'没问题~'});",
-        "playground.drawDialog({name:'W',text:'呼。那么......祝你好运。'});"
+        "playground.drawDialog({name:'W',text:'呼。那么......祝你好运。'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];

@@ -136,6 +136,7 @@ var story = [
         "playground.drawCharacter({});playground.clearDialog();voice.playSound({key:'d_gen_signalbomb'});background.cameraShake({duration:0.6, xstrength:5, ystrength:8, vibrato:30, randomness:90, block:true});blocker.blocker({a:0.7, r:0.95, g:0.95, b:0.95, fadetime:0, block:true});blocker.blocker({a:0, r:0.95, g:0.95, b:0.95, fadetime:0.3, block:true});delay(2.2);blocker.blocker({a:0.7, r:0.95, g:0.95, b:0.95, fadetime:0, block:true});blocker.blocker({a:0, r:0, g:0, b:0, fadetime:1, block:true});playground.drawDialog({name:'黑帮',text:'怎么回事，刚才听见了弗伦佐的惨叫声！？'});",
         "playground.drawDialog({name:'黑帮',text:'在那边那个方向！'});",
         "playground.drawCharacter({name:'char_103_angel_7'});playground.drawDialog({name:'能天使',text:'真的能带着活人飞上天啊，那这烟花还挺劲的。'});",
-        "playground.drawCharacter({name:'char_102_texas_1'});playground.drawDialog({name:'德克萨斯',text:'先应付敌人，左右分工。'});"
+        "playground.drawCharacter({name:'char_102_texas_1'});playground.drawDialog({name:'德克萨斯',text:'先应付敌人，左右分工。'});",
+        "playground.clearDialog();delay(0.5);playground.clearDialog();blocker.blocker({fadetime:1,block:true});"
     ]
 ];

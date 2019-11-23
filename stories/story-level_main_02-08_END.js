@@ -69,6 +69,7 @@ var story = [
         "playground.drawDialog({name:'塔露拉',text:'我回到这里，不仅是要夺回本属于感染者的一切。'});",
         "playground.drawDialog({name:'塔露拉',text:'我还要让他——付出代价。'});",
         "playground.clearDialog();delay(0.6);background.showImage({screenadapt:'coverall', fadetime:2, block:false});playground.drawDialog({name:'塔露拉',text:'而且——你难道不觉得，这一切也很有趣吗？'});",
-        "playground.drawCharacter({});playground.drawDialog({name:'塔露拉',text:'对吧，塔露拉——？'});"
+        "playground.drawCharacter({});playground.drawDialog({name:'塔露拉',text:'对吧，塔露拉——？'});",
+        "delay(0.6);playground.clearDialog();blocker.blocker({block:true});playground.drawImage({});"
     ]
 ];
