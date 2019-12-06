@@ -10,40 +10,6 @@
 
 相当多的内容未经测试。如果在使用中遇到问题，你可以在[Github页面](https://github.com/HeliumOctahelide/heliumoctahelide.github.io)提交Issue，或在NGA论坛联系作者[@\_江天万里霜\_]。
 
-## 危机合约
-
-[危机合约说明](./canvas.html?05teaching)
-
-## 喧闹法则
-
-[序幕](./canvas.html?05opening)
-
-CB-1 6:44P.M. ：[[前](./canvas.html?05-1beg)]，[[后](./canvas.html?05-1end)]
-
-CB-2 7:15P.M. ：[[前](./canvas.html?05-2beg)]，[[后](./canvas.html?05-2end)]
-
-CB-3 7:22P.M. ：[[前](./canvas.html?05-3beg)]，[[后](./canvas.html?05-3end)]
-
-CB-4 7:59P.M. ：[[前](./canvas.html?05-4beg)]，[[后](./canvas.html?05-4end)]
-
-CB-5 8:31P.M. ：[[前](./canvas.html?05-5beg)]，[[后](./canvas.html?05-5end)]
-
-[CB-ST1 晚风轻拂](./canvas.html?05-s1)
-
-CB-6 10:26P.M. ：[[前](./canvas.html?05-6beg)]，[[后](./canvas.html?05-6end)]
-
-CB-7 11:08P.M. ：[[前](./canvas.html?05-7beg)]，[[后](./canvas.html?05-7end)]
-
-CB-8 11:41P.M. ：[[前](./canvas.html?05-8beg)]，[[后](./canvas.html?05-8end)]
-
-[CB-ST2 午夜龙门](./canvas.html?05-s2)
-
-CB-9 0:01A.M. ：[[前](./canvas.html?05-9beg)]，[[后](./canvas.html?05-9end)]
-
-CB-10 1:11A.M. ：[[前](./canvas.html?05-10beg)]，[[后](./canvas.html?05-10end)]
-
-[CB-ST3 破晓时分](./canvas.html?05-s3)
-
 ## 往期活动剧情
 
 ### 骑兵与猎人
@@ -124,6 +90,46 @@ OF-8 汐斯塔狂想曲：[[前](./canvas.html?02-8beg)]，[[后](./canvas.html?
 [SW-ST6 北极星](./canvas.html?03-6)
 
 [SW-ST7 和光同尘](./canvas.html?03-7)
+
+### 危机合约
+
+[危机合约说明](./canvas.html?05teaching)
+
+### 喧闹法则
+
+[序幕](./canvas.html?05opening)
+
+CB-1 6:44P.M. ：[[前](./canvas.html?05-1beg)]，[[后](./canvas.html?05-1end)]
+
+CB-2 7:15P.M. ：[[前](./canvas.html?05-2beg)]，[[后](./canvas.html?05-2end)]
+
+CB-3 7:22P.M. ：[[前](./canvas.html?05-3beg)]，[[后](./canvas.html?05-3end)]
+
+CB-4 7:59P.M. ：[[前](./canvas.html?05-4beg)]，[[后](./canvas.html?05-4end)]
+
+CB-5 8:31P.M. ：[[前](./canvas.html?05-5beg)]，[[后](./canvas.html?05-5end)]
+
+[CB-ST1 晚风轻拂](./canvas.html?05-s1)
+
+CB-6 10:26P.M. ：[[前](./canvas.html?05-6beg)]，[[后](./canvas.html?05-6end)]
+
+CB-7 11:08P.M. ：[[前](./canvas.html?05-7beg)]，[[后](./canvas.html?05-7end)]
+
+CB-8 11:41P.M. ：[[前](./canvas.html?05-8beg)]，[[后](./canvas.html?05-8end)]
+
+[CB-ST2 午夜龙门](./canvas.html?05-s2)
+
+CB-9 0:01A.M. ：[[前](./canvas.html?05-9beg)]，[[后](./canvas.html?05-9end)]
+
+CB-10 1:11A.M. ：[[前](./canvas.html?05-10beg)]，[[后](./canvas.html?05-10end)]
+
+[CB-ST3 破晓时分](./canvas.html?05-s3)
+
+[CB-EX1 群架诀窍](./canvas.html?05-e1)
+
+[CB-EX2 南辕北辙](./canvas.html?05-e2)
+
+[CB-EX3 林中小屋](./canvas.html?05-e3)
 
 
 ## 主线剧情
@@ -259,10 +265,15 @@ OF-8 汐斯塔狂想曲：[[前](./canvas.html?02-8beg)]，[[后](./canvas.html?
 
 ## 更新记录
 
+2019.12.7：添加了喧闹法则的EX剧情。添加了一个访问计数器。
+
 2019.11.24：添加了喧闹法则和危机合约的开幕内容，修复了最后一步剧情会缺失的问题，修复了某些情况下图片不正确加载的问题，修复了另一些不为人知的bug ~~，引入了更多新的bug~~。
 
 2019.11.19：更新喧闹法则。
 
 ***
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
 
 <center>Powered by myself</center>
