@@ -18,7 +18,9 @@ def transparent_back(img ,alphachannel):
                 img.putpixel(dot,color_1)
     return img
 
-for filename in os.listdir(dir1+'Sprite\\'):
+for filename in os.listdir(dir1+'Texture2D\\'):
+    if '[alpha]' in filename:
+        continue
     if filename in os.listdir(dir1):
         print('passed ' + filename)
         continue
@@ -27,7 +29,7 @@ for filename in os.listdir(dir1+'Sprite\\'):
         continue
     if filename in os.listdir(dir2):
         continue
-    a = Image.open(dir1+'Sprite\\'+filename)
+    a = Image.open(dir1+'Texture2D\\'+filename)
     b = Image.open(dir1+'Texture2D\\'+filename[:-4]+'[alpha].png')
     c = transparent_back(a,b)
     c.save(dir2+filename)

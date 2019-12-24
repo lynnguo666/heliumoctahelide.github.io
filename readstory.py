@@ -30,6 +30,13 @@ story_variables = {
   "avatar_moeshd" : "char_201_moeshd",
   "avatar_mousek" : "npc_111_mousek",
   "avatar_emperor" : "npc_105_emperor",
+  "avatar_huang" : "char_017_huang",
+  "avatar_swllow" : "char_367_swllow",
+  "avatar_frstar" : "char_1505_frstar",
+  "avatar_kroos" : "char_124_kroos",
+ 
+
+
 
    "f_tut_black" : 0.6,
   "f_lower_dialog_pos_x": -568,
@@ -132,7 +139,8 @@ story_variables = {
   "p_imp_tekken_h" : "Sound_Beta_2/Player/p_imp/p_imp_tekken_h",
   "p_imp_naginata_elc" : "Sound_Beta_2/Player/p_imp/p_imp_naginata_elc",
   "p_atk_smg_h" : "Sound_Beta_2/Player/p_atk/p_atk_smg_h",
-
+  "p_atk_elecball_n" : "Sound_Beta_2/Player/p_atk/p_atk_elecball_n",
+  
 
   "mist_loop" : "Sound_Beta_2/Music/beta1_180603/m_dia_mist_loop",
   "mist_intro" : "Sound_Beta_2/Music/beta1_180603/m_dia_mist_intro",
@@ -181,8 +189,11 @@ story_variables = {
   "speedoflight_intro" : "Sound_Beta_2/Music/act5d0/m_avg_speedoflight_intro",
   "speedoflight_loop" : "Sound_Beta_2/Music/act5d0/m_avg_speedoflight_loop",
 
-
-
+  "longmenbatimp_intro" : "Sound_Beta_2/Music/beta3_181101/m_bat_longmenbatimp_intro",
+  "longmenbatimp_loop" : "Sound_Beta_2/Music/beta3_181101/m_bat_longmenbatimp_loop",
+  "longmenoffice_intro" : "Sound_Beta_2/Music/beta3_181101/m_bat_longmenoffice_intro",
+  "longmenoffice_loop" : "Sound_Beta_2/Music/beta3_181101/m_bat_longmenoffice_loop",
+ 
   "chernormal_intro" : "Sound_Beta_2/Music/beta2_180603/m_bat_qiecheng_intro",
   "chernormal_loop" : "Sound_Beta_2/Music/beta2_180603/m_bat_qiecheng_loop",
   "cherimp_intro" : "Sound_Beta_2/Music/beta2_180603/m_bat_qiechengimp_intro",
@@ -238,6 +249,18 @@ story_variables = {
   "nightoflongmen_loop" : "Sound_Beta_2/Music/beta2_180603/m_dia_nightoflongmen_loop",
   "newhope01_intro" : "Sound_Beta_2/Music/beta3_181101/m_dia_newhope01_intro",
   "newhope01_loop" : "Sound_Beta_2/Music/beta3_181101/m_dia_newhope01_loop",
+
+
+  "frostnovadie_intro" : "Sound_Beta_2/Music/static/m_avg/m_avg_frostnovadie_intro",
+  "frostnovadie_loop" : "Sound_Beta_2/Music/static/m_avg/m_avg_frostnovadie_loop",
+  "loneliness_intro" : "Sound_Beta_2/Music/static/m_avg/m_avg_loneliness_intro",
+  "loneliness_loop" : "Sound_Beta_2/Music/static/m_avg/m_avg_loneliness_loop",
+  "frostnovaevolution_intro" : "Sound_Beta_2/Music/static/m_bat/m_bat_frostnovaevolution_intro",
+  "frostnovaevolution_loop" : "Sound_Beta_2/Music/static/m_bat/m_bat_frostnovaevolution_loop",
+  "snowmonster_intro" : "Sound_Beta_2/Music/static/m_bat/m_bat_snowmonster_intro",
+  "snowmonster_loop" : "Sound_Beta_2/Music/static/m_bat/m_bat_snowmonster_loop",
+
+
 
   "path_intro" : "Sound_Beta_2/Music/a001/m_dia_path_intro",
   "path_loop" : "Sound_Beta_2/Music/a001/m_dia_path_loop",

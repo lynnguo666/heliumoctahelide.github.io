@@ -10,6 +10,44 @@
 
 相当多的内容未经测试。如果在使用中遇到问题，你可以在[Github页面](https://github.com/HeliumOctahelide/heliumoctahelide.github.io)提交Issue，或在NGA论坛联系作者[@\_江天万里霜\_]。
 
+## 第六章 局部坏死
+
+6-1 僵局：[前](./canvas.html?6-1beg)，[后](./canvas.html?6-1end)
+
+6-2 一些误会：[前](./canvas.html?6-2beg)，[后](./canvas.html?6-2end)
+
+6-3 同时走失：[前](./canvas.html?6-3beg)，[后](./canvas.html?6-3end)
+
+6-4 溃烂的疮疤：[前](./canvas.html?6-4beg)，[后](./canvas.html?6-4end)
+
+6-5 解决谁？：[前](./canvas.html?6-5beg)，[后](./canvas.html?6-5end)
+
+[6-6 别说过去的事](./canvas.html?6-st1)
+
+6-7 断弦：[前](./canvas.html?6-6beg)，[后](./canvas.html?6-6end)
+
+6-8 只是从天而降！：[前](./canvas.html?6-7beg)，[后](./canvas.html?6-7end)
+
+6-9 换一个角度：[前](./canvas.html?6-8beg)
+
+6-10 解开铃铛：[后](./canvas.html?6-9end)
+
+6-11 “这种事”：[前](./canvas.html?6-10beg)，[后](./canvas.html?6-10end)
+
+6-12 冰原之雪：[前](./canvas.html?6-11beg)
+
+[6-13 没有火，没有光](./canvas.html?6-st2)
+
+6-14 冰原之霜：[后](./canvas.html?6-12end)
+
+6-15 不错的回忆：[前](./canvas.html?6-13beg)，[后](./canvas.html?6-13end)
+
+6-16 黑兔子，白兔子：[前](./canvas.html?6-14beg)
+
+6-17 冬逝：[后](./canvas.html?6-15end)
+
+[6-18 只有你知道](./canvas.html?6-st3)
+
 ## 往期活动剧情
 
 ### 骑兵与猎人
