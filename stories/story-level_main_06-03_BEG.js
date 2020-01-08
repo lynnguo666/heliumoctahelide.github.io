@@ -53,7 +53,7 @@ var story = [
         "playground.drawCharacter({name:'char_1508_faust_1',name2:'char_1507_mephisto_2',focus:1});playground.drawDialog({name:'浮士德',text:'霜星不会背叛。我们不是说好了，要自己去看到真相？'});",
         "playground.drawCharacter({name:'char_1508_faust_1',name2:'char_1507_mephisto_2',focus:2});playground.drawDialog({name:'梅菲斯特',text:'是啊......大家都在为了生存而努力。'});",
         "playground.drawCharacter({name:'char_1508_faust_1',name2:'char_1507_mephisto_2',focus:1});playground.drawDialog({name:'浮士德',text:'别冲动，别被近卫局的计策冲昏头脑！'});",
-        "voice.stopMusic({fadetime:2});playground.drawCharacter({name:'char_1508_faust_1',name2:'char_1507_mephisto_1',focus:2});playground.drawDialog({name:'梅菲斯特',text:'我有办法，浮士德。我可以让我的同胞们更好的活下去。'});",
+        "voice.stopMusic({fadetime:2});playground.drawCharacter({name:'char_1508_faust_1',name2:'char_1507_mephisto_1',focus:2});playground.drawDialog({name:'梅菲斯特',text:'我有办法，浮士德。我可以让我的同胞们更好地活下去。'});",
         "playground.drawCharacter({name:'char_1508_faust_1',name2:'char_1507_mephisto_1',focus:1});playground.drawDialog({name:'浮士德',text:'......？你要做什么？'});",
         "playground.drawCharacter({name:'char_1508_faust_1',name2:'char_1507_mephisto_5',focus:2});playground.drawDialog({name:'梅菲斯特',text:'我要让近卫局看看比军队更可怕的东西。他们绝对无法想象我同胞们绽放出的花朵是什么样子。'});",
         "playground.drawCharacter({name:'char_1508_faust_1',name2:'char_1507_mephisto_5',focus:1});playground.drawDialog({name:'浮士德',text:'梅菲斯特？！'});",

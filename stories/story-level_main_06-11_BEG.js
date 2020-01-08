@@ -23,7 +23,7 @@ var story = [
         "d_gen_transmissionget"
     ],
     [
-        "playground.clearDialog();playground.drawCharacter({});blocker.blocker({a:1, r:0,g:0, b:0, block:true});background.showImage({image:'bg_indoor_f',fadetime:1,screenadapt:'coverall'});blocker.blocker({a:0, fadetime:1.5, block:true});voice.playMusic({intro:'m_dia_darkness02_intro', key:'m_dia_darkness02_loop', volume:0.8, crossfade:1.5, delay:0.5});playground.drawCharacter({name:'avg_npc_037',name2:'avg_npc_037',focus:1});playground.drawDialog({name:'雪怪小队成员A',text:'我确认过了。所有能联系上的整合运动队伍已经全部撤出了。'});",
+        "playground.clearDialog();playground.drawCharacter({});blocker.blocker({a:1, r:0,g:0, b:0, block:true});background.showImage({image:'bg_indoor_f',fadetime:1,screenadapt:'coverall'});blocker.blocker({a:0, fadetime:1.5, block:true});voice.playMusic({intro:'m_dia_darkness02_intro', key:'m_dia_darkness02_loop', volume:0.8, crossfade:1.5, delay:0.5});playground.drawCharacter({name:'avg_npc_037',name2:'avg_npc_037',focus:1});playground.drawDialog({name:'雪怪小队成员A',text:'我确认过了，所有能联系上的整合运动队伍已经全部撤出了。'});",
         "playground.drawCharacter({name:'avg_npc_037',name2:'avg_npc_037',focus:2});playground.drawDialog({name:'雪怪小队成员B',text:'人真多啊。'});",
         "playground.drawCharacter({name:'avg_npc_037',name2:'avg_npc_037',focus:1});playground.drawDialog({name:'雪怪小队成员A',text:'浩浩荡荡的......就像河水一样。'});",
         "playground.drawCharacter({name:'avg_npc_037'});playground.drawDialog({name:'大熊',text:'荒原上会出现一条河流......一条逃难者的河流。'});",

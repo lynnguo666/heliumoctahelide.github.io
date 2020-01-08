@@ -56,7 +56,7 @@ var story = [
         "playground.drawDialog({name:'九',text:'再说，原本，理应是我命令你。'});",
         "playground.drawCharacter({name:'char_010_chen_4'});playground.drawDialog({name:'陈',text:'九......！'});",
         "playground.drawCharacter({});playground.drawDialog({name:'九',text:'你说的特殊部队，我似乎已经看见过了。'});",
-        "playground.drawDialog({name:'九',text:'我还是把龙门想象的太好了。再见，陈。'});",
+        "playground.drawDialog({name:'九',text:'我还是把龙门想象得太好了。再见，陈。'});",
         "playground.drawDialog({name:'九',text:'对了，别去检查排水系统。'});",
         "voice.playSound({key:'d_gen_transmission', volume:0.4});delay(1);playground.clearDialog();playground.drawCharacter({});blocker.blocker({a:1, r:0, g:0, b:0, fadetime:1, block:true});blocker.blocker({a:0, r:0, g:0, b:0, fadetime:1, block:true});playground.drawCharacter({name:'char_010_chen_1'});playground.drawDialog({name:'陈',text:'......'});",
         "playground.drawDialog({name:'陈',text:'我声音是不是太大了？'});",

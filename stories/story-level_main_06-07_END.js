@@ -46,7 +46,7 @@ var story = [
         "playground.drawCharacter({name:'char_017_homura_5'});playground.drawDialog({name:'煌',text:'快走，阿米娅。路上可能还有其他的整合运动。有伤员吗？我可以搭把手。'});",
         "playground.drawCharacter({name:'char_1505_frstar_1'});playground.drawDialog({name:'霜星',text:'想这样就撤退？'});",
         "playground.drawCharacter({name:'char_017_homura_5',name2:'char_1505_frstar_1',focus:1});playground.drawDialog({name:'煌',text:'我劝你一句。别再战斗了，白毛兔子。'});",
-        "playground.drawDialog({name:'煌',text:'再这么强撑着用法术，你会死的很快。你的力量正在把你的活力榨干。'});",
+        "playground.drawDialog({name:'煌',text:'再这么强撑着用法术，你会死得很快。你的力量正在把你的活力榨干。'});",
         "playground.drawDialog({name:'煌',text:'或者，你可以来罗德岛。至少我们有办法延续你的生命。'});",
         "playground.drawCharacter({name:'char_017_homura_5',name2:'char_1505_frstar_1',focus:2});playground.drawDialog({name:'霜星',text:'......'});",
         "playground.drawDialog({name:'霜星',text:'怎么一副......怜悯他人的样子？谁需要你们的怜悯？'});",

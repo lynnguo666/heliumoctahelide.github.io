@@ -308,6 +308,16 @@ function Background() { // 背景类；相机震动
     this.showImage = function (paras) { // 绘制图片
         // 参数处理
         var img = paras.image;
+        if (img) {
+            if (usedImages[img].height == 576 && usedImages[img].width == 1024) {
+                usedImages[img].height = 720;
+                usedImages[img].width = 1280;
+            };
+            if (usedImages[img].height == 844 && usedImages[img].width == 1500) {
+                usedImages[img].height = 720;
+                usedImages[img].width = 1280;
+            };
+        }
         var fadetime = paras.fadetime ? paras.fadetime : 0;
         var block = paras.block;
 
@@ -434,9 +444,20 @@ function Playground() { // 立绘和文本
     this.drawingImage = 0;
     this.img = '';
     this.img2 = '';
+    this.tweeningImage = false;
     this.drawImage = function (paras) { // 绘制图片
         // 参数处理
         var img = paras.image;
+        if (img) {
+            if (usedImages[img].height == 576 && usedImages[img].width == 1024) {
+                usedImages[img].height = 720;
+                usedImages[img].width = 1280;
+            };
+            if (usedImages[img].height == 844 && usedImages[img].width == 1500) {
+                usedImages[img].height = 720;
+                usedImages[img].width = 1280;
+            };
+        }
         this.drawingImage = img;
         var fadetime = paras.fadetime ? paras.fadetime : 0;
         var x = paras.x ? paras.x : 0;
@@ -445,7 +466,7 @@ function Playground() { // 立绘和文本
         var yScale = paras.yscale ? paras.yscale : 1.0;
         fadetime *= 1000;
         setTimeout(() => {
-            tweeningImage = false;
+            this.tweeningImage = false;
             // 如果为淡出
             if (img == undefined && fadetime != 0) {
                 var leng = fadetime / 50;
@@ -468,6 +489,7 @@ function Playground() { // 立绘和文本
                 animationDelayTime += fadetime;
                 return 0;
             } else if (img == undefined && fadetime == 0) {
+                console.log("清除画布");
                 ictx.clearRect(0, 0, ic.width, ic.height);
                 this.drawingImage = 0;
                 return 0;
@@ -505,21 +527,22 @@ function Playground() { // 立绘和文本
     this.imageTween = function (paras) {
         var img = this.drawingImage;
         console.log("paras.xfrom " + paras.xfrom);
-        var xFrom = paras.xfrom != undefined ? paras.xfrom : paras.x;
-        var yFrom = paras.yfrom != undefined ? paras.yfrom : paras.y;
-        var xTo = paras.xto != undefined ? paras.xto : paras.x;
-        var yTo = paras.yto != undefined ? paras.yto : paras.y;
-        var xScaleFrom = paras.xscalefrom != undefined ? paras.xscalefrom : paras.xscale;
-        var yScaleFrom = paras.yscalefrom != undefined ? paras.yscalefrom : paras.yscale;
-        var xScaleTo = paras.xscaleto != undefined ? paras.xscaleto : paras.xscale;
-        var yScaleTo = paras.yscaleto != undefined ? paras.yscaleto : paras.yscale;
-        var duration = paras.duration;
+        var xFrom = paras.xfrom != undefined ? paras.xfrom : 0;
+        var yFrom = paras.yfrom != undefined ? paras.yfrom : 0;
+        var xTo = paras.xto != undefined ? paras.xto : 0;
+        var yTo = paras.yto != undefined ? paras.yto : 0;
+        var xScaleFrom = paras.xscalefrom != undefined ? paras.xscalefrom : 1;
+        var yScaleFrom = paras.yscalefrom != undefined ? paras.yscalefrom : 1;
+        var xScaleTo = paras.xscaleto != undefined ? paras.xscaleto : 1;
+        var yScaleTo = paras.yscaleto != undefined ? paras.yscaleto : 1;
+        var duration = paras.duration < 0.05 ? 0.05 : paras.duration;
         var block = paras.block;
         duration *= 1000;
         // 变换图片
         setTimeout(() => {
-            tweeningImage = true;
+            this.tweeningImage = true;
             var fadeStep = duration / 50;
+            console.log("正在变换：" + img);
             console.log("fadeStep = " + fadeStep);
             var n = 0;
             setTimeout(function () {
@@ -531,8 +554,9 @@ function Playground() { // 立绘和文本
                     thisScalex = xScaleFrom + (xScaleTo - xScaleFrom) * n / fadeStep;
                     thisScaley = yScaleFrom + (yScaleTo - yScaleFrom) * n / fadeStep;
                     ictx.drawImage(usedImages[img], thisx + 640 - thisScalex * usedImages[img].width / 2, thisy + 360 - thisScaley * usedImages[img].height / 2, thisScalex * usedImages[img].width, thisScaley * usedImages[img].height);
-                    if (n >= fadeStep || tweeningImage == false) {
-                        tweeningImage = false;
+                    if (n >= fadeStep || playground.tweeningImage == false) {
+                        console.log("变换结束");
+                        this.tweeningImage = false;
                         ictx.clearRect(0, 0, ic.width, ic.height);
                         clearInterval(fading);
                     }
@@ -598,6 +622,10 @@ function Playground() { // 立绘和文本
             } else if (true) { // 测试修改：无论如何都清除上一次绘制
                 // 如果不是淡出，就先清除上一次绘制的人物
                 cctx.clearRect(0, 0, cc.width, cc.height);
+                // 并且清除画布中的图片
+                //ictx.clearRect(0, 0, cc.width, cc.height);
+                //this.tweeningImage = false;
+                console.log("预清除上一次的绘制");
             }
 
             // 如果为淡入

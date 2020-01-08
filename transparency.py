@@ -18,6 +18,20 @@ def transparent_back(img ,alphachannel):
                 img.putpixel(dot,color_1)
     return img
 
+def transparent_back_for_avg6D5(img ,alphachannel):
+    img = img.convert('RGBA')
+    alphachannel = alphachannel.convert('RGBA')
+    L, H = img.size
+    #color_0 = alphachannel.getpixel((0,0))
+    for h in range(H):
+        for l in range(L):
+            dot = (l,h)
+            color_1 = alphachannel.getpixel(dot)
+            if color_1[:-1] <= (127, 127, 127) and img.getpixel(dot)[:-1] <=(127, 127, 127):
+                color_1 = color_1[:-1] + (0,)
+                alphachannel.putpixel(dot,color_1)
+    return alphachannel
+
 for filename in os.listdir(dir1+'Texture2D\\'):
     if '[alpha]' in filename:
         continue

@@ -16,8 +16,7 @@ var story = [
         "char_193_frostl_1",
         "char_017_homura_8",
         "bg_undergroud_n",
-        "char_1505_frstar_4",
-        "bg_undergroud_f"
+        "char_1505_frstar_4"
     ],
     [
         "m_dia_darkness02_loop",
@@ -41,7 +40,7 @@ var story = [
         "playground.drawDialog({name:'阿米娅',text:'（如果是我们获得先机，我们就必须立即制服霜星，但也要用她换取雪怪小队的认同。）'});",
         "playground.drawDialog({name:'阿米娅',text:'（这样的话，我们不仅能避免战斗，也能获得更深层的交流机会。）'});",
         "playground.drawDialog({name:'阿米娅',text:'（如果是对方先救出领袖......）'});",
-        "playground.drawCharacter({name:'char_259_jessica_3'});playground.drawDialog({name:'杰西卡',text:'阿，阿米娅，心跳探测仪有反应了，我们确定了精确位置，深度还不确定......'});",
+        "playground.drawCharacter({name:'char_259_jessica_3'});playground.drawDialog({name:'杰西卡',text:'阿、阿米娅，心跳探测仪有反应了，我们确定了精确位置，深度还不确定......'});",
         "playground.drawCharacter({name:'char_002_amiya_7'});playground.drawDialog({name:'阿米娅',text:'我知道了！'});",
         "voice.playSound({key:'d_gen_rungeneral', volume:0.9});playground.drawCharacter({name:'char_017_homura_5'});playground.drawDialog({name:'煌',text:'哎......等等！'});",
         "playground.drawDialog({name:'煌',text:'怎么急急忙忙就冲出去了，啊哟。'});",
@@ -79,7 +78,7 @@ var story = [
         "playground.drawCharacter({name:'char_017_homura_4',name2:'avg_npc_037',focus:1});playground.drawDialog({name:'煌',text:'嚯。你说的还蛮对的，我们这儿也是什么人都有。'});",
         "playground.drawCharacter({name:'char_017_homura_4',name2:'avg_npc_037',focus:2});playground.drawDialog({name:'雪怪小队成员B',text:'到哪都一样。'});",
         "playground.drawCharacter({name:'avg_npc_037'});playground.drawDialog({name:'雪怪1号',text:'至少你们肯听我们说话，以前我们遇到的乌萨斯士兵，都是二话不说就射击的。'});",
-        "playground.drawDialog({name:'雪怪1号',text:'箭矢乒铃乓啷地射的到处都是，之后就是打起来，到一方死光了才结束。'});",
+        "playground.drawDialog({name:'雪怪1号',text:'箭矢乒铃乓啷地射得到处都是，之后就是打起来，到一方死光了才结束。'});",
         "playground.drawCharacter({name:'char_017_homura_4'});playground.drawDialog({name:'煌',text:'毕竟我们不是乌萨斯士兵，是制药公司。'});",
         "playground.drawCharacter({name:'avg_npc_037'});playground.drawDialog({name:'雪怪1号',text:'制药公司有你们这种装备？'});",
         "playground.drawCharacter({name:'char_017_homura_5'});playground.drawDialog({name:'煌',text:'现在形势比较乱，大家都得有保护自己的手段，对吧。'});",
@@ -187,7 +186,7 @@ var story = [
         "playground.drawCharacter({name:'char_002_amiya_1',name2:'char_1505_frstar_7',focus:1});playground.drawDialog({name:'阿米娅',text:'霜星小姐，罗德岛不想和任何人发生不必要的冲突。'});",
         "playground.drawCharacter({name:'char_002_amiya_1',name2:'char_1505_frstar_1',focus:2});playground.drawDialog({name:'霜星',text:'又有哪种发生了的冲突是必要的呢？'});",
         "playground.drawCharacter({name:'char_002_amiya_7',name2:'char_1505_frstar_1',focus:1});playground.drawDialog({name:'阿米娅',text:'至少我们不想与你的小队作战！'});",
-        "playground.drawDialog({name:'阿米娅',text:'他们都是正直善良的人，伤害他们，或者让他们伤害无辜的人，绝对违背了我们的意愿！'});",
+        "playground.drawDialog({name:'阿米娅',text:'他们都是正直善良的人。伤害他们，或者让他们伤害无辜的人，绝对违背了我们的意愿！'});",
         "playground.drawCharacter({name:'char_002_amiya_7',name2:'char_1505_frstar_1',focus:2});playground.drawDialog({name:'霜星',text:'......那就祈祷我们别再见面吧。'});",
         "playground.drawCharacter({name:'char_002_amiya_7',name2:'char_1505_frstar_1',focus:1});playground.drawDialog({name:'阿米娅',text:'霜星小姐！'});",
         "playground.drawCharacter({name:'char_002_amiya_7',name2:'char_1505_frstar_7',focus:2});playground.drawDialog({name:'霜星',text:'我可能也没那么想伤害各位。但如果必要的话，我会把各位全都杀掉。'});",
@@ -224,6 +223,6 @@ var story = [
         "predicate = ['1'];",
         "voice.playSound({key:'d_gen_walk_n'});playground.drawCharacter({name:'char_1505_frstar_4',fadetime:1,block:true});delay(1);playground.drawDialog({name:'霜星',text:'......'});",
         "playground.drawDialog({name:'霜星',text:'你们好，罗德岛。'});",
-        "playground.clearDialog();background.showImage({image:'bg_undergroud_f',fadetime:3,screenadapt:'coverall',block:true});delay(2);playground.clearDialog();delay(0.5);blocker.blocker({a:1,r:0, g:0, b:0, fadetime:2, block:true});"
+        "playground.clearDialog();delay(0.5);blocker.blocker({a:1,r:0, g:0, b:0, fadetime:2, block:true});"
     ]
 ];

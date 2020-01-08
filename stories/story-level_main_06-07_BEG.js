@@ -40,7 +40,7 @@ var story = [
         "playground.drawDialog({text:'共一十四人。'});",
         "playground.clearDialog();blocker.blocker({a:1, r:0,g:0, b:0, fadetime:0.6, block:true});playground.drawImage({fadetime:0});blocker.blocker({a:0, fadetime:0.6, block:false});background.showImage({screenadapt:'coverall', image:'bg_aircraft',fadetime:1,block:true});delay(1);playground.drawCharacter({name:'avg_npc_012'});playground.drawDialog({name:'飞行员',text:'我们已经到了，阿米娅她们就在这个位置附近！'});",
         "playground.drawDialog({name:'飞行员',text:'把小队放在城外，真的好吗？我们现在只有两个人，你下去你只有一个人！'});",
-        "playground.drawCharacter({});playground.drawDialog({name:'？？？',text:'哎呀，让他们阻截整合运动的追兵，顺带着清理下场地，比让他们在这打仗要有意义的多。'});",
+        "playground.drawCharacter({});playground.drawDialog({name:'？？？',text:'哎呀，让他们阻截整合运动的追兵，顺带着清理下场地，比让他们在这打仗要有意义得多。'});",
         "playground.drawCharacter({name:'avg_npc_012'});playground.drawDialog({name:'飞行员',text:'行。地形不太好，我只能送你到这儿。'});",
         "playground.drawCharacter({});playground.drawDialog({name:'？？？',text:'足够了。'});",
         "playground.drawCharacter({name:'avg_npc_012'});playground.drawDialog({name:'飞行员',text:'......至少让我给你放条挂索下去？'});",

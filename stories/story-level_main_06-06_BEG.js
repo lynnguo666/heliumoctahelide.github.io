@@ -96,7 +96,7 @@ var story = [
         "playground.drawDialog({name:'煌',text:'我马上就和博士一起加入战场！'});",
         "playground.clearDialog();playground.drawCharacter({});blocker.blocker({a:1, r:0, g:0, b:0, fadetime:1, block:true});background.showImage({screenadapt:'coverall', image:'bg_indoor_n', width:1, height:1});blocker.blocker({a:0, r:0, g:0, b:0,  fadetime:1, block:true});playground.drawCharacter({name:'char_308_swire_5',name2:'char_010_chen_1',focus:1});playground.drawDialog({name:'诗怀雅',text:'你有什么打算？'});",
         "playground.drawCharacter({name:'char_308_swire_5',name2:'char_010_chen_1',focus:2});playground.drawDialog({name:'陈',text:'......'});",
-        "playground.drawDialog({name:'陈',text:'我要放走一小部分整合运动。然后我们进贫民区追踪它们。'});",
+        "playground.drawDialog({name:'陈',text:'我要放走一小部分整合运动，然后我们进贫民区追踪它们。'});",
         "playground.drawCharacter({name:'char_308_swire_5',name2:'char_010_chen_1',focus:1});playground.drawDialog({name:'诗怀雅',text:'你这不是给了那些特殊部队把柄？'});",
         "playground.drawCharacter({name:'char_308_swire_5',name2:'char_010_chen_1',focus:2});playground.drawDialog({name:'陈',text:'但我们也可以顺势再进入贫民区作业。'});",
         "playground.drawDialog({name:'陈',text:'我已经去探查过一次情况，有一点可以明确：只要我们还在，特殊部队就没法明目张胆地行动。'});",

@@ -81,7 +81,7 @@ var story = [
         "playground.drawDialog({name:'阿米娅',text:'......我们不会，也不应该只是“阻止一次死亡”。对于这片大地来说，这没有意义。'});",
         "playground.drawDialog({name:'阿米娅',text:'就像现在......就像我们面对的这场战斗一样。'});",
         "playground.drawDialog({name:'阿米娅',text:'让战斗双方死去的，绝不是一把弩，一个法术......一场爆炸或是一个伤口。'});",
-        "playground.drawCharacter({name:'char_002_amiya_7'});playground.drawDialog({name:'阿米娅',text:'我们要战胜的，是诞生这一切的......普通人对感染者的仇视，感染者对普通人的仇视，他们互相厮杀的理由。'});",
+        "playground.drawCharacter({name:'char_002_amiya_7'});playground.drawDialog({name:'阿米娅',text:'我们要战胜的，是催生了这一切的......普通人对感染者的仇视，感染者对普通人的仇视，他们互相厮杀的理由。'});",
         "playground.drawDialog({name:'阿米娅',text:'我们要铲除滋生仇恨的土壤。既用药物，也用行动。'});",
         "playground.clearDialog();playground.drawCharacter({});voice.playSound({key:'d_gen_signalbomb'});blocker.blocker({a:0.7, r:0.95, g:0.95, b:0.95, fadetime:0, block:true});blocker.blocker({a:0, r:0.95, g:0.95, b:0.95, fadetime:0.3, block:true});delay(2.2);blocker.blocker({a:0.7, r:0.95, g:0.95, b:0.95, fadetime:0, block:true});blocker.blocker({a:0, r:0, g:0, b:0, fadetime:1, block:true});playground.drawCharacter({name:'char_017_homura_5'});playground.drawDialog({name:'煌',text:'啊——'});",
         "playground.drawDialog({name:'煌',text:'那是不是整合运动发射的？'});",
