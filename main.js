@@ -1,8 +1,8 @@
 /*
  * @Author: dx3906
  * @Date: 2019-10-28 13:16:54
- * @LastEditors: dx3906
- * @LastEditTime: 2019-10-29 22:54:26
+ * @LastEditors  : dx3906
+ * @LastEditTime : 2020-02-03 17:30:47
  */
 
 // 实现自动换行和打字效果
@@ -382,6 +382,12 @@ function Background() { // 背景类；相机震动
         var xStrength = paras.xstrength;
         var yStrength = paras.ystrength;
         var randomness = paras.randomness;
+        var shakeStop = paras.stop || false;
+
+        if (shakeStop) {
+            return 0;
+        }
+
         setTimeout(function () {
             var shakeDirection = 0;
             var shakeStep = 0;
@@ -412,8 +418,9 @@ function Background() { // 背景类；相机震动
                     document.getElementById("playground").style.left = shakex + 'px';
                     document.getElementById("playground").style.top = shakey + 'px';
                     shakeStep++;
-                    if (shakeStep * 10 >= duration) {
+                    if (shakeStep * 10 >= duration || shakeStop) {
                         animationPlaying -= 514;
+                        shakeStop = false;
                         document.getElementById("playground").style.left = '0px';
                         document.getElementById("playground").style.top = '0px';
                         clearInterval(fading);
