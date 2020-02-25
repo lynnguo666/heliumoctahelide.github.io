@@ -286,13 +286,11 @@ def get_paras(text):
 
 filename = 'level_act4d0_st05'
 
-audios = os.listdir('C:\\Users\\Helium\\OneDrive\\dreamweaver\\heliumoctahelide.github.io\\audio')
+audios = os.listdir('audio')
 
-origintxt = f'C:\\Users\\Helium\\OneDrive\\dreamweaver\\storys\\TextAsset\\{filename}.txt'
-
-for filename in os.listdir("C:\\Users\\Helium\\OneDrive\\dreamweaver\\heliumoctahelide.github.io\\storys\\TextAsset"):
+for filename in os.listdir("storys\\TextAsset"):
     print(filename)
-    with open('C:\\Users\\Helium\\OneDrive\\dreamweaver\\heliumoctahelide.github.io\\storys\\TextAsset\\'+filename, 'r', encoding='UTF-8') as f:
+    with open('storys\\TextAsset\\'+filename, 'r', encoding='UTF-8') as f:
         lines = f.readlines()
 
     commands = []

@@ -1,8 +1,14 @@
+'''
+@Author: dx3906
+@Date: 2020-02-03 17:23:29
+@LastEditors: dx3906
+@LastEditTime: 2020-02-25 13:54:36
+'''
 from PIL import Image
 import os
 
-dir1 = 'C:\\Users\\Helium\\OneDrive\\dreamweaver\\heliumoctahelide.github.io\\resources\\'
-dir2 = 'C:\\Users\\Helium\\OneDrive\\dreamweaver\\heliumoctahelide.github.io\\resources\\newfile\\'
+dir1 = 'resources\\'
+dir2 = 'resources\\newfile\\'
 
 def transparent_back(img ,alphachannel):
     img = img.convert('RGBA')
@@ -35,7 +41,7 @@ def transparent_back_for_avg6D5(img ,alphachannel):
 for filename in os.listdir(dir1+'Texture2D\\'):
     if '[alpha]' in filename:
         continue
-    if filename in os.listdir(dir1):
+    if filename.lower() in os.listdir(dir1):
         print('passed ' + filename)
         continue
     print(filename)
@@ -46,4 +52,4 @@ for filename in os.listdir(dir1+'Texture2D\\'):
     a = Image.open(dir1+'Texture2D\\'+filename)
     b = Image.open(dir1+'Texture2D\\'+filename[:-4]+'[alpha].png')
     c = transparent_back(a,b)
-    c.save(dir2+filename)
+    c.save(dir2+filename.lower())
