@@ -2,7 +2,7 @@
  * @Author: dx3906
  * @Date: 2019-11-14 17:24:20
  * @LastEditors: dx3906
- * @LastEditTime: 2020-02-25 14:07:42
+ * @LastEditTime: 2020-03-17 14:06:29
  -->
 # 《明日方舟》剧情回放
 
@@ -10,19 +10,11 @@
 
 相当多的内容未经测试。如果在使用中遇到问题，你可以在[Github页面](https://github.com/HeliumOctahelide/heliumoctahelide.github.io)提交Issue，或在NGA论坛联系作者[@\_江天万里霜\_]。
 
-## 午间逸话
+## 危机合约#0 荒芜行动 
 
-[SA-ST1 来办联欢会吧](./canvas.html?07-1)
+[危机合约总览](./canvas.html?rune1)
 
-[SA-ST2 日记本](./canvas.html?07-2)
-
-[SA-ST3 今日厨房](./canvas.html?07-3)
-
-[SA-ST4 流浪者的归宿](./canvas.html?07-4)
-
-[SA-ST5 自讨苦吃](./canvas.html?07-5)
-
-[SA-ST6 向前走](./canvas.html?07-6)
+[荒芜行动说明](./canvas.html?rune2)
 
 ## 往期活动剧情
 
@@ -153,6 +145,19 @@ CB-10 1:11A.M. ：[[前](./canvas.html?05-10beg)]，[[后](./canvas.html?05-10en
 
 [拜年](./canvas.html?06-3)
 
+### 午间逸话
+
+[SA-ST1 来办联欢会吧](./canvas.html?07-1)
+
+[SA-ST2 日记本](./canvas.html?07-2)
+
+[SA-ST3 今日厨房](./canvas.html?07-3)
+
+[SA-ST4 流浪者的归宿](./canvas.html?07-4)
+
+[SA-ST5 自讨苦吃](./canvas.html?07-5)
+
+[SA-ST6 向前走](./canvas.html?07-6)
 
 ## 主线剧情
 
@@ -324,6 +329,8 @@ CB-10 1:11A.M. ：[[前](./canvas.html?05-10beg)]，[[后](./canvas.html?05-10en
 [6-18 只有你知道](./canvas.html?6-st3)
 
 ## 更新记录
+
+2020.3.17：更新新危机合约的两段说明。添加了思源黑体的支持（需要本地安装字体）。
 
 2020.2.25：更新午间逸话。
 

@@ -1,8 +1,8 @@
 /*
  * @Author: dx3906
  * @Date: 2019-10-28 13:16:54
- * @LastEditors  : dx3906
- * @LastEditTime : 2020-02-03 17:30:47
+ * @LastEditors: dx3906
+ * @LastEditTime: 2020-03-17 14:05:40
  */
 
 // 实现自动换行和打字效果
@@ -716,16 +716,16 @@ function Playground() { // 立绘和文本
             tctx.fillStyle = grad;
             tctx.fillRect(0, 500, 1280, 720);
             if (name) {
-                tctx.font = "30px 黑体";
+                tctx.font = "30px 思源黑体, 黑体";
                 tctx.fillStyle = '#888888';
                 tctx.wrapText(name, 330 - name.length * 30, 618, 1000, 30);
-                tctx.font = "24px 黑体";
+                tctx.font = "24px 思源黑体, 黑体";
                 tctx.fillStyle = "#FFFFFF";
                 tctx.wrapRollingText(text, 380, 620, 768, 30);
                 document.getElementById("textbox").textContent += '[' + name + '] ' + text + '\n\n';
                 document.getElementById("textbox").scrollTop = document.getElementById("textbox").scrollHeight;
             } else {
-                tctx.font = "24px 黑体";
+                tctx.font = "24px 思源黑体, 黑体";
                 tctx.fillStyle = "#FFFFFF";
                 tctx.wrapRollingText(text, 380, 620, 768, 30);
                 document.getElementById("textbox").textContent += text + '\n\n';

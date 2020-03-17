@@ -121,7 +121,7 @@ var story = [
         "playground.drawDialog({name:'角峰',text:'太不卫生了！这样怎么能行！'});",
         "playground.drawCharacter({name:'char_199_yak_1',name2:'char_355_ethan_1',focus:2});playground.drawDialog({name:'伊桑',text:'......啊？'});",
         "playground.drawDialog({name:'伊桑',text:'你刚刚说在意的......就这事？'});",
-        "playground.drawCharacter({name:'char_199_yak_1',name2:'char_355_ethan_1',focus:1});playground.drawDialog({name:'角峰',text:'注意卫生不是一件小事！对带食物要更加有诚心，特别是别人亲手制作的食物，每一份都是蕴含制作者的心意的！'});",
+        "playground.drawCharacter({name:'char_199_yak_1',name2:'char_355_ethan_1',focus:1});playground.drawDialog({name:'角峰',text:'注意卫生不是一件小事！对待食物要更加有诚心，特别是别人亲手制作的食物，每一份都是蕴含制作者的心意的！'});",
         "playground.drawDialog({name:'角峰',text:'等等，你的苹果不会也没洗吧？身为战士，对自己的身体健康要更加负责任才行！'});",
         "playground.drawCharacter({name:'char_199_yak_1',name2:'char_355_ethan_1',focus:2});playground.drawDialog({name:'伊桑',text:'好、好，知道了知道了。'});",
         "playground.drawCharacter({name:'char_199_yak_1',name2:'char_355_ethan_1',focus:1});playground.drawDialog({name:'角峰',text:'这种敷衍的态度......就是因为这样，杜宾小姐才会总是朝你发火。'});",
